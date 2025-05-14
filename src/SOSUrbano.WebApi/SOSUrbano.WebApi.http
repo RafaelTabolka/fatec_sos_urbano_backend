@@ -1,0 +1,6 @@
+@SOSUrbano.WebApi_HostAddress = http://localhost:5142
+
+GET {{SOSUrbano.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

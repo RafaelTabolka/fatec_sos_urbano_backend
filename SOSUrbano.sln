@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - WebApi", "1 - WebApi", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{1940A39C-CC56-49AF-9F68-3FEC0F895801}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{579162D8-F470-46D1-974E-657A65B587E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOSUrbano.Domain", "src\SOSUrbano.Domain\SOSUrbano.Domain.csproj", "{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{12ED09A4-8A1A-47F2-93A9-2497003A3697}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{CAFBF4DD-C201-4B43-9DB4-10E1CEFD4C2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOSUrbano.Infra.Data", "src\SOSUrbano.Infra.Data\SOSUrbano.Infra.Data.csproj", "{93381934-189A-4DF7-8E4D-5342E7021C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOSUrbano.Infra.CrossCutting.Extensions", "src\SOSUrbano.Infra.CrossCutting.Extensions\SOSUrbano.Infra.CrossCutting.Extensions.csproj", "{9D20B2E5-48B6-4544-9BC7-893522C2918D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOSUrbano.WebApi", "src\SOSUrbano.WebApi\SOSUrbano.WebApi.csproj", "{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93381934-189A-4DF7-8E4D-5342E7021C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93381934-189A-4DF7-8E4D-5342E7021C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93381934-189A-4DF7-8E4D-5342E7021C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93381934-189A-4DF7-8E4D-5342E7021C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D20B2E5-48B6-4544-9BC7-893522C2918D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D20B2E5-48B6-4544-9BC7-893522C2918D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D20B2E5-48B6-4544-9BC7-893522C2918D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D20B2E5-48B6-4544-9BC7-893522C2918D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6E147B6-EF56-405C-931C-EEC08D1B3FBA} = {1940A39C-CC56-49AF-9F68-3FEC0F895801}
+		{12ED09A4-8A1A-47F2-93A9-2497003A3697} = {579162D8-F470-46D1-974E-657A65B587E5}
+		{CAFBF4DD-C201-4B43-9DB4-10E1CEFD4C2F} = {579162D8-F470-46D1-974E-657A65B587E5}
+		{93381934-189A-4DF7-8E4D-5342E7021C6F} = {12ED09A4-8A1A-47F2-93A9-2497003A3697}
+		{9D20B2E5-48B6-4544-9BC7-893522C2918D} = {CAFBF4DD-C201-4B43-9DB4-10E1CEFD4C2F}
+		{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B57817D-6882-4A75-8AAB-0942F6FE167D}
+	EndGlobalSection
+EndGlobal
