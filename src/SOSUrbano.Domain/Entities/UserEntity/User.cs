@@ -33,14 +33,8 @@ namespace SOSUrbano.Domain.Entities.UserEntity
 
         protected User() { }
 
-        public User(
-            string name, 
-            string email, 
-            string cpf, 
-            string password,
-            Guid userStatusId,
-            Guid userTypeId,
-            List<UserPhone>? userPhones)
+        public User(string name, string email, string cpf, string password,
+            Guid userStatusId, Guid userTypeId, List<UserPhone>? userPhones)
         {
             Id = Guid.NewGuid();
             Name = name;

@@ -6,15 +6,20 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SOSUrbano.Domain.Entities.Base;
+using SOSUrbano.Domain.Entities.IncidentEntity;
 using SOSUrbano.Domain.Entities.UserEntity;
 using SOSUrbano.Infra.CrossCutting.Extensions;
 using SOSUrbano.Infra.Data.Configurations.UserConfigurations;
 
 namespace SOSUrbano.Infra.Data.Context
 {
-    internal class SOSUrbanoContext : DbContext
+    public class SOSUrbanoContext(DbContextOptions<SOSUrbanoContext> options) :
+        DbContext(options)
     {
         public DbSet<User> UserSet { get; set; }
+        public DbSet<UserPhone> UserPhoneSet { get; set; }
+        public DbSet<UserType> UserTypeSet { get; set; }
+        public DbSet<Incident> IncidentSet { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
