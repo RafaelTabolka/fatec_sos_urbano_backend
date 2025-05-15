@@ -10,7 +10,7 @@ using SOSUrbano.Infra.Data.Context;
 
 namespace SOSUrbano.Infra.Data.Repository.Base
 {
-    internal class RepositoryBase<TEntity>(SOSUrbanoContext context) : 
+    public class RepositoryBase<TEntity>(SOSUrbanoContext context) : 
         IRepositoryBase<TEntity> where TEntity : EntityBase
     {
 

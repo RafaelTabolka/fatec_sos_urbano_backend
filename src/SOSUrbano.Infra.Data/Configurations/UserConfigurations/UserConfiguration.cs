@@ -31,11 +31,15 @@ namespace SOSUrbano.Infra.Data.Configurations.UserConfigurations
             builder.Property(p => p.UserTypeId)
                 .IsRequired();
 
-            builder.Property(p => p.UserPhones)
-                .IsRequired(false);
+            builder.HasMany(user => user.UserPhones)
+                .WithOne(userPhone => userPhone.User)
+                .HasForeignKey(phone => phone.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
 
-            builder.Property(p => p.Incidents)
-                .IsRequired(false);
+            builder.HasMany(user => user.Incidents)
+                .WithOne(incident => incident.User)
+                .HasForeignKey(incident => incident.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             builder.ToTable("tb_user");
         }

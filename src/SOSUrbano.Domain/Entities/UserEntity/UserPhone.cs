@@ -9,6 +9,8 @@ namespace SOSUrbano.Domain.Entities.UserEntity
 {
     public class UserPhone : EntityBase
     {
+        public Guid UserId { get; set; }
+        public User User { get; set; } = null!;
         public string Number { get; set; } = null!;
     }
 }

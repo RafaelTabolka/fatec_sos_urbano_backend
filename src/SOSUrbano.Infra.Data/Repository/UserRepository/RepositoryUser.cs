@@ -6,7 +6,7 @@ using SOSUrbano.Infra.Data.Repository.Base;
 
 namespace SOSUrbano.Infra.Data.Repository.UserRepository
 {
-    internal class RepositoryUser(SOSUrbanoContext context) :
+    public class RepositoryUser(SOSUrbanoContext context) :
         RepositoryBase<User>(context), IRepositoryUser
     {
         /*
