@@ -21,8 +21,7 @@ namespace SOSUrbano.Domain.Comands.UserComands.Create
                 request.Cpf,
                 request.Password,
                 request.UserStatusId,
-                request.UserTypeId,
-                request.UserPhones);
+                request.UserTypeId);
 
             await repositoryUser.AddAsync(user);
             await repositoryUser.CommitAsync();
