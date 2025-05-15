@@ -10,3 +10,15 @@ C:\Users\rafae\Desktop\SOSUrbano\src\SOSUrbano.Infra.CrossCutting.Extensions\obj
 C:\Users\rafae\Desktop\SOSUrbano\src\SOSUrbano.Infra.CrossCutting.Extensions\obj\Debug\net8.0\refint\SOSUrbano.Infra.CrossCutting.Extensions.dll
 C:\Users\rafae\Desktop\SOSUrbano\src\SOSUrbano.Infra.CrossCutting.Extensions\obj\Debug\net8.0\SOSUrbano.Infra.CrossCutting.Extensions.pdb
 C:\Users\rafae\Desktop\SOSUrbano\src\SOSUrbano.Infra.CrossCutting.Extensions\obj\Debug\net8.0\ref\SOSUrbano.Infra.CrossCutting.Extensions.dll
+C:\Users\Aluno\Desktop\fatec_sos_urbano_backend\src\SOSUrbano.Infra.CrossCutting.Extensions\bin\Debug\net8.0\SOSUrbano.Infra.CrossCutting.Extensions.deps.json
+C:\Users\Aluno\Desktop\fatec_sos_urbano_backend\src\SOSUrbano.Infra.CrossCutting.Extensions\bin\Debug\net8.0\SOSUrbano.Infra.CrossCutting.Extensions.dll
+C:\Users\Aluno\Desktop\fatec_sos_urbano_backend\src\SOSUrbano.Infra.CrossCutting.Extensions\bin\Debug\net8.0\SOSUrbano.Infra.CrossCutting.Extensions.pdb
+C:\Users\Aluno\Desktop\fatec_sos_urbano_backend\src\SOSUrbano.Infra.CrossCutting.Extensions\obj\Debug\net8.0\SOSUrbano.Infra.CrossCutting.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Desktop\fatec_sos_urbano_backend\src\SOSUrbano.Infra.CrossCutting.Extensions\obj\Debug\net8.0\SOSUrbano.Infra.CrossCutting.Extensions.AssemblyInfoInputs.cache
+C:\Users\Aluno\Desktop\fatec_sos_urbano_backend\src\SOSUrbano.Infra.CrossCutting.Extensions\obj\Debug\net8.0\SOSUrbano.Infra.CrossCutting.Extensions.AssemblyInfo.cs
+C:\Users\Aluno\Desktop\fatec_sos_urbano_backend\src\SOSUrbano.Infra.CrossCutting.Extensions\obj\Debug\net8.0\SOSUrbano.Infra.CrossCutting.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\fatec_sos_urbano_backend\src\SOSUrbano.Infra.CrossCutting.Extensions\obj\Debug\net8.0\SOSUrbano.Infra.CrossCutting.Extensions.sourcelink.json
+C:\Users\Aluno\Desktop\fatec_sos_urbano_backend\src\SOSUrbano.Infra.CrossCutting.Extensions\obj\Debug\net8.0\SOSUrbano.Infra.CrossCutting.Extensions.dll
+C:\Users\Aluno\Desktop\fatec_sos_urbano_backend\src\SOSUrbano.Infra.CrossCutting.Extensions\obj\Debug\net8.0\refint\SOSUrbano.Infra.CrossCutting.Extensions.dll
+C:\Users\Aluno\Desktop\fatec_sos_urbano_backend\src\SOSUrbano.Infra.CrossCutting.Extensions\obj\Debug\net8.0\SOSUrbano.Infra.CrossCutting.Extensions.pdb
+C:\Users\Aluno\Desktop\fatec_sos_urbano_backend\src\SOSUrbano.Infra.CrossCutting.Extensions\obj\Debug\net8.0\ref\SOSUrbano.Infra.CrossCutting.Extensions.dll

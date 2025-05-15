@@ -1,6 +1,5 @@
 ﻿using MediatR;
 using SOSUrbano.Domain.Comands.UserPhoneComands.Create;
-using SOSUrbano.Domain.Entities.IncidentEntity;
 using SOSUrbano.Domain.Entities.UserEntity;
 
 namespace SOSUrbano.Domain.Comands.UserComands.Create
@@ -26,6 +25,6 @@ namespace SOSUrbano.Domain.Comands.UserComands.Create
 
         public Guid UserTypeId { get; set; }
 
-        public List<UserPhone>? UserPhones { get; set; }
+        public List<CreateUserPhoneRequest>? UserPhones { get; set; }
     }
 }

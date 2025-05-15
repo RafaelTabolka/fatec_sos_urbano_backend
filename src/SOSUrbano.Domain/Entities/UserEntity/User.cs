@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SOSUrbano.Domain.Entities.Base;
 using SOSUrbano.Domain.Entities.IncidentEntity;
+using SOSUrbano.Domain.Comands.UserPhoneComands.Create;
 
 namespace SOSUrbano.Domain.Entities.UserEntity
 {
@@ -34,7 +35,7 @@ namespace SOSUrbano.Domain.Entities.UserEntity
         protected User() { }
 
         public User(string name, string email, string cpf, string password,
-            Guid userStatusId, Guid userTypeId, List<UserPhone>? userPhones)
+            Guid userStatusId, Guid userTypeId)
         {
             Id = Guid.NewGuid();
             Name = name;
@@ -43,7 +44,6 @@ namespace SOSUrbano.Domain.Entities.UserEntity
             Password = password;
             UserStatusId = userStatusId;
             UserTypeId = userTypeId;
-            UserPhones = userPhones;
         }
 
         public void AlterName(string newName)
