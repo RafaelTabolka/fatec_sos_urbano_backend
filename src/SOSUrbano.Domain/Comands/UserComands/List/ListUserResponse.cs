@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SOSUrbano.Domain.Entities.UserEntity;
+
+namespace SOSUrbano.Domain.Comands.UserComands.List
+{
+    /*
+     Aqui nós temos o construtor pedindo um IEnumerable e a propriedade
+    Users está recebendo um users.ToList() que transforma IEnumerable
+    em uma List<User> que por sua vez implementa o IReadOnlyCollection,
+    fazemdo com que a chamada de função no handler funcione.
+     */
+    public class ListUserResponse(IEnumerable<User> users)
+    {
+        IReadOnlyCollection<User> Users { get; } = users.ToList();
+    }
+}

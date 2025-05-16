@@ -7,9 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Comands\UserComands\Delete\" />
-    <Folder Include="Comands\UserComands\Get\" />
-    <Folder Include="Comands\UserComands\List\" />
     <Folder Include="Comands\UserComands\Update\" />
   </ItemGroup>
 

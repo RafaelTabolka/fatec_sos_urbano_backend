@@ -41,7 +41,7 @@ namespace SOSUrbano.Infra.Data.Repository.Base
         {
             var entity = DbSet.Find(id);
 
-            if(entity is not null)
+            if (entity is not null)
                 DbSet.Remove(entity);
         }
 

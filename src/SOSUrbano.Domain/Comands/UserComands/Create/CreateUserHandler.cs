@@ -23,6 +23,10 @@ namespace SOSUrbano.Domain.Comands.UserComands.Create
                 request.UserStatusId,
                 request.UserTypeId);
 
+            user.UserPhones = request.UserPhones?
+                .Select(phone => new UserPhone(user.Id, phone.Number))
+                .ToList();
+
             await repositoryUser.AddAsync(user);
             await repositoryUser.CommitAsync();
 

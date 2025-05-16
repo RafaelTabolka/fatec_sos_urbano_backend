@@ -1067,12 +1067,18 @@
           "MediatR": "12.5.0"
         },
         "runtime": {
-          "SOSUrbano.Domain.dll": {}
+          "SOSUrbano.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SOSUrbano.Infra.CrossCutting.Extensions/1.0.0": {
         "runtime": {
-          "SOSUrbano.Infra.CrossCutting.Extensions.dll": {}
+          "SOSUrbano.Infra.CrossCutting.Extensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

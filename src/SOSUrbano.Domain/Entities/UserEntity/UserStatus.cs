@@ -9,5 +9,6 @@ namespace SOSUrbano.Domain.Entities.UserEntity
 {
     public class UserStatus : EntityBase
     {
+
     }
 }
