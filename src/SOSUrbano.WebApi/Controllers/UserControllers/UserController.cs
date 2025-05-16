@@ -6,13 +6,13 @@ using SOSUrbano.Domain.Comands.UserComands.Delete;
 using SOSUrbano.Domain.Comands.UserComands.Get;
 using SOSUrbano.Domain.Comands.UserComands.List;
 
-namespace SOSUrbano.WebApi.Controllers
+namespace SOSUrbano.WebApi.Controllers.UserControllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class UserController(ISender mediator) : ControllerBase
     {
-        [HttpGet("getAllUsers")]
+        [HttpGet("getAll")]
         public async Task<IActionResult> GetAllUsers()
         {
             var request = new ListUserRequest();
@@ -28,7 +28,7 @@ namespace SOSUrbano.WebApi.Controllers
             return Ok(response);
         }
 
-        [HttpPost("createUser")]
+        [HttpPost("create")]
         public async Task<IActionResult> CreateUser(CreateUserRequest request)
         {
             var response = await mediator.Send(request);

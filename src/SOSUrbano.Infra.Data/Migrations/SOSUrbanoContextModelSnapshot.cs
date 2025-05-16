@@ -87,7 +87,7 @@ namespace SOSUrbano.Infra.Data.Migrations
 
                     b.HasIndex("UserTypeId");
 
-                    b.ToTable("tb_user", (string)null);
+                    b.ToTable("tb_users", (string)null);
                 });
 
             modelBuilder.Entity("SOSUrbano.Domain.Entities.UserEntity.UserPhone", b =>
@@ -125,12 +125,17 @@ namespace SOSUrbano.Infra.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserStatus");
+                    b.ToTable("tb_user_statuses", (string)null);
                 });
 
             modelBuilder.Entity("SOSUrbano.Domain.Entities.UserEntity.UserType", b =>
@@ -142,12 +147,17 @@ namespace SOSUrbano.Infra.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserTypeSet");
+                    b.ToTable("tb_user_types", (string)null);
                 });
 
             modelBuilder.Entity("SOSUrbano.Domain.Entities.IncidentEntity.Incident", b =>

@@ -25,10 +25,15 @@ namespace SOSUrbano.Infra.Data.Configurations.UserConfigurations
             builder.Property(p => p.Password)
                 .IsRequired();
 
-            builder.Property(p => p.UserStatusId)
+            builder.HasOne(u => u.UserStatus)
+                .WithMany()
+                .HasForeignKey(u => u.UserStatusId)
                 .IsRequired();
+                
 
-            builder.Property(p => p.UserTypeId)
+            builder.HasOne(u => u.UserType)
+                .WithMany()
+                .HasForeignKey(u => u.UserTypeId)
                 .IsRequired();
 
             builder.HasMany(user => user.UserPhones)
@@ -41,7 +46,7 @@ namespace SOSUrbano.Infra.Data.Configurations.UserConfigurations
                 .HasForeignKey(incident => incident.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            builder.ToTable("tb_user");
+            builder.ToTable("tb_users");
         }
     }
 }

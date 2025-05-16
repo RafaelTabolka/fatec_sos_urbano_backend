@@ -14,6 +14,7 @@ namespace SOSUrbano.Domain.Comands.UserComands.Get
         public async Task<GetUserResponse> Handle(GetUserRequest request, 
             CancellationToken cancellationToken)
         {
+            //var user = await repositoryUser.GetUserById(request.Id);
             var user = await repositoryUser.GetByIdAsync(request.Id);
 
             if (user is null)

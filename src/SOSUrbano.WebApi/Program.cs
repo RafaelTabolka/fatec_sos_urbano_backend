@@ -37,6 +37,8 @@ namespace SOSUrbano.WebApi
             quatro vezes
              */
             builder.Services.AddScoped<IRepositoryUser, RepositoryUser>();
+            builder.Services.AddScoped<IRepositoryUserStatus, RepositoryUserStatus>();
+            builder.Services.AddScoped<IRepositoryUserType, RepositoryUserType>();
 
             var assemblies = AppDomain.CurrentDomain.GetAssemblies();
             builder.Services.AddMediatR(cfg => 
