@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tQP8NaIYG6Ye3HvQrv5qxwaLFes1rqeMt3kho+cIzBTq31RRhzTQ58snsZJFFuA0ACWGCxY64ZPpd/0wGwvG+Q==",
+  "dgSpecHash": "/2oWEzfedT0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Desktop\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.CrossCutting.Extensions\\SOSUrbano.Infra.CrossCutting.Extensions.csproj",
+  "projectFilePath": "C:\\Users\\rafae\\Desktop\\Nova pasta\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.CrossCutting.Extensions\\SOSUrbano.Infra.CrossCutting.Extensions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "HAT28ahppVGDUYsCIGmRmU4K04gQDqzOnez2MQwphsk=",
+  "Hash": "lglBM1waA3hatD7z64xZfdqrcQeMocAAShhEiXjQaJU=",
   "Source": "SOSUrbano.WebApi",
   "BasePath": "_content/SOSUrbano.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
