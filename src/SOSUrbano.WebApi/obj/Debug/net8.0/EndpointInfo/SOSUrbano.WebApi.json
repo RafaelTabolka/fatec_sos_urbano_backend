@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/User/getAllUsers": {
+    "/User/getAll": {
       "get": {
         "tags": [
           "User"
@@ -17,7 +17,7 @@
         }
       }
     },
-    "/api/User/{id}": {
+    "/User/{id}": {
       "get": {
         "tags": [
           "User"
@@ -61,7 +61,7 @@
         }
       }
     },
-    "/api/User/createUser": {
+    "/User/create": {
       "post": {
         "tags": [
           "User"
@@ -81,6 +81,92 @@
             "application/*+json": {
               "schema": {
                 "$ref": "#/components/schemas/CreateUserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/UserStatus/getAll": {
+      "get": {
+        "tags": [
+          "UserStatus"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/UserStatus/create": {
+      "post": {
+        "tags": [
+          "UserStatus"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserStatusRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserStatusRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserStatusRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/UserType/getAll": {
+      "get": {
+        "tags": [
+          "UserType"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/UserType/create": {
+      "post": {
+        "tags": [
+          "UserType"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserTypeRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserTypeRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserTypeRequest"
               }
             }
           }
@@ -137,6 +223,26 @@
             "items": {
               "$ref": "#/components/schemas/CreateUserPhoneRequest"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateUserStatusRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateUserTypeRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
             "nullable": true
           }
         },

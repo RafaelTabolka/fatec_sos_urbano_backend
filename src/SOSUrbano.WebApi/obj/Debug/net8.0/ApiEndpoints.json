@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "SOSUrbano.WebApi.Controllers.UserController",
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserController",
     "Method": "GetUserById",
-    "RelativePath": "api/User/{id}",
+    "RelativePath": "User/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -16,9 +16,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SOSUrbano.WebApi.Controllers.UserController",
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserController",
     "Method": "DeleteUser",
-    "RelativePath": "api/User/{id}",
+    "RelativePath": "User/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -32,9 +32,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SOSUrbano.WebApi.Controllers.UserController",
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserController",
     "Method": "CreateUser",
-    "RelativePath": "api/User/createUser",
+    "RelativePath": "User/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -48,9 +48,61 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SOSUrbano.WebApi.Controllers.UserController",
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserController",
     "Method": "GetAllUsers",
-    "RelativePath": "api/User/getAllUsers",
+    "RelativePath": "User/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserStatusController",
+    "Method": "CreateUserStatus",
+    "RelativePath": "UserStatus/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Comands.UserStatusComands.Create.CreateUserStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserStatusController",
+    "Method": "GetAllUserStatuses",
+    "RelativePath": "UserStatus/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserTypeController",
+    "Method": "CreateUserType",
+    "RelativePath": "UserType/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Comands.UserTypeComands.Create.CreateUserTypeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserTypeController",
+    "Method": "GetAllUserTypes",
+    "RelativePath": "UserType/getAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

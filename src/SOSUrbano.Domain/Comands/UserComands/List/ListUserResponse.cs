@@ -15,6 +15,6 @@ namespace SOSUrbano.Domain.Comands.UserComands.List
      */
     public class ListUserResponse(IEnumerable<User> users)
     {
-        IReadOnlyCollection<User> Users { get; } = users.ToList();
+        public IReadOnlyCollection<User> Users { get; } = users.ToList();
     }
 }

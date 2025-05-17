@@ -1,7 +1,4 @@
-﻿using SOSUrbano.Domain.Entities.IncidentEntity;
-using SOSUrbano.Domain.Entities.UserEntity;
-
-namespace SOSUrbano.Domain.Comands.UserPhoneComands.Create
+﻿namespace SOSUrbano.Domain.Comands.UserPhoneComands.Create
 {
     public class CreateUserPhoneRequest
     {

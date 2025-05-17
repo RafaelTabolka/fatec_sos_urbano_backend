@@ -6,5 +6,7 @@ namespace SOSUrbano.Domain.Interfaces.Repositories.UserRepository
     public interface IRepositoryUser : IRepositoryBase<User>
     {
         Task<IEnumerable<User>> ListByName(string name);
+
+        Task<User> GetUserById(Guid id);
     }
 }

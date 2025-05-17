@@ -18,7 +18,7 @@ namespace SOSUrbano.Infra.Data.Repository.Base
 
         public async Task<TEntity?> GetByIdAsync(Guid id)
         {
-            return await DbSet.FindAsync();
+            return await DbSet.FindAsync(id);
         }
 
         public async Task<IEnumerable<TEntity>> GetAllAsync()
@@ -28,7 +28,6 @@ namespace SOSUrbano.Infra.Data.Repository.Base
 
         public async Task AddAsync(TEntity entity)
         {
-
             await DbSet.AddAsync(entity);
         }
 

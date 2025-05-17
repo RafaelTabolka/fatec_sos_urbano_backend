@@ -529,10 +529,10 @@ C:\Users\rafae\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\
 C:\Users\rafae\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SOSUrbano.WebApi.props
 C:\Users\rafae\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SOSUrbano.WebApi.props
 C:\Users\rafae\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\rafae\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\rafae\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\SOSUrban.466732B5.Up2Date
 C:\Users\rafae\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\SOSUrbano.WebApi.dll
 C:\Users\rafae\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\refint\SOSUrbano.WebApi.dll
 C:\Users\rafae\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\SOSUrbano.WebApi.pdb
 C:\Users\rafae\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\SOSUrbano.WebApi.genruntimeconfig.cache
 C:\Users\rafae\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\ref\SOSUrbano.WebApi.dll
+C:\Users\rafae\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
