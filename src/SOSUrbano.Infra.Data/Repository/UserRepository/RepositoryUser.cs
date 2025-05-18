@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SOSUrbano.Domain.Comands.UserLoginComands.Login;
 using SOSUrbano.Domain.Entities.UserEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
 using SOSUrbano.Infra.Data.Context;
@@ -15,15 +16,15 @@ namespace SOSUrbano.Infra.Data.Repository.UserRepository
          */
         
         /*
-         Esse _context é a variável que tem acesso ao banco. Ai quando fazemos um
+         Esse _context é a variável que tem acesso ao banco. Ai quando fizermos um
         _context.UserSet, estamos acessando as colunas da tabela UserSet.
-        A propriedade UserSet tem conhecimento das colunas dessa tabela de usuários
+        A propriedade UserSet tem conhecimento das colunas da tabela de usuários
          */
         private readonly SOSUrbanoContext _context = context;
         public async Task<IEnumerable<User>> ListByName(string name)
         {
-            return await _context.UserSet.Where(p => 
-            p.Name == name).ToListAsync();
+            return await _context.UserSet
+                .Where(p => p.Name == name).ToListAsync();
         }
 
         public async Task<User> GetUserById(Guid id)
@@ -37,7 +38,28 @@ namespace SOSUrbano.Infra.Data.Repository.UserRepository
             if (user is null)
                 throw new Exception("Usuário não encontrado");    
             return user;
+        }
 
+        /*
+            Método	                    Quando usar
+        FirstOrDefaultAsync	    1 ou nenhum resultado esperado
+        FirstAsync	            1 resultado esperado (erro se nenhum)
+        SingleOrDefaultAsync    espera exatamente 1 ou nenhum
+        SingleAsync	            espera exatamente 1 (erro se mais de 1)
+        ToListAsync	            quer vários resultados
+         */
+
+        public async Task<User> GetByEmailAndPassword
+            (string email, string password)
+        {
+            var user = await _context.UserSet
+                .Include(u => u.UserType)
+                .FirstOrDefaultAsync
+                (u => u.Email == email && u.Password == password);
+
+            if (user is null)
+                throw new Exception("Usuário não encontrado");
+            return user;
         }
     }
 }

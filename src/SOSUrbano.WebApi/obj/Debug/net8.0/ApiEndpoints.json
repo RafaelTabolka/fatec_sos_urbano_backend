@@ -1,5 +1,26 @@
 [
   {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.LoginController",
+    "Method": "LoginUser",
+    "RelativePath": "Login/loginUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserController",
     "Method": "GetUserById",
     "RelativePath": "User/{id}",

@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SOSUrbano.Domain.Comands.UserComands.Create;
@@ -12,6 +13,7 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
     [ApiController]
     public class UserController(ISender mediator) : ControllerBase
     {
+        [Authorize(Roles = "admin")]
         [HttpGet("getAll")]
         public async Task<IActionResult> GetAllUsers()
         {
@@ -20,6 +22,7 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
             return Ok(response);
         }
 
+        [Authorize(Roles = "admin")]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUserById(Guid id)
         {
@@ -28,6 +31,7 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
             return Ok(response);
         }
 
+        [AllowAnonymous]
         [HttpPost("create")]
         public async Task<IActionResult> CreateUser(CreateUserRequest request)
         {
@@ -36,6 +40,7 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
             return Created("Created", $"{response.Message} - {response.Id}");
         }
 
+        [Authorize(Roles = "admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(Guid id)
         {

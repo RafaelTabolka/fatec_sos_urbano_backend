@@ -8,5 +8,7 @@ namespace SOSUrbano.Domain.Interfaces.Repositories.UserRepository
         Task<IEnumerable<User>> ListByName(string name);
 
         Task<User> GetUserById(Guid id);
+        
+        Task<User> GetByEmailAndPassword(string email, string password);
     }
 }

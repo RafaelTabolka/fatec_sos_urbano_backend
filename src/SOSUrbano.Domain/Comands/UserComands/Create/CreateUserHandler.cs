@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using SOSUrbano.Domain.Entities.UserEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
+using SOSUrbano.Domain.Interfaces.Services.LoginRepository;
 
 namespace SOSUrbano.Domain.Comands.UserComands.Create
 {
@@ -9,7 +10,8 @@ namespace SOSUrbano.Domain.Comands.UserComands.Create
     a request está conversando com o response graças ao IRequest<CreateUserResponse>. O handler
     é o maestro que vai gerenciar essa requisição e a resposta
      */
-    internal class CreateUserHandler(IRepositoryUser repositoryUser) : 
+    internal class CreateUserHandler
+        (IRepositoryUser repositoryUser, IServiceLogin serviceLogin) : 
         IRequestHandler<CreateUserRequest, CreateUserResponse>
     {
         public async Task<CreateUserResponse> Handle(
@@ -30,7 +32,13 @@ namespace SOSUrbano.Domain.Comands.UserComands.Create
             await repositoryUser.AddAsync(user);
             await repositoryUser.CommitAsync();
 
-            return new CreateUserResponse(user.Id, "Usuário criado com sucesso.");
+            var cretedUser = await repositoryUser.GetByEmailAndPassword
+                (user.Email, user.Password);
+
+            string token = serviceLogin.GenerateToken
+                (cretedUser.Id, cretedUser.Email, cretedUser.UserType.Name);
+
+            return new CreateUserResponse(cretedUser.Id, token);
         }
     }
 }
