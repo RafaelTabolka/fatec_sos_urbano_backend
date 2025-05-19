@@ -1,6 +1,6 @@
 ﻿namespace SOSUrbano.Domain.Comands.UserComands.Create
 {
-    public class CreateUserResponse(Guid id, string message)
+    public class CreateUserResponse(Guid id, string accessToken)
     {
         /*
          Este é um construtor primário, recurso disponível no .NET8
@@ -10,6 +10,6 @@
          */
         public Guid Id { get; } = id;
 
-        public string Message { get; } = message;
+        public string Message { get; } = accessToken;
     }
 }
