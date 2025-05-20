@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
-using SOSUrbano.Domain.Comands.UserStatusComands.Create;
-using SOSUrbano.Domain.Comands.UserStatusComands.List;
+using SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Create;
+using SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.List;
 
 namespace SOSUrbano.WebApi.Controllers.UserControllers
 {

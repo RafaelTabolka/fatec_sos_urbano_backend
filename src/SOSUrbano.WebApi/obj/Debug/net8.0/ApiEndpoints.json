@@ -62,7 +62,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.UserComands.Create.CreateUserRequest",
+        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserComands.Create.CreateUserRequest",
         "IsRequired": true
       }
     ],
@@ -88,7 +88,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.UserStatusComands.Create.CreateUserStatusRequest",
+        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Create.CreateUserStatusRequest",
         "IsRequired": true
       }
     ],
@@ -114,7 +114,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.UserTypeComands.Create.CreateUserTypeRequest",
+        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Create.CreateUserTypeRequest",
         "IsRequired": true
       }
     ],

@@ -1,8 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SOSUrbano.Domain.Comands.UserTypeComands.Create;
-using SOSUrbano.Domain.Comands.UserTypeComands.List;
+using SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Create;
+using SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.List;
 using SOSUrbano.Domain.Entities.UserEntity;
 
 namespace SOSUrbano.WebApi.Controllers.UserControllers

@@ -1,6 +1,5 @@
 ﻿using SOSUrbano.Domain.Entities.Base;
 using SOSUrbano.Domain.Entities.IncidentEntity;
-using SOSUrbano.Domain.Comands.UserPhoneComands.Create;
 
 namespace SOSUrbano.Domain.Entities.UserEntity
 {

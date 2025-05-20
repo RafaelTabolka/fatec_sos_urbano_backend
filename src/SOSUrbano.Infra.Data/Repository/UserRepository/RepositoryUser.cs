@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SOSUrbano.Domain.Comands.UserLoginComands.Login;
 using SOSUrbano.Domain.Entities.UserEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
 using SOSUrbano.Infra.Data.Context;
