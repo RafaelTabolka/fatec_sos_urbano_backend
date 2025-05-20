@@ -4,6 +4,7 @@ using SOSUrbano.Domain.Entities.UserEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
 using SOSUrbano.Infra.Data.Context;
 using SOSUrbano.Infra.Data.Repository.Base;
+using Microsoft.AspNetCore.Identity;
 
 namespace SOSUrbano.Infra.Data.Repository.UserRepository
 {
@@ -52,14 +53,32 @@ namespace SOSUrbano.Infra.Data.Repository.UserRepository
         public async Task<User> GetByEmailAndPassword
             (string email, string password)
         {
+            /*
+             Não se pode utilizar a expressão da verificação da senha
+            criptografada com a senha passada direto na consulta, 
+            porque o EF não consegue transformar o 
+            hasher.VerifyHashedPassword em SQL, logo vai dar pau.
+            Então o ideal é buscar o usuário só pelo email e depois,
+            localmente na função, verificar se a senha desse usuário
+            buscado pelo email, é a mesma senha passada no parâmetro do
+            método.
+             */
+
             var user = await _context.UserSet
                 .Include(u => u.UserType)
                 .FirstOrDefaultAsync
-                (u => u.Email == email && u.Password == password);
+                (u => u.Email == email);
 
             if (user is null)
                 throw new Exception("Usuário não encontrado");
-            return user;
+   
+            var hasher = new PasswordHasher<Object>();
+            var result = hasher.VerifyHashedPassword
+                (null!, user.Password, password);
+
+            if (result == PasswordVerificationResult.Success)
+                return user;
+            throw new Exception("Usuário ou senha incorretos");
         }
     }
 }

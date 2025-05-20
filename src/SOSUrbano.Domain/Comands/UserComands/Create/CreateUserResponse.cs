@@ -10,6 +10,6 @@
          */
         public Guid Id { get; } = id;
 
-        public string Message { get; } = accessToken;
+        public string AccessToken { get; } = accessToken;
     }
 }

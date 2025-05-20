@@ -2,6 +2,7 @@
 using SOSUrbano.Domain.Entities.UserEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
 using SOSUrbano.Domain.Interfaces.Services.LoginRepository;
+using Microsoft.AspNetCore.Identity;
 
 namespace SOSUrbano.Domain.Comands.UserComands.Create
 {
@@ -17,11 +18,15 @@ namespace SOSUrbano.Domain.Comands.UserComands.Create
         public async Task<CreateUserResponse> Handle(
             CreateUserRequest request, CancellationToken cancellationToken)
         {
+            var hasher = new PasswordHasher<Object>();
+            var hashedPassword = hasher.HashPassword
+                (null!, request.Password);
+
             var user = new User(
                 request.Name,
                 request.Email,
                 request.Cpf,
-                request.Password,
+                hashedPassword,
                 request.UserStatusId,
                 request.UserTypeId);
 
@@ -33,12 +38,12 @@ namespace SOSUrbano.Domain.Comands.UserComands.Create
             await repositoryUser.CommitAsync();
 
             var cretedUser = await repositoryUser.GetByEmailAndPassword
-                (user.Email, user.Password);
+                (user.Email, request.Password);
 
-            string token = serviceLogin.GenerateToken
+            string accessToken = serviceLogin.GenerateToken
                 (cretedUser.Id, cretedUser.Email, cretedUser.UserType.Name);
 
-            return new CreateUserResponse(cretedUser.Id, token);
+            return new CreateUserResponse(cretedUser.Id, accessToken);
         }
     }
 }
