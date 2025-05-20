@@ -37,7 +37,7 @@ namespace SOSUrbano.Infra.Data.Configurations.LoginConfigurations
                 issuer: _config["Jwt:Issuer"],
                 audience: _config["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(2),
+                expires: DateTime.UtcNow.AddMinutes(10),
                 signingCredentials: cred);
 
             return new JwtSecurityTokenHandler().WriteToken(token);

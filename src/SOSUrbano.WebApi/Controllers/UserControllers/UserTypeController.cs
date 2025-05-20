@@ -27,7 +27,7 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
             (CreateUserTypeRequest request)
         {
             var response = await mediator.Send(request);
-            return Created("Created", $"{response.Id} - {response.Message}");
+            return Created("Created", response);
         }
     }
 }

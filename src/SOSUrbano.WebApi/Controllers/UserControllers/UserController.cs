@@ -37,7 +37,7 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
         {
             var response = await mediator.Send(request);
             
-            return Created("Created", $"{response.Message} - {response.Id}");
+            return Created("Created", response);
         }
 
         [Authorize(Roles = "admin")]

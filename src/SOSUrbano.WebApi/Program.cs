@@ -37,8 +37,11 @@ namespace SOSUrbano.WebApi
                     ValidAudience = config["Jwt:Audience"],
                     IssuerSigningKey = new SymmetricSecurityKey(
                     Encoding.UTF8.GetBytes(config["Jwt:Key"]!))
+                    
                     };
                 });
+
+                    Console.WriteLine($"Chave usada no middleware: {config["Jwt:Key"]}");
 
 
             builder.Services.AddAuthorization();
