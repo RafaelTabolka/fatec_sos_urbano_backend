@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using SOSUrbano.Domain.Entities.Base;
 using SOSUrbano.Domain.Entities.IncidentEntity;
+using SOSUrbano.Domain.Entities.InstitutionEntity;
 using SOSUrbano.Domain.Entities.UserEntity;
 using SOSUrbano.Infra.CrossCutting.Extensions;
-using SOSUrbano.Infra.Data.Configurations.UserConfigurations;
 
 namespace SOSUrbano.Infra.Data.Context
 {
@@ -20,6 +15,11 @@ namespace SOSUrbano.Infra.Data.Context
         public DbSet<UserPhone> UserPhoneSet { get; set; }
         public DbSet<UserType> UserTypeSet { get; set; }
         public DbSet<Incident> IncidentSet { get; set; }
+        public DbSet<Institution> InstitutionSet { get; set; }
+        public DbSet<InstitutionEmail> InstitutionEmailSet { get; set; }
+        public DbSet<InstitutionPhone> InstitutionPhoneSet { get; set; }
+        public DbSet<InstitutionStatus> InstitutionStatusSet { get; set; }
+        public DbSet<InstitutionType> InstitutionTypeSet { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
