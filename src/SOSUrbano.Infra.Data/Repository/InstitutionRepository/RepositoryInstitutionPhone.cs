@@ -5,8 +5,10 @@ using SOSUrbano.Infra.Data.Repository.Base;
 
 namespace SOSUrbano.Infra.Data.Repository.InstitutionRepository
 {
-    internal class RepositoryInstitutionPhone 
-        (SOSUrbanoContext context):
+    public class RepositoryInstitutionPhone
+        (SOSUrbanoContext context) :
         RepositoryBase<InstitutionPhone>(context),
-        IRepositoryInstitutionPhone;
+        IRepositoryInstitutionPhone
+    {
+    }
 }

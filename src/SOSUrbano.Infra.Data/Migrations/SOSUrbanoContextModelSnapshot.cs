@@ -31,6 +31,9 @@ namespace SOSUrbano.Infra.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<Guid>("InstitutionId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
@@ -39,9 +42,160 @@ namespace SOSUrbano.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("InstitutionId");
+
                     b.HasIndex("UserId");
 
                     b.ToTable("IncidentSet");
+                });
+
+            modelBuilder.Entity("SOSUrbano.Domain.Entities.InstitutionEntity.Institution", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Cnpj")
+                        .IsRequired()
+                        .HasMaxLength(14)
+                        .HasColumnType("nvarchar(14)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<Guid>("InstitutionStatusId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("InstitutionTypeId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UrlSite")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("InstitutionStatusId");
+
+                    b.HasIndex("InstitutionTypeId");
+
+                    b.ToTable("tb_institutions", (string)null);
+                });
+
+            modelBuilder.Entity("SOSUrbano.Domain.Entities.InstitutionEntity.InstitutionEmail", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("EmailAddress")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<Guid>("InstitutionId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("InstitutionId");
+
+                    b.ToTable("tb_institution_emails", (string)null);
+                });
+
+            modelBuilder.Entity("SOSUrbano.Domain.Entities.InstitutionEntity.InstitutionPhone", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("InstitutionId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Number")
+                        .IsRequired()
+                        .HasMaxLength(11)
+                        .HasColumnType("nvarchar(11)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("InstitutionId");
+
+                    b.ToTable("tb_institution_phones", (string)null);
+                });
+
+            modelBuilder.Entity("SOSUrbano.Domain.Entities.InstitutionEntity.InstitutionStatus", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("tb_institution_statuses", (string)null);
+                });
+
+            modelBuilder.Entity("SOSUrbano.Domain.Entities.InstitutionEntity.InstitutionType", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("tb_institution_types", (string)null);
                 });
 
             modelBuilder.Entity("SOSUrbano.Domain.Entities.UserEntity.User", b =>
@@ -162,13 +316,57 @@ namespace SOSUrbano.Infra.Data.Migrations
 
             modelBuilder.Entity("SOSUrbano.Domain.Entities.IncidentEntity.Incident", b =>
                 {
+                    b.HasOne("SOSUrbano.Domain.Entities.InstitutionEntity.Institution", "Institution")
+                        .WithMany("Incidents")
+                        .HasForeignKey("InstitutionId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
                     b.HasOne("SOSUrbano.Domain.Entities.UserEntity.User", "User")
                         .WithMany("Incidents")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Institution");
+
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("SOSUrbano.Domain.Entities.InstitutionEntity.Institution", b =>
+                {
+                    b.HasOne("SOSUrbano.Domain.Entities.InstitutionEntity.InstitutionStatus", "InstitutionStatus")
+                        .WithMany()
+                        .HasForeignKey("InstitutionStatusId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SOSUrbano.Domain.Entities.InstitutionEntity.InstitutionType", "InstitutionType")
+                        .WithMany()
+                        .HasForeignKey("InstitutionTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("InstitutionStatus");
+
+                    b.Navigation("InstitutionType");
+                });
+
+            modelBuilder.Entity("SOSUrbano.Domain.Entities.InstitutionEntity.InstitutionEmail", b =>
+                {
+                    b.HasOne("SOSUrbano.Domain.Entities.InstitutionEntity.Institution", null)
+                        .WithMany("InstitutionEmails")
+                        .HasForeignKey("InstitutionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("SOSUrbano.Domain.Entities.InstitutionEntity.InstitutionPhone", b =>
+                {
+                    b.HasOne("SOSUrbano.Domain.Entities.InstitutionEntity.Institution", null)
+                        .WithMany("InstitutionPhones")
+                        .HasForeignKey("InstitutionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("SOSUrbano.Domain.Entities.UserEntity.User", b =>
@@ -199,6 +397,15 @@ namespace SOSUrbano.Infra.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("SOSUrbano.Domain.Entities.InstitutionEntity.Institution", b =>
+                {
+                    b.Navigation("Incidents");
+
+                    b.Navigation("InstitutionEmails");
+
+                    b.Navigation("InstitutionPhones");
                 });
 
             modelBuilder.Entity("SOSUrbano.Domain.Entities.UserEntity.User", b =>

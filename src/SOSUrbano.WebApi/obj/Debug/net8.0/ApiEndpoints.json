@@ -1,5 +1,57 @@
 [
   {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.InstitutionControllers.InstitutionStatusController",
+    "Method": "CreateStatus",
+    "RelativePath": "InstitutionStatus/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionStatusComands.Create.CreateInstitutionStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.InstitutionControllers.InstitutionStatusController",
+    "Method": "GetAllStatuses",
+    "RelativePath": "InstitutionStatus/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.InstitutionControllers.InstitutionTypeController",
+    "Method": "CreateType",
+    "RelativePath": "InstitutionType/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionTypeComands.Create.CreateInstitutionTypeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.InstitutionControllers.InstitutionTypeController",
+    "Method": "GetAllTypes",
+    "RelativePath": "InstitutionType/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.LoginController",
     "Method": "LoginUser",
     "RelativePath": "Login/loginUser",

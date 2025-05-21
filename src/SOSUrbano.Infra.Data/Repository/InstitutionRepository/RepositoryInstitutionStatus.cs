@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SOSUrbano.Domain.Entities.InstitutionEntity;
+﻿using SOSUrbano.Domain.Entities.InstitutionEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
 using SOSUrbano.Infra.Data.Context;
 using SOSUrbano.Infra.Data.Repository.Base;
 
 namespace SOSUrbano.Infra.Data.Repository.InstitutionRepository
 {
-    internal class RepositoryInstitutionStatus
+    public class RepositoryInstitutionStatus
         (SOSUrbanoContext context) :
-        RepositoryBase<InstitutionStatus>(context), 
+        RepositoryBase<InstitutionStatus>(context),
         IRepositoryInstitutionStatus
     {
     }
