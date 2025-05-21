@@ -5,7 +5,7 @@ using SOSUrbano.Infra.Data.Repository.Base;
 
 namespace SOSUrbano.Infra.Data.Repository.InstitutionRepository
 {
-    internal class RepositoryInstitution
+    public class RepositoryInstitution
         (SOSUrbanoContext context):
         RepositoryBase<Institution>(context),
         IRepositoryInstitution;

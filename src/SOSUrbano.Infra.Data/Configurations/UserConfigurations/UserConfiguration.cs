@@ -8,36 +8,36 @@ namespace SOSUrbano.Infra.Data.Configurations.UserConfigurations
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
-            builder.HasKey(p => p.Id);
+            builder.HasKey(user => user.Id);
 
-            builder.Property(p => p.Name)
+            builder.Property(user => user.Name)
                 .IsRequired()
                 .HasMaxLength(50);
 
-            builder.Property(p => p.Email)
+            builder.Property(user => user.Email)
                 .IsRequired()
                 .HasMaxLength(100);
 
-            builder.Property(p => p.Cpf)
+            builder.Property(user => user.Cpf)
                 .IsRequired()
                 .HasMaxLength(11);
 
-            builder.Property(p => p.Password)
+            builder.Property(user => user.Password)
                 .IsRequired();
 
-            builder.HasOne(u => u.UserStatus)
+            builder.HasOne(user => user.UserStatus)
                 .WithMany()
-                .HasForeignKey(u => u.UserStatusId)
+                .HasForeignKey(status => status.UserStatusId)
                 .IsRequired();
                 
 
-            builder.HasOne(u => u.UserType)
+            builder.HasOne(user => user.UserType)
                 .WithMany()
-                .HasForeignKey(u => u.UserTypeId)
+                .HasForeignKey(type => type.UserTypeId)
                 .IsRequired();
 
             builder.HasMany(user => user.UserPhones)
-                .WithOne(userPhone => userPhone.User)
+                .WithOne(phone => phone.User)
                 .HasForeignKey(phone => phone.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
 

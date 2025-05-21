@@ -7,6 +7,8 @@ namespace SOSUrbano.Infra.Data.Repository.InstitutionRepository
 {
     public class RepositoryInstitutionType
         (SOSUrbanoContext context) :
-        RepositoryBase<InstitutionType>(context), 
-        IRepositoryInstitutionType;
+        RepositoryBase<InstitutionType>(context),
+        IRepositoryInstitutionType
+    {
+    }
 }

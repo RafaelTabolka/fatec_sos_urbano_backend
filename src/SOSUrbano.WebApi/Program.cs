@@ -6,10 +6,12 @@ using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
 using SOSUrbano.Domain.Interfaces.Services.LoginRepository;
 using SOSUrbano.Infra.Data.Configurations.LoginConfigurations;
 using SOSUrbano.Infra.Data.Context;
+using SOSUrbano.Infra.Data.Repository.InstitutionRepository;
 using SOSUrbano.Infra.Data.Repository.UserRepository;
 
 namespace SOSUrbano.WebApi
@@ -40,9 +42,6 @@ namespace SOSUrbano.WebApi
                     
                     };
                 });
-
-                    Console.WriteLine($"Chave usada no middleware: {config["Jwt:Key"]}");
-
 
             builder.Services.AddAuthorization();
 
@@ -81,6 +80,8 @@ namespace SOSUrbano.WebApi
             builder.Services.AddScoped<IRepositoryUserStatus, RepositoryUserStatus>();
             builder.Services.AddScoped<IRepositoryUserType, RepositoryUserType>();
             builder.Services.AddScoped<IServiceLogin, LoginService>();
+            builder.Services.AddScoped<IRepositoryInstitutionStatus, RepositoryInstitutionStatus>();
+            builder.Services.AddScoped<IRepositoryInstitutionType, RepositoryInstitutionType>();
 
             var assemblies = AppDomain.CurrentDomain.GetAssemblies();
             builder.Services.AddMediatR(cfg => 
