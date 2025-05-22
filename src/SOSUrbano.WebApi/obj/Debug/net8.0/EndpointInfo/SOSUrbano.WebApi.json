@@ -5,6 +5,93 @@
     "version": "v1"
   },
   "paths": {
+    "/Institution/getAll": {
+      "get": {
+        "tags": [
+          "Institution"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Institution/{id}": {
+      "get": {
+        "tags": [
+          "Institution"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Institution"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Institution/create": {
+      "post": {
+        "tags": [
+          "Institution"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateInstitutionRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateInstitutionRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateInstitutionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/InstitutionStatus/getAll": {
       "get": {
         "tags": [
@@ -295,6 +382,74 @@
   },
   "components": {
     "schemas": {
+      "CreateInstitutionEmailRequest": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateInstitutionPhoneRequest": {
+        "type": "object",
+        "properties": {
+          "number": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateInstitutionRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "cnpj": {
+            "type": "string",
+            "nullable": true
+          },
+          "urlSite": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "institutionStatusName": {
+            "type": "string",
+            "nullable": true
+          },
+          "institutionTypeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "institutionEmails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CreateInstitutionEmailRequest"
+            },
+            "nullable": true
+          },
+          "institutionPhones": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CreateInstitutionPhoneRequest"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateInstitutionStatusRequest": {
         "type": "object",
         "properties": {
