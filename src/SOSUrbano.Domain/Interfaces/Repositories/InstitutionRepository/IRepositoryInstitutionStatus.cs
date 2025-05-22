@@ -6,5 +6,6 @@ namespace SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository
     public interface IRepositoryInstitutionStatus :
         IRepositoryBase<InstitutionStatus>
     {
+        Task<InstitutionStatus> GetStatusByNameAsync(string name);
     }
 }

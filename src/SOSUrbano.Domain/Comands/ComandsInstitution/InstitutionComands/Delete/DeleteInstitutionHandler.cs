@@ -1,0 +1,25 @@
+﻿using MediatR;
+using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
+
+namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Delete
+{
+    internal class DeleteInstitutionHandler
+        (IRepositoryInstitution repositoryInstitution) :
+        IRequestHandler<DeleteInstitutionRequest, DeleteInstitutionResponse>
+    {
+        public async Task<DeleteInstitutionResponse> Handle
+            (DeleteInstitutionRequest request, CancellationToken cancellationToken)
+        {
+            var institution = await repositoryInstitution.GetByIdAsync(request.Id);
+
+            if (institution is null)
+                throw new Exception("Instituição não encontrada");
+
+            repositoryInstitution.Delete(institution.Id);
+            await repositoryInstitution.CommitAsync();
+
+            return new DeleteInstitutionResponse("Instituição deletada com sucesso.");
+
+        }
+    }
+}

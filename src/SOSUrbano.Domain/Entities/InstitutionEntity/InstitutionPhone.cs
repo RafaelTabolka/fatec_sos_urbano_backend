@@ -6,5 +6,11 @@ namespace SOSUrbano.Domain.Entities.InstitutionEntity
     {
         public string Number { get; set; } = string.Empty;
         public Guid InstitutionId { get; set; }
+
+        public InstitutionPhone(string number, Guid institutionId)
+        {
+            Number = number;
+            InstitutionId = institutionId;
+        }
     }
 }
