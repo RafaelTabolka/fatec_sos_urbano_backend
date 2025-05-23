@@ -11,7 +11,7 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
     [ApiController]
     public class UserStatusController(ISender mediator) : ControllerBase
     {
-        [Authorize(Roles = "admin")]
+        [AllowAnonymous]
         [HttpGet("getAll")]
         public async Task<IActionResult> GetAllUserStatuses()
         {
@@ -21,7 +21,7 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
             return Ok(response);
         }
 
-        [Authorize(Roles = "admin")]
+        [AllowAnonymous]
         [HttpPost("create")]
         public async Task<IActionResult> CreateUserStatus
             (CreateUserStatusRequest request)

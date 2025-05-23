@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Comands\ComandsInstitution\InstitutionComands\Update\" />
-    <Folder Include="Comands\ComandsUser\UserComands\Update\" />
   </ItemGroup>
 
   <ItemGroup>
