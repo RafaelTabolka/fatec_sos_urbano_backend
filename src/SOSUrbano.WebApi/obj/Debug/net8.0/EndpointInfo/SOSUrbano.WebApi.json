@@ -499,13 +499,13 @@
             "type": "string",
             "nullable": true
           },
-          "userStatusId": {
+          "userStatusName": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
-          "userTypeId": {
+          "userTypeName": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
           "userPhones": {
             "type": "array",

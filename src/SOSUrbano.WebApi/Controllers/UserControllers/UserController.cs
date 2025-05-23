@@ -13,7 +13,8 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
     [ApiController]
     public class UserController(ISender mediator) : ControllerBase
     {
-        [Authorize(Roles = "admin")]
+        //[Authorize(Roles = "admin")]
+        [AllowAnonymous]
         [HttpGet("getAll")]
         public async Task<IActionResult> GetAllUsers()
         {
@@ -22,7 +23,7 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
             return Ok(response);
         }
 
-        [Authorize(Roles = "admin")]
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUserById(Guid id)
         {
@@ -40,7 +41,7 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
             return Created("Created", response);
         }
 
-        [Authorize(Roles = "admin")]
+        [AllowAnonymous]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(Guid id)
         {

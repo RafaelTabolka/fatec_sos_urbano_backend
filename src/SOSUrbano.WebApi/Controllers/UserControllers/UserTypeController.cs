@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Create;
 using SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.List;
-using SOSUrbano.Domain.Entities.UserEntity;
 
 namespace SOSUrbano.WebApi.Controllers.UserControllers
 {
@@ -11,7 +10,7 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
     [ApiController]
     public class UserTypeController(ISender mediator) : ControllerBase
     {
-        [Authorize(Roles = "admin")]
+        [AllowAnonymous]
         [HttpGet("getAll")]
         public async Task<IActionResult> GetAllUserTypes()
         {
@@ -21,7 +20,7 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
             return Ok(response);
         }
 
-        [Authorize(Roles = "admin")]
+        [AllowAnonymous]
         [HttpPost("create")]
         public async Task<IActionResult> CreateUserType
             (CreateUserTypeRequest request)

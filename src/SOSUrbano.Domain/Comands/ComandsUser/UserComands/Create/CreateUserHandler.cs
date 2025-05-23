@@ -12,7 +12,8 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Create
     é o maestro que vai gerenciar essa requisição e a resposta
      */
     internal class CreateUserHandler
-        (IRepositoryUser repositoryUser, IServiceLogin serviceLogin) : 
+        (IRepositoryUser repositoryUser, IServiceLogin serviceLogin,
+        IRepositoryUserStatus repositoryUserStatus, IRepositoryUserType repositoryUserType) : 
         IRequestHandler<CreateUserRequest, CreateUserResponse>
     {
         public async Task<CreateUserResponse> Handle(
@@ -22,13 +23,16 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Create
             var hashedPassword = hasher.HashPassword
                 (null!, request.Password);
 
+            var userStatus = await repositoryUserStatus.GetByName(request.UserStatusName);
+            var userType = await repositoryUserType.GetTypeByNameAsync(request.UserTypeName);
+
             var user = new User(
                 request.Name,
                 request.Email,
                 request.Cpf,
                 hashedPassword,
-                request.UserStatusId,
-                request.UserTypeId);
+                userStatus.Id,
+                userType.Id);
 
             user.UserPhones = request.UserPhones?
                 .Select(phone => new UserPhone(user.Id, phone.Number))

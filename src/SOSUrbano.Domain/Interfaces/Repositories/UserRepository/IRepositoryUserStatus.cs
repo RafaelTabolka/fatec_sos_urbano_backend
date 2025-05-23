@@ -5,5 +5,6 @@ namespace SOSUrbano.Domain.Interfaces.Repositories.UserRepository
 {
     public interface IRepositoryUserStatus : IRepositoryBase<UserStatus>
     {
+        Task<UserStatus> GetByName(string name);
     }
 }

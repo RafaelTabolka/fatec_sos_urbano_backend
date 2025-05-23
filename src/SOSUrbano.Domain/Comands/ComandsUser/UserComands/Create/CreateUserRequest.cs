@@ -21,9 +21,9 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Create
 
         public string Password { get; set; } = string.Empty;
 
-        public Guid UserStatusId { get; set; }
+        public string UserStatusName { get; set; } = string.Empty;
 
-        public Guid UserTypeId { get; set; }
+        public string UserTypeName { get; set; } = string.Empty;
 
         public List<CreateUserPhoneRequest>? UserPhones { get; set; }
     }
