@@ -10,10 +10,23 @@ namespace SOSUrbano.Infra.Data.Repository.UserRepository
         RepositoryBase<UserType>(context), IRepositoryUserType
     {
         private readonly SOSUrbanoContext _context = context;
+
         public async Task<UserType> GetTypeByNameAsync(string name)
         {
             var userType = await _context.UserTypeSet
                 .FirstOrDefaultAsync(type => EF.Functions.Like(type.Name, name));
+
+            if (userType is null)
+                throw new Exception("Tipo não encontrado.");
+
+            return userType;
+        }
+
+        public async Task<UserType> GetByTypeAsync(string typeName)
+        {
+            var userType = await _context.UserTypeSet
+                .FirstOrDefaultAsync(type => EF.Functions.Like
+                (type.Name, typeName));
 
             if (userType is null)
                 throw new Exception("Tipo não encontrado.");

@@ -20,5 +20,17 @@ namespace SOSUrbano.Infra.Data.Repository.UserRepository
 
             return userStatus;
         }
+
+        public async Task<UserStatus> GetByStatusAsync(string statusName)
+        {
+            var userStatus = await _context.UserStatusesSet
+                .FirstOrDefaultAsync(status => EF.Functions.Like
+                (status.Name, statusName));
+
+            if (userStatus is null)
+                throw new Exception("Status não encontrado.");
+
+            return userStatus;
+        }
     }
 }
