@@ -38,14 +38,6 @@ namespace SOSUrbano.Domain.Entities.UserEntity
             UserTypeId = userTypeId;
         }
 
-        public User(Guid id, string name, string email, string cpf)
-        {
-            Id = id;
-            Name = name;
-            Email = email;
-            Cpf = cpf;
-        }
-
         public void AlterName(string newName)
         {
             Name = newName;

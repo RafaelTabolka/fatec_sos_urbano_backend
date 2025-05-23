@@ -9,6 +9,7 @@ namespace SOSUrbano.Domain.Entities.InstitutionEntity
 
         public InstitutionPhone(string number, Guid institutionId)
         {
+            Id = Guid.NewGuid();
             Number = number;
             InstitutionId = institutionId;
         }

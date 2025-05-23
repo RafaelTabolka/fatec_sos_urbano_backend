@@ -58,6 +58,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.InstitutionControllers.InstitutionController",
+    "Method": "UpdateInstitution",
+    "RelativePath": "Institution/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Update.UpdateInstitutionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SOSUrbano.WebApi.Controllers.InstitutionControllers.InstitutionStatusController",
     "Method": "CreateStatus",
     "RelativePath": "InstitutionStatus/create",
@@ -186,6 +202,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "User/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserComands.Update.UpdateUserRequst",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

@@ -5,6 +5,7 @@ using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Create;
 using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Delete;
 using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Get;
 using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.List;
+using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Update;
 
 namespace SOSUrbano.WebApi.Controllers.InstitutionControllers
 {
@@ -41,6 +42,16 @@ namespace SOSUrbano.WebApi.Controllers.InstitutionControllers
             var response = await mediator.Send(request);
 
             return Created("Created: ", response);
+        }
+
+        [AllowAnonymous]
+        [HttpPut("update")]
+        public async Task<IActionResult> UpdateInstitution
+            (UpdateInstitutionRequest request)
+        {
+            var response = await mediator.Send(request);
+
+            return Ok(response);
         }
 
         [AllowAnonymous]

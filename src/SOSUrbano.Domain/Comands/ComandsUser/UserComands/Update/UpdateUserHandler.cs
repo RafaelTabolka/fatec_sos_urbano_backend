@@ -5,7 +5,9 @@ using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Update
 {
     internal class UpdateUserHandler
-        (IRepositoryUser repositoryUser) :
+        (IRepositoryUser repositoryUser,
+        IRepositoryUserStatus repositoryUserStatus,
+        IRepositoryUserType repositoryUserType) :
         IRequestHandler<UpdateUserRequst, UpdateUserResponse>
     {
         public async Task<UpdateUserResponse> Handle
@@ -13,11 +15,20 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Update
         {
             var user = await repositoryUser.GetByIdAsync(request.Id);
 
-            user = new User(
-                request.Id,
-                request.Name,
-                request.Email,
-                request.Cpf);
+            if (user is null)
+                throw new Exception("Usuário não encontrado");
+
+            var userStatus = await repositoryUserStatus.GetByStatusAsync
+                (request.UserStatusName);
+
+            var userType = await repositoryUserType.GetByTypeAsync
+                (request.UserTypeName);
+
+            user.Name = request.Name;
+            user.Email = request.Email;
+            user.Cpf = request.Cpf;
+            user.UserStatusId = userStatus.Id;
+            user.UserTypeId = userType.Id;
 
             repositoryUser.Update(user);
             await repositoryUser.CommitAsync();

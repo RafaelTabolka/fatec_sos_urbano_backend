@@ -6,5 +6,7 @@ namespace SOSUrbano.Domain.Interfaces.Repositories.UserRepository
     public interface IRepositoryUserType : IRepositoryBase<UserType>
     {
         Task<UserType> GetTypeByNameAsync(string name);
+
+        Task<UserType> GetByTypeAsync(string typeName);
     }
 }

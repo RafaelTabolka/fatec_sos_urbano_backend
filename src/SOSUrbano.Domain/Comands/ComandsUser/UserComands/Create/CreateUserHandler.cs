@@ -23,7 +23,7 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Create
             var hashedPassword = hasher.HashPassword
                 (null!, request.Password);
 
-            var userStatus = await repositoryUserStatus.GetByName(request.UserStatusName);
+            var userStatus = await repositoryUserStatus.GetByStatusAsync(request.UserStatusName);
             var userType = await repositoryUserType.GetTypeByNameAsync(request.UserTypeName);
 
             var user = new User(
