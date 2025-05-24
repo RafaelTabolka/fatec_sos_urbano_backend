@@ -724,7 +724,6 @@ C:\Users\rafae\Desktop\SOSUrbano\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\o
 C:\Users\rafae\Desktop\SOSUrbano\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\SOSUrbano.WebApi.pdb
 C:\Users\rafae\Desktop\SOSUrbano\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\SOSUrbano.WebApi.genruntimeconfig.cache
 C:\Users\rafae\Desktop\SOSUrbano\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\ref\SOSUrbano.WebApi.dll
-C:\Users\rafae\Desktop\SOSUrbano\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\bin\Debug\net8.0\appsettings.json
 C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\bin\Debug\net8.0\SOSUrbano.WebApi.staticwebassets.endpoints.json
@@ -909,3 +908,4 @@ C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\
 C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\SOSUrbano.WebApi.genruntimeconfig.cache
 C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\ref\SOSUrbano.WebApi.dll
 C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\rafae\Desktop\SOSUrbano\fatec_sos_urbano_backend\src\SOSUrbano.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

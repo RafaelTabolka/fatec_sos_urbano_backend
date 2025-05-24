@@ -3,7 +3,8 @@ using SOSUrbano.Domain.Interfaces.Repositories.Base;
 
 namespace SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository
 {
-    public interface IRepositoryIncidentStatus : IRepositoryBase<IncidentStatus>
+    public interface IRepositoryIncidentStatus : 
+        IRepositoryBase<IncidentStatus>
     {
     }
 }

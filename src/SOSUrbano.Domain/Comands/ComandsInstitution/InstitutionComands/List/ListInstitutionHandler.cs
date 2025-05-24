@@ -10,7 +10,7 @@ namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.List
         public async Task<ListInstitutionResponse> Handle
             (ListInstitutionRequest request, CancellationToken cancellationToken)
         {
-            var institutions = await repositoryInstitution.GetAllAsync();
+            var institutions = await repositoryInstitution.GetAllInstitutions();
 
             return new ListInstitutionResponse(institutions);
         }

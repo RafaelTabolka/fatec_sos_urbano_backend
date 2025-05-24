@@ -81,10 +81,14 @@ namespace SOSUrbano.WebApi
             builder.Services.AddScoped<IRepositoryUser, RepositoryUser>();
             builder.Services.AddScoped<IRepositoryUserStatus, RepositoryUserStatus>();
             builder.Services.AddScoped<IRepositoryUserType, RepositoryUserType>();
+
             builder.Services.AddScoped<IServiceLogin, LoginService>();
+            
             builder.Services.AddScoped<IRepositoryInstitution, RepositoryInstitution>();
             builder.Services.AddScoped<IRepositoryInstitutionStatus, RepositoryInstitutionStatus>();
             builder.Services.AddScoped<IRepositoryInstitutionType, RepositoryInstitutionType>();
+            builder.Services.AddScoped<IRepositoryInstitutionEmail, RepositoryInstitutionEmail>();
+            
             builder.Services.AddScoped<IRepositoryIncident, RepositoryIncident>();
             builder.Services.AddScoped<IRepositoryIncidentPhoto, RepositoryIncidentPhoto>();
             builder.Services.AddScoped<IRepositoryIncidentStatus, RepositoryIncidentStatus>();
