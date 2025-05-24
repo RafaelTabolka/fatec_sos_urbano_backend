@@ -16,6 +16,8 @@ namespace SOSUrbano.Infra.Data.Context
         public DbSet<UserPhone> UserPhoneSet { get; set; }
         public DbSet<UserType> UserTypeSet { get; set; }
         public DbSet<Incident> IncidentSet { get; set; }
+        public DbSet<IncidentPhoto> IncidentPhotoSet { get; set; }
+        public DbSet<IncidentStatus> IncidentStatus { get; set; }
         public DbSet<Institution> InstitutionSet { get; set; }
         public DbSet<InstitutionEmail> InstitutionEmailSet { get; set; }
         public DbSet<InstitutionPhone> InstitutionPhoneSet { get; set; }

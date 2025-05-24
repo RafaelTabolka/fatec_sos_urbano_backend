@@ -727,6 +727,40 @@
           "userTypeName": {
             "type": "string",
             "nullable": true
+          },
+          "userPhones": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UserPhone"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserPhone": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "userId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "number": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

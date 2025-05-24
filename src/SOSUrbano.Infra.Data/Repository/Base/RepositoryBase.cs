@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using SOSUrbano.Domain.Entities.Base;
 using SOSUrbano.Domain.Interfaces.Repositories.Base;
 using SOSUrbano.Infra.Data.Context;

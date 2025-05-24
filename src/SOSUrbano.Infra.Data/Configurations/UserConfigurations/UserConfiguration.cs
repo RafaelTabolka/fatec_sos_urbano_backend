@@ -37,7 +37,7 @@ namespace SOSUrbano.Infra.Data.Configurations.UserConfigurations
                 .IsRequired();
 
             builder.HasMany(user => user.UserPhones)
-                .WithOne(phone => phone.User)
+                .WithOne()
                 .HasForeignKey(phone => phone.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
 

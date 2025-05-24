@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using SOSUrbano.Domain.Entities.UserEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
 
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Update
@@ -29,6 +28,7 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Update
             user.Cpf = request.Cpf;
             user.UserStatusId = userStatus.Id;
             user.UserTypeId = userType.Id;
+            user.UserPhones = request.UserPhones;
 
             repositoryUser.Update(user);
             await repositoryUser.CommitAsync();
