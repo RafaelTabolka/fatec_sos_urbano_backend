@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MediatR;
-using SOSUrbano.Domain.Entities.UserEntity;
+﻿using MediatR;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
 
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.List
@@ -16,6 +10,9 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.List
             CancellationToken cancellationToken)
         {
             var users = await repositoryUser.GetAllAsync();
+            //Após terminar as entidades, busque pelo id das entidades
+            // que queira para adicionar na lista users. 
+            //users.Select(user => user.propriedade)
             return new ListUserResponse(users);
         }
     }

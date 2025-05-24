@@ -5,6 +5,103 @@
     "version": "v1"
   },
   "paths": {
+    "/IncidentStatus/getAll": {
+      "get": {
+        "tags": [
+          "IncidentStatus"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/IncidentStatus/create": {
+      "post": {
+        "tags": [
+          "IncidentStatus"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateIncidentStatusRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateIncidentStatusRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateIncidentStatusRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/IncidentStatus/update": {
+      "put": {
+        "tags": [
+          "IncidentStatus"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateIncidentStatusRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateIncidentStatusRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateIncidentStatusRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/IncidentStatus/{id}": {
+      "delete": {
+        "tags": [
+          "IncidentStatus"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Institution/getAll": {
       "get": {
         "tags": [
@@ -123,6 +220,29 @@
         }
       }
     },
+    "/InstitutionEmail/{id}": {
+      "put": {
+        "tags": [
+          "InstitutionEmail"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/InstitutionStatus/getAll": {
       "get": {
         "tags": [
@@ -166,6 +286,60 @@
         }
       }
     },
+    "/InstitutionStatus/update": {
+      "put": {
+        "tags": [
+          "InstitutionStatus"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateInstitutionStatusRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateInstitutionStatusRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateInstitutionStatusRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/InstitutionStatus/{id}": {
+      "delete": {
+        "tags": [
+          "InstitutionStatus"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/InstitutionType/getAll": {
       "get": {
         "tags": [
@@ -202,6 +376,60 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/InstitutionType/update": {
+      "put": {
+        "tags": [
+          "InstitutionType"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateInstitutionTypeRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateInstitutionTypeRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateInstitutionTypeRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/InstitutionType/{id}": {
+      "delete": {
+        "tags": [
+          "InstitutionType"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -444,6 +672,16 @@
   },
   "components": {
     "schemas": {
+      "CreateIncidentStatusRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateInstitutionEmailRequest": {
         "type": "object",
         "properties": {
@@ -599,56 +837,16 @@
         },
         "additionalProperties": false
       },
-      "InstitutionEmail": {
+      "UpdateIncidentStatusRequest": {
         "type": "object",
         "properties": {
           "id": {
             "type": "string",
             "format": "uuid"
           },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "updatedAt": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "emailAddress": {
+          "name": {
             "type": "string",
             "nullable": true
-          },
-          "institutionId": {
-            "type": "string",
-            "format": "uuid"
-          }
-        },
-        "additionalProperties": false
-      },
-      "InstitutionPhone": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "updatedAt": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "number": {
-            "type": "string",
-            "nullable": true
-          },
-          "institutionId": {
-            "type": "string",
-            "format": "uuid"
           }
         },
         "additionalProperties": false
@@ -675,27 +873,33 @@
           "address": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateInstitutionStatusRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
           },
-          "institutionStatusName": {
+          "name": {
             "type": "string",
             "nullable": true
-          },
-          "institutionTypeName": {
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateInstitutionTypeRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
             "type": "string",
-            "nullable": true
+            "format": "uuid"
           },
-          "institutionEmails": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/InstitutionEmail"
-            },
-            "nullable": true
-          },
-          "institutionPhones": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/InstitutionPhone"
-            },
+          "name": {
+            "type": "string",
             "nullable": true
           }
         },

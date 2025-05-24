@@ -4,5 +4,8 @@ using SOSUrbano.Domain.Interfaces.Repositories.Base;
 namespace SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository
 {
     public interface IRepositoryInstitution:
-        IRepositoryBase<Institution>;
+        IRepositoryBase<Institution>
+    {
+        Task<IEnumerable<Institution>> GetAllInstitutions();
+    }
 }
