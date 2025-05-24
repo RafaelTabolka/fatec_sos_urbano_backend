@@ -1,8 +1,9 @@
 ﻿using MediatR;
+using SOSUrbano.Domain.Entities.UserEntity;
 
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Update
 {
-    public class UpdateUserRequst(Guid id) :
+    public class UpdateUserRequst :
         IRequest<UpdateUserResponse>
     {
         public Guid Id { get; set; }
@@ -16,5 +17,7 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Update
         public string UserStatusName { get; set; } = string.Empty;
 
         public string UserTypeName { get; set; } = string.Empty;
+
+        public List<UserPhone>? UserPhones { get; set; }
     }
 }
