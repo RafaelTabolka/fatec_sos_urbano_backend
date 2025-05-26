@@ -7,5 +7,7 @@ namespace SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository
         IRepositoryBase<Institution>
     {
         Task<IEnumerable<Institution>> GetAllInstitutions();
+
+        Task<Institution> GetInstitutionByNameAsync(string name);
     }
 }

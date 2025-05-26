@@ -5,7 +5,6 @@ using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionStatusComands.Creat
 using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionStatusComands.Delete;
 using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionStatusComands.List;
 using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionStatusComands.Update;
-using SOSUrbano.Domain.Entities.InstitutionEntity;
 
 namespace SOSUrbano.WebApi.Controllers.InstitutionControllers
 {

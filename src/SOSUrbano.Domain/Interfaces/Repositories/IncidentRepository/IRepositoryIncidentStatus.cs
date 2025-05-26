@@ -6,5 +6,6 @@ namespace SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository
     public interface IRepositoryIncidentStatus : 
         IRepositoryBase<IncidentStatus>
     {
+        Task<IncidentStatus> GetIncidentStatusByNameAsync(string name);
     }
 }

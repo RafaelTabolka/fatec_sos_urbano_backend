@@ -21,6 +21,8 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Create
 
         public string Password { get; set; } = string.Empty;
 
+        public bool TermsOfUse { get; set; }
+
         public string UserStatusName { get; set; } = string.Empty;
 
         public string UserTypeName { get; set; } = string.Empty;

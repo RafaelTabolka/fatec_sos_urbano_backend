@@ -2,7 +2,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Create;
+using SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Delete;
 using SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.List;
+using SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Update;
 
 namespace SOSUrbano.WebApi.Controllers.UserControllers
 {
@@ -27,6 +29,27 @@ namespace SOSUrbano.WebApi.Controllers.UserControllers
         {
             var response = await mediator.Send(request);
             return Created("Created", response);
+        }
+
+        [AllowAnonymous]
+        [HttpPut("update")]
+        public async Task<IActionResult> UpdateUserType
+            (UpdateUserTypeRequest request)
+        {
+            var response = await mediator.Send(request);
+
+            return Ok(response);
+        }
+
+        [AllowAnonymous]
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteUserType(Guid id)
+        {
+            var request = new DeleteUserTypeRequest(id);
+
+            var response = await mediator.Send(request);
+
+            return Ok(response);
         }
     }
 }

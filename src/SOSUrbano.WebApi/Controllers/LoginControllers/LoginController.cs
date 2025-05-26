@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SOSUrbano.Domain.Comands.ComandsUser.UserLoginComands.Login;
 
-namespace SOSUrbano.WebApi.Controllers.UserControllers
+namespace SOSUrbano.WebApi.Controllers.LoginControllers
 {
     [Route("[controller]")]
     [ApiController]
