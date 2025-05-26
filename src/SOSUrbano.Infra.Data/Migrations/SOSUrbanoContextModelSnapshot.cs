@@ -47,9 +47,6 @@ namespace SOSUrbano.Infra.Data.Migrations
                     b.Property<double>("LongLocalization")
                         .HasColumnType("float");
 
-                    b.Property<bool>("TermsOfUse")
-                        .HasColumnType("bit");
-
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
@@ -293,6 +290,9 @@ namespace SOSUrbano.Infra.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("TermsOfUse")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
@@ -322,7 +322,8 @@ namespace SOSUrbano.Infra.Data.Migrations
 
                     b.Property<string>("Number")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(11)
+                        .HasColumnType("nvarchar(11)");
 
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
@@ -334,7 +335,7 @@ namespace SOSUrbano.Infra.Data.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("UserPhoneSet");
+                    b.ToTable("tb_user_phones", (string)null);
                 });
 
             modelBuilder.Entity("SOSUrbano.Domain.Entities.UserEntity.UserStatus", b =>

@@ -79,5 +79,17 @@ namespace SOSUrbano.Infra.Data.Repository.UserRepository
                 return user;
             throw new Exception("Usuário ou senha incorretos");
         }
+
+        public async Task<IEnumerable<User>> GetAllUsers()
+        {
+            var users = await _context.UserSet
+                .Include(user => user.UserStatus)
+                .Include(user => user.UserType)
+                .Include(user => user.UserPhones)
+                .Include(user => user.Incidents)
+                .ToListAsync();
+
+            return users;
+        }
     }
 }

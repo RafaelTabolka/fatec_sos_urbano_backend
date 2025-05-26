@@ -31,6 +31,7 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Create
                 request.Email,
                 request.Cpf,
                 hashedPassword,
+                request.TermsOfUse,
                 userStatus.Id,
                 userType.Id);
 

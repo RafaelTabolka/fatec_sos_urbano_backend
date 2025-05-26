@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.IncidentControllers.IncidentController",
+    "Method": "CreateIncident",
+    "RelativePath": "Incident/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create.CreateIncidentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.IncidentControllers.IncidentPhotoController",
+    "Method": "UpdateIncidentPhoto",
+    "RelativePath": "IncidentPhoto/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Update.UpdateIncidentPhotoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SOSUrbano.WebApi.Controllers.IncidentControllers.IncidentStatusController",
     "Method": "DeleteIncidentStatus",
     "RelativePath": "IncidentStatus/{id}",
@@ -264,7 +296,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.LoginController",
+    "ContainingType": "SOSUrbano.WebApi.Controllers.LoginControllers.LoginController",
     "Method": "LoginUser",
     "RelativePath": "Login/loginUser",
     "HttpMethod": "POST",
@@ -359,6 +391,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserPhoneController",
+    "Method": "UpdateUserPhone",
+    "RelativePath": "UserPhone/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserPhoneComands.Update.UpdateUserPhoneRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserStatusController",
+    "Method": "DeleteUserStatus",
+    "RelativePath": "UserStatus/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserStatusController",
     "Method": "CreateUserStatus",
     "RelativePath": "UserStatus/create",
@@ -385,6 +449,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserStatusController",
+    "Method": "UpdateUserStatus",
+    "RelativePath": "UserStatus/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Update.UpdateUserStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserTypeController",
+    "Method": "DeleteUserType",
+    "RelativePath": "UserType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserTypeController",
     "Method": "CreateUserType",
     "RelativePath": "UserType/create",
@@ -408,6 +504,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.UserControllers.UserTypeController",
+    "Method": "UpdateUserType",
+    "RelativePath": "UserType/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Update.UpdateUserTypeRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

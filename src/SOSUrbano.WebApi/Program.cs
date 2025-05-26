@@ -81,6 +81,7 @@ namespace SOSUrbano.WebApi
             builder.Services.AddScoped<IRepositoryUser, RepositoryUser>();
             builder.Services.AddScoped<IRepositoryUserStatus, RepositoryUserStatus>();
             builder.Services.AddScoped<IRepositoryUserType, RepositoryUserType>();
+            builder.Services.AddScoped<IRepositoryUserPhone, RepositoryUserPhone>();
 
             builder.Services.AddScoped<IServiceLogin, LoginService>();
             

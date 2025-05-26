@@ -9,7 +9,7 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.List
         public async Task<ListUserResponse> Handle(ListUserRequest request, 
             CancellationToken cancellationToken)
         {
-            var users = await repositoryUser.GetAllAsync();
+            var users = await repositoryUser.GetAllUsers();
             //Após terminar as entidades, busque pelo id das entidades
             // que queira para adicionar na lista users. 
             //users.Select(user => user.propriedade)

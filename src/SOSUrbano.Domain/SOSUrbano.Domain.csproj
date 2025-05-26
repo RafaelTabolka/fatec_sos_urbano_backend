@@ -12,7 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Comands\ComandsIncident\IncidentComands\" />
+    <Folder Include="Comands\ComandsIncident\IncidentComands\Get\" />
+    <Folder Include="Comands\ComandsIncident\IncidentComands\List\" />
+    <Folder Include="Comands\ComandsIncident\IncidentComands\Delete\" />
+    <Folder Include="Comands\ComandsIncident\IncidentComands\Update\" />
   </ItemGroup>
 
 </Project>

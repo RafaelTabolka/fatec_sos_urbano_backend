@@ -13,6 +13,8 @@ namespace SOSUrbano.Domain.Entities.UserEntity
 
         public string Password { get; set; } = string.Empty;
 
+        public bool TermsOfUse { get; set; }
+
         public Guid UserStatusId { get; set; }
         public UserStatus UserStatus { get; set; } = null!;
 
@@ -27,13 +29,14 @@ namespace SOSUrbano.Domain.Entities.UserEntity
         protected User() { }
 
         public User(string name, string email, string cpf, string password,
-            Guid userStatusId, Guid userTypeId)
+            bool termsOfUse, Guid userStatusId, Guid userTypeId)
         {
             Id = Guid.NewGuid();
             Name = name;
             Email = email;
             Cpf = cpf;
             Password = password;
+            TermsOfUse = termsOfUse;
             UserStatusId = userStatusId;
             UserTypeId = userTypeId;
         }

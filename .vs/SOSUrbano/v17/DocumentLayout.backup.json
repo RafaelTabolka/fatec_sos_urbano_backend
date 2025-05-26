@@ -3,416 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\list\\listinstitutionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\list\\listinstitutionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.webapi\\controllers\\incidentcontrollers\\incidentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|solutionrelative:src\\sosurbano.webapi\\controllers\\incidentcontrollers\\incidentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\repository\\institutionrepository\\repositoryinstitution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\repository\\institutionrepository\\repositoryinstitution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\entities\\incidententity\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\entities\\incidententity\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\entities\\institutionentity\\institution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\entities\\institutionentity\\institution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\entities\\institutionentity\\institutionemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\entities\\institutionentity\\institutionemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\interfaces\\repositories\\institutionrepository\\irepositoryinstitution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\interfaces\\repositories\\institutionrepository\\irepositoryinstitution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\list\\listinstitutionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\list\\listinstitutionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|solutionrelative:src\\sosurbano.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.webapi\\controllers\\institutioncontrollers\\institutionemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|solutionrelative:src\\sosurbano.webapi\\controllers\\institutioncontrollers\\institutionemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.webapi\\controllers\\institutioncontrollers\\institutionstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|solutionrelative:src\\sosurbano.webapi\\controllers\\institutioncontrollers\\institutionstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.webapi\\controllers\\institutioncontrollers\\institutiontypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|solutionrelative:src\\sosurbano.webapi\\controllers\\institutioncontrollers\\institutiontypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutionemailcomands\\update\\updateinstitutionemailhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutionemailcomands\\update\\updateinstitutionemailhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutionemailcomands\\update\\updateinstitutionemailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutionemailcomands\\update\\updateinstitutionemailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutionemailcomands\\update\\updateinstitutionemailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutionemailcomands\\update\\updateinstitutionemailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutionemailcomands\\create\\createinstitutionemailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutionemailcomands\\create\\createinstitutionemailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\update\\updateinstitutiontypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\update\\updateinstitutiontypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\update\\updateinstitutiontyperesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\update\\updateinstitutiontyperesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\update\\updateinstitutiontyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\update\\updateinstitutiontyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\entities\\institutionentity\\institutiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\entities\\institutionentity\\institutiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\delete\\deleteinstitutiontypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\delete\\deleteinstitutiontypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\delete\\deleteinstitutiontyperesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\delete\\deleteinstitutiontyperesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\delete\\deleteinstitutiontyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\delete\\deleteinstitutiontyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutionstatuscomands\\delete\\deleteinstitutionstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutionstatuscomands\\delete\\deleteinstitutionstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutionstatuscomands\\delete\\deleteinstitutionstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutionstatuscomands\\delete\\deleteinstitutionstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutionstatuscomands\\delete\\deleteinstitutionstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutionstatuscomands\\delete\\deleteinstitutionstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutionstatuscomands\\update\\updateinstitutionstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutionstatuscomands\\update\\updateinstitutionstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutionstatuscomands\\update\\updateinstitutionstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutionstatuscomands\\update\\updateinstitutionstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutionstatuscomands\\update\\updateinstitutionstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutionstatuscomands\\update\\updateinstitutionstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\update\\updateinstitutionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\update\\updateinstitutionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\update\\updateinstitutionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\update\\updateinstitutionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\update\\updateinstitutionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\update\\updateinstitutionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.webapi\\controllers\\incidentcontrollers\\incidentstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|solutionrelative:src\\sosurbano.webapi\\controllers\\incidentcontrollers\\incidentstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\delete\\deleteincidentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\delete\\deleteincidentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\delete\\deleteincidentstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\delete\\deleteincidentstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\delete\\deleteincidentstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\delete\\deleteincidentstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\repository\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\repository\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\interfaces\\repositories\\incidentrepository\\irepositoryincidentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\interfaces\\repositories\\incidentrepository\\irepositoryincidentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\entities\\incidententity\\incidentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\entities\\incidententity\\incidentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\update\\updateincidentstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\update\\updateincidentstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.webapi\\controllers\\institutioncontrollers\\institutioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|solutionrelative:src\\sosurbano.webapi\\controllers\\institutioncontrollers\\institutioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\update\\updateincidentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\update\\updateincidentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\update\\updateincidentstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\update\\updateincidentstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\list\\listincidentstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\list\\listincidentstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\list\\listincidentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\list\\listincidentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\list\\listincidentstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\list\\listincidentstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\create\\createincidentstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\create\\createincidentstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\create\\createincidentstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\create\\createincidentstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\create\\createincidentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentstatuscomands\\create\\createincidentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentphotocomands\\create\\createincidentphotorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentphotocomands\\create\\createincidentphotorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\repository\\incidentrepository\\repositoryincidentphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\repository\\incidentrepository\\repositoryincidentphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\repository\\incidentrepository\\repositoryincident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\repository\\incidentrepository\\repositoryincident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\list\\listuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\list\\listuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\list\\listuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\list\\listuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\list\\listuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\list\\listuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\entities\\userentity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\entities\\userentity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|solutionrelative:src\\sosurbano.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\configurations\\incidentconfiguration\\incidentstatusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\configurations\\incidentconfiguration\\incidentstatusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\configurations\\incidentconfiguration\\incidentphotoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\configurations\\incidentconfiguration\\incidentphotoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\configurations\\incidentconfiguration\\incidentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\configurations\\incidentconfiguration\\incidentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentcomands\\create\\createincidenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentcomands\\create\\createincidenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\entities\\incidententity\\incidentphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\entities\\incidententity\\incidentphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\configurations\\userconfigurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\configurations\\userconfigurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentcomands\\create\\createincidentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentcomands\\create\\createincidentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\context\\sosurbanocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\context\\sosurbanocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\repository\\institutionrepository\\repositoryinstitution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\repository\\institutionrepository\\repositoryinstitution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\repository\\incidentrepository\\repositoryincidentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\repository\\incidentrepository\\repositoryincidentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\interfaces\\repositories\\incidentrepository\\irepositoryincident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\interfaces\\repositories\\incidentrepository\\irepositoryincident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\interfaces\\repositories\\institutionrepository\\irepositoryinstitution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\interfaces\\repositories\\institutionrepository\\irepositoryinstitution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\interfaces\\repositories\\incidentrepository\\irepositoryincidentphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\interfaces\\repositories\\incidentrepository\\irepositoryincidentphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\interfaces\\repositories\\incidentrepository\\irepositoryincidentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\interfaces\\repositories\\incidentrepository\\irepositoryincidentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\update\\updateuserrequst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\update\\updateuserrequst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\entities\\incidententity\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\entities\\incidententity\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\update\\updateuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\update\\updateuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\configurations\\incidentconfiguration\\incidentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\configurations\\incidentconfiguration\\incidentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\update\\updateuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\update\\updateuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\context\\sosurbanocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\context\\sosurbanocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\entities\\userentity\\userphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\entities\\userentity\\userphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.webapi\\controllers\\usercontrollers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|solutionrelative:src\\sosurbano.webapi\\controllers\\usercontrollers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.webapi\\controllers\\usercontrollers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|solutionrelative:src\\sosurbano.webapi\\controllers\\usercontrollers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\create\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\create\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsincident\\incidentcomands\\create\\createincidentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsincident\\incidentcomands\\create\\createincidentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\create\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\create\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\create\\createinstitutionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\create\\createinstitutionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\create\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\create\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\create\\createinstitutionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\create\\createinstitutionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\entities\\institutionentity\\institutionphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\entities\\institutionentity\\institutionphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\delete\\deleteinstitutionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\delete\\deleteinstitutionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\get\\getuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsuser\\usercomands\\get\\getuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\interfaces\\repositories\\userrepository\\irepositoryuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\interfaces\\repositories\\userrepository\\irepositoryuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\repository\\userrepository\\repositoryusertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\repository\\userrepository\\repositoryusertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\repository\\userrepository\\repositoryuserstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\repository\\userrepository\\repositoryuserstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\interfaces\\repositories\\userrepository\\irepositoryuserstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\interfaces\\repositories\\userrepository\\irepositoryuserstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\interfaces\\repositories\\userrepository\\irepositoryusertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\interfaces\\repositories\\userrepository\\irepositoryusertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\repository\\institutionrepository\\repositoryinstitutiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\repository\\institutionrepository\\repositoryinstitutiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.infra.data\\repository\\institutionrepository\\repositoryinstitutionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93381934-189A-4DF7-8E4D-5342E7021C6F}|src\\SOSUrbano.Infra.Data\\SOSUrbano.Infra.Data.csproj|solutionrelative:src\\sosurbano.infra.data\\repository\\institutionrepository\\repositoryinstitutionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.webapi\\controllers\\usercontrollers\\userstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|solutionrelative:src\\sosurbano.webapi\\controllers\\usercontrollers\\userstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.webapi\\controllers\\usercontrollers\\usertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C473C3-B7C1-4DAC-AE3B-EBECEB93291A}|src\\SOSUrbano.WebApi\\SOSUrbano.WebApi.csproj|solutionrelative:src\\sosurbano.webapi\\controllers\\usercontrollers\\usertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\delete\\deleteinstitutionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\delete\\deleteinstitutionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\delete\\deleteinstitutionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\delete\\deleteinstitutionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\get\\getinstitutionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\get\\getinstitutionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\get\\getinstitutionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\get\\getinstitutionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\get\\getinstitutionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\get\\getinstitutionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\list\\listinstitutionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\list\\listinstitutionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\create\\createinstitutiontypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\create\\createinstitutiontypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\create\\createinstitutiontyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\create\\createinstitutiontyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\create\\createinstitutiontyperesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\create\\createinstitutiontyperesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\list\\listinstitutiontyperesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\list\\listinstitutiontyperesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\list\\listinstitutiontyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\list\\listinstitutiontyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\list\\listinstitutiontypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutiontypecomands\\list\\listinstitutiontypehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\interfaces\\repositories\\institutionrepository\\irepositoryinstitutiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\interfaces\\repositories\\institutionrepository\\irepositoryinstitutiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutionphonecomands\\create\\createinstitutionphonerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutionphonecomands\\create\\createinstitutionphonerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\interfaces\\repositories\\institutionrepository\\irepositoryinstitutionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\interfaces\\repositories\\institutionrepository\\irepositoryinstitutionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\create\\createinstitutionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\comands\\comandsinstitution\\institutioncomands\\create\\createinstitutionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|c:\\users\\rafae\\desktop\\sosurbano\\fatec_sos_urbano_backend\\src\\sosurbano.domain\\entities\\userentity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E147B6-EF56-405C-931C-EEC08D1B3FBA}|src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj|solutionrelative:src\\sosurbano.domain\\entities\\userentity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -422,1299 +70,202 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RepositoryInstitution.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitution.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitution.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitution.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitution.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IncidentController.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\IncidentControllers\\IncidentController.cs",
+              "RelativeDocumentMoniker": "src\\SOSUrbano.WebApi\\Controllers\\IncidentControllers\\IncidentController.cs",
+              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\IncidentControllers\\IncidentController.cs",
+              "RelativeToolTip": "src\\SOSUrbano.WebApi\\Controllers\\IncidentControllers\\IncidentController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T05:14:11.367Z",
+              "WhenOpened": "2025-05-26T05:17:54.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Incident.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\Incident.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\Incident.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\Incident.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\Incident.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:25:50.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ListInstitutionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\List\\ListInstitutionHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\List\\ListInstitutionHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\List\\ListInstitutionHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\List\\ListInstitutionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T05:39:35.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Institution.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\Institution.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\Institution.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\Institution.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\Institution.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T03:24:03.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InstitutionEmail.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\InstitutionEmail.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\InstitutionEmail.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\InstitutionEmail.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\InstitutionEmail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T04:46:12.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IRepositoryInstitution.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitution.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitution.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitution.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitution.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T05:13:26.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Program.cs",
-              "RelativeToolTip": "src\\SOSUrbano.WebApi\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAqwFkAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:52:11.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ListInstitutionResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\List\\ListInstitutionResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\List\\ListInstitutionResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\List\\ListInstitutionResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\List\\ListInstitutionResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T05:39:24.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InstitutionTypeController.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionTypeController.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionTypeController.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionTypeController.cs",
-              "RelativeToolTip": "src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionTypeController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAewDMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:47:22.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InstitutionEmailController.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionEmailController.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionEmailController.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionEmailController.cs",
-              "RelativeToolTip": "src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionEmailController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T05:06:05.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InstitutionStatusController.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionStatusController.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionStatusController.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionStatusController.cs",
-              "RelativeToolTip": "src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionStatusController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAnwDMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:58:55.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UpdateInstitutionEmailHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Update\\UpdateInstitutionEmailHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Update\\UpdateInstitutionEmailHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Update\\UpdateInstitutionEmailHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Update\\UpdateInstitutionEmailHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T05:01:19.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UpdateInstitutionEmailRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Update\\UpdateInstitutionEmailRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Update\\UpdateInstitutionEmailRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Update\\UpdateInstitutionEmailRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Update\\UpdateInstitutionEmailRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T05:00:57.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UpdateInstitutionEmailResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Update\\UpdateInstitutionEmailResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Update\\UpdateInstitutionEmailResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Update\\UpdateInstitutionEmailResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Update\\UpdateInstitutionEmailResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T05:01:08.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CreateInstitutionEmailRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Create\\CreateInstitutionEmailRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Create\\CreateInstitutionEmailRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Create\\CreateInstitutionEmailRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionEmailComands\\Create\\CreateInstitutionEmailRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T04:52:22.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UpdateInstitutionTypeHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Update\\UpdateInstitutionTypeHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Update\\UpdateInstitutionTypeHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Update\\UpdateInstitutionTypeHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Update\\UpdateInstitutionTypeHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T04:46:27.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UpdateInstitutionTypeResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Update\\UpdateInstitutionTypeResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Update\\UpdateInstitutionTypeResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Update\\UpdateInstitutionTypeResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Update\\UpdateInstitutionTypeResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T04:46:19.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UpdateInstitutionTypeRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Update\\UpdateInstitutionTypeRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Update\\UpdateInstitutionTypeRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Update\\UpdateInstitutionTypeRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Update\\UpdateInstitutionTypeRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T04:46:06.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "InstitutionType.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\InstitutionType.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\InstitutionType.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\InstitutionType.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\InstitutionType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:39:55.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DeleteInstitutionTypeResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Delete\\DeleteInstitutionTypeResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Delete\\DeleteInstitutionTypeResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Delete\\DeleteInstitutionTypeResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Delete\\DeleteInstitutionTypeResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T04:40:27.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DeleteInstitutionTypeHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Delete\\DeleteInstitutionTypeHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Delete\\DeleteInstitutionTypeHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Delete\\DeleteInstitutionTypeHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Delete\\DeleteInstitutionTypeHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T04:40:37.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DeleteInstitutionTypeRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Delete\\DeleteInstitutionTypeRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Delete\\DeleteInstitutionTypeRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Delete\\DeleteInstitutionTypeRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Delete\\DeleteInstitutionTypeRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T04:40:18.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DeleteInstitutionStatusHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Delete\\DeleteInstitutionStatusHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Delete\\DeleteInstitutionStatusHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Delete\\DeleteInstitutionStatusHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Delete\\DeleteInstitutionStatusHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T04:12:40.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DeleteInstitutionStatusResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Delete\\DeleteInstitutionStatusResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Delete\\DeleteInstitutionStatusResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Delete\\DeleteInstitutionStatusResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Delete\\DeleteInstitutionStatusResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T04:12:30.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DeleteInstitutionStatusRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Delete\\DeleteInstitutionStatusRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Delete\\DeleteInstitutionStatusRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Delete\\DeleteInstitutionStatusRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Delete\\DeleteInstitutionStatusRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T04:12:22.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UpdateInstitutionStatusHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Update\\UpdateInstitutionStatusHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Update\\UpdateInstitutionStatusHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Update\\UpdateInstitutionStatusHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Update\\UpdateInstitutionStatusHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T04:00:57.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UpdateInstitutionStatusRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Update\\UpdateInstitutionStatusRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Update\\UpdateInstitutionStatusRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Update\\UpdateInstitutionStatusRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Update\\UpdateInstitutionStatusRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T04:00:37.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UpdateInstitutionStatusResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Update\\UpdateInstitutionStatusResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Update\\UpdateInstitutionStatusResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Update\\UpdateInstitutionStatusResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionStatusComands\\Update\\UpdateInstitutionStatusResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T04:00:48.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "UpdateInstitutionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Update\\UpdateInstitutionHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Update\\UpdateInstitutionHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Update\\UpdateInstitutionHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Update\\UpdateInstitutionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T04:34:41.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UpdateInstitutionRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Update\\UpdateInstitutionRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Update\\UpdateInstitutionRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Update\\UpdateInstitutionRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Update\\UpdateInstitutionRequest.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA4wBAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T04:34:19.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UpdateInstitutionResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Update\\UpdateInstitutionResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Update\\UpdateInstitutionResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Update\\UpdateInstitutionResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Update\\UpdateInstitutionResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T04:34:28.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IncidentStatusController.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\IncidentControllers\\IncidentStatusController.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.WebApi\\Controllers\\IncidentControllers\\IncidentStatusController.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\IncidentControllers\\IncidentStatusController.cs",
-              "RelativeToolTip": "src\\SOSUrbano.WebApi\\Controllers\\IncidentControllers\\IncidentStatusController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T01:40:53.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DeleteIncidentStatusRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Delete\\DeleteIncidentStatusRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Delete\\DeleteIncidentStatusRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Delete\\DeleteIncidentStatusRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Delete\\DeleteIncidentStatusRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T03:37:44.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "DeleteIncidentStatusResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Delete\\DeleteIncidentStatusResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Delete\\DeleteIncidentStatusResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Delete\\DeleteIncidentStatusResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Delete\\DeleteIncidentStatusResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T03:37:57.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "DeleteIncidentStatusHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Delete\\DeleteIncidentStatusHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Delete\\DeleteIncidentStatusHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Delete\\DeleteIncidentStatusHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Delete\\DeleteIncidentStatusHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T03:38:06.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\Base\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Repository\\Base\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\Base\\RepositoryBase.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Repository\\Base\\RepositoryBase.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:48:08.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IRepositoryIncidentStatus.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncidentStatus.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncidentStatus.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncidentStatus.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncidentStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:46:54.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IncidentStatus.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\IncidentStatus.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\IncidentStatus.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\IncidentStatus.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\IncidentStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:28:22.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "UpdateIncidentStatusHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Update\\UpdateIncidentStatusHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Update\\UpdateIncidentStatusHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Update\\UpdateIncidentStatusHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Update\\UpdateIncidentStatusHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T03:21:29.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "InstitutionController.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionController.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionController.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionController.cs",
-              "RelativeToolTip": "src\\SOSUrbano.WebApi\\Controllers\\InstitutionControllers\\InstitutionController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADgvzUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T05:29:52.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "UpdateIncidentStatusRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Update\\UpdateIncidentStatusRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Update\\UpdateIncidentStatusRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Update\\UpdateIncidentStatusRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Update\\UpdateIncidentStatusRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T03:21:10.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "UpdateIncidentStatusResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Update\\UpdateIncidentStatusResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Update\\UpdateIncidentStatusResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Update\\UpdateIncidentStatusResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Update\\UpdateIncidentStatusResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T03:21:18.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ListIncidentStatusHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\List\\ListIncidentStatusHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\List\\ListIncidentStatusHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\List\\ListIncidentStatusHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\List\\ListIncidentStatusHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T01:59:17.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ListIncidentStatusRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\List\\ListIncidentStatusRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\List\\ListIncidentStatusRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\List\\ListIncidentStatusRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\List\\ListIncidentStatusRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T01:58:40.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "ListIncidentStatusResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\List\\ListIncidentStatusResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\List\\ListIncidentStatusResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\List\\ListIncidentStatusResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\List\\ListIncidentStatusResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T01:58:59.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "CreateIncidentStatusHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Create\\CreateIncidentStatusHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Create\\CreateIncidentStatusHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Create\\CreateIncidentStatusHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Create\\CreateIncidentStatusHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T01:25:52.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "CreateIncidentStatusResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Create\\CreateIncidentStatusResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Create\\CreateIncidentStatusResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Create\\CreateIncidentStatusResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Create\\CreateIncidentStatusResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T01:25:41.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "CreateIncidentStatusRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Create\\CreateIncidentStatusRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Create\\CreateIncidentStatusRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Create\\CreateIncidentStatusRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentStatusComands\\Create\\CreateIncidentStatusRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T01:25:29.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "CreateIncidentPhotoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentPhotoComands\\Create\\CreateIncidentPhotoRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentPhotoComands\\Create\\CreateIncidentPhotoRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentPhotoComands\\Create\\CreateIncidentPhotoRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentPhotoComands\\Create\\CreateIncidentPhotoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T01:10:22.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "ListUserHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\List\\ListUserHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\List\\ListUserHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\List\\ListUserHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\List\\ListUserHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T01:00:20.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "RepositoryIncident.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\IncidentRepository\\RepositoryIncident.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Repository\\IncidentRepository\\RepositoryIncident.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\IncidentRepository\\RepositoryIncident.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Repository\\IncidentRepository\\RepositoryIncident.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:51:12.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "RepositoryIncidentPhoto.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\IncidentRepository\\RepositoryIncidentPhoto.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Repository\\IncidentRepository\\RepositoryIncidentPhoto.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\IncidentRepository\\RepositoryIncidentPhoto.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Repository\\IncidentRepository\\RepositoryIncidentPhoto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:51:23.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "ListUserResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\List\\ListUserResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\List\\ListUserResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\List\\ListUserResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\List\\ListUserResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T00:59:08.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "ListUserRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\List\\ListUserRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\List\\ListUserRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\List\\ListUserRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\List\\ListUserRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T00:58:58.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\appsettings.json",
-              "RelativeToolTip": "src\\SOSUrbano.WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-22T11:48:18.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\UserEntity\\User.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Entities\\UserEntity\\User.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\UserEntity\\User.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Entities\\UserEntity\\User.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:19:26.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "IncidentStatusConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentStatusConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentStatusConfiguration.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentStatusConfiguration.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentStatusConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T14:00:38.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "IncidentPhotoConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentPhotoConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentPhotoConfiguration.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentPhotoConfiguration.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentPhotoConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T14:00:58.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "IncidentConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentConfiguration.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentConfiguration.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentConfiguration.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T14:00:14.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
               "Title": "IncidentPhoto.cs",
               "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\IncidentPhoto.cs",
               "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\IncidentPhoto.cs",
               "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\IncidentPhoto.cs",
               "RelativeToolTip": "src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\IncidentPhoto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:28:03.945Z"
+              "WhenOpened": "2025-05-26T05:13:36.154Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Configurations\\UserConfigurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Configurations\\UserConfigurations\\UserConfiguration.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Configurations\\UserConfigurations\\UserConfiguration.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Configurations\\UserConfigurations\\UserConfiguration.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwC4AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "RepositoryInstitution.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitution.cs",
+              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitution.cs",
+              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitution.cs",
+              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitution.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:04:19.906Z"
+              "WhenOpened": "2025-05-26T04:39:32.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "IRepositoryIncidentPhoto.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncidentPhoto.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncidentPhoto.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncidentPhoto.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncidentPhoto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CreateIncidentHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentComands\\Create\\CreateIncidentHandler.cs",
+              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentComands\\Create\\CreateIncidentHandler.cs",
+              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentComands\\Create\\CreateIncidentHandler.cs",
+              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentComands\\Create\\CreateIncidentHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:47:13.827Z"
+              "WhenOpened": "2025-05-26T03:39:46.718Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "IRepositoryIncident.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncident.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncident.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncident.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncident.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CreateIncidentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentComands\\Create\\CreateIncidentRequest.cs",
+              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentComands\\Create\\CreateIncidentRequest.cs",
+              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentComands\\Create\\CreateIncidentRequest.cs",
+              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentComands\\Create\\CreateIncidentRequest.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:46:31.205Z"
+              "WhenOpened": "2025-05-26T03:39:27.008Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 5,
               "Title": "RepositoryIncidentStatus.cs",
               "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\IncidentRepository\\RepositoryIncidentStatus.cs",
               "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Repository\\IncidentRepository\\RepositoryIncidentStatus.cs",
               "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\IncidentRepository\\RepositoryIncidentStatus.cs",
               "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Repository\\IncidentRepository\\RepositoryIncidentStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:51:34.599Z"
+              "WhenOpened": "2025-05-26T04:44:58.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 6,
+              "Title": "IRepositoryInstitution.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitution.cs",
+              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitution.cs",
+              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitution.cs",
+              "RelativeToolTip": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitution.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T04:39:03.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepositoryIncidentStatus.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncidentStatus.cs",
+              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncidentStatus.cs",
+              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncidentStatus.cs",
+              "RelativeToolTip": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\IncidentRepository\\IRepositoryIncidentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T04:44:20.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Incident.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\Incident.cs",
+              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\Incident.cs",
+              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\Incident.cs",
+              "RelativeToolTip": "src\\SOSUrbano.Domain\\Entities\\IncidentEntity\\Incident.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwCIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T03:47:30.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IncidentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentConfiguration.cs",
+              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentConfiguration.cs",
+              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Configurations\\IncidentConfiguration\\IncidentConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T04:56:27.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "SOSUrbanoContext.cs",
               "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Context\\SOSUrbanoContext.cs",
               "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Context\\SOSUrbanoContext.cs",
               "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Context\\SOSUrbanoContext.cs",
               "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Context\\SOSUrbanoContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBMAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:33:14.314Z"
+              "WhenOpened": "2025-05-26T04:53:24.745Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "UserPhone.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\UserEntity\\UserPhone.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Entities\\UserEntity\\UserPhone.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\UserEntity\\UserPhone.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Entities\\UserEntity\\UserPhone.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "CreateIncidentResponse.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentComands\\Create\\CreateIncidentResponse.cs",
+              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentComands\\Create\\CreateIncidentResponse.cs",
+              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentComands\\Create\\CreateIncidentResponse.cs",
+              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsIncident\\IncidentComands\\Create\\CreateIncidentResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:05:14.307Z"
+              "WhenOpened": "2025-05-26T03:39:37.193Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "UpdateUserRequst.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Update\\UpdateUserRequst.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Update\\UpdateUserRequst.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Update\\UpdateUserRequst.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Update\\UpdateUserRequst.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAzwBQAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T13:32:04.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "UpdateUserHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Update\\UpdateUserHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Update\\UpdateUserHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Update\\UpdateUserHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Update\\UpdateUserHandler.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T13:32:28.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "UpdateUserResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Update\\UpdateUserResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Update\\UpdateUserResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Update\\UpdateUserResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Update\\UpdateUserResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T13:32:13.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\UserController.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\UserController.cs",
-              "RelativeToolTip": "src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:14:29.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\LoginController.cs",
-              "RelativeToolTip": "src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\LoginController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T04:16:33.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "CreateUserHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Create\\CreateUserHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Create\\CreateUserHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Create\\CreateUserHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Create\\CreateUserHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBkAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:34:16.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 12,
               "Title": "CreateUserRequest.cs",
               "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Create\\CreateUserRequest.cs",
               "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Create\\CreateUserRequest.cs",
               "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Create\\CreateUserRequest.cs",
               "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Create\\CreateUserRequest.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBsAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:26:36.177Z"
+              "WhenOpened": "2025-05-26T03:45:35.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "CreateInstitutionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Create\\CreateInstitutionHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Create\\CreateInstitutionHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Create\\CreateInstitutionHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Create\\CreateInstitutionHandler.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCcAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "CreateUserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Create\\CreateUserHandler.cs",
+              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Create\\CreateUserHandler.cs",
+              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Create\\CreateUserHandler.cs",
+              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Create\\CreateUserHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T03:18:29.88Z"
+              "WhenOpened": "2025-05-26T03:46:01.72Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "CreateInstitutionRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Create\\CreateInstitutionRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Create\\CreateInstitutionRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Create\\CreateInstitutionRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Create\\CreateInstitutionRequest.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\UserEntity\\User.cs",
+              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Entities\\UserEntity\\User.cs",
+              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\UserEntity\\User.cs",
+              "RelativeToolTip": "src\\SOSUrbano.Domain\\Entities\\UserEntity\\User.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA3wCgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T03:18:02.206Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "InstitutionPhone.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\InstitutionPhone.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\InstitutionPhone.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\InstitutionPhone.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Entities\\InstitutionEntity\\InstitutionPhone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T05:12:03.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
-              "Title": "DeleteInstitutionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Delete\\DeleteInstitutionHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Delete\\DeleteInstitutionHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Delete\\DeleteInstitutionHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Delete\\DeleteInstitutionHandler.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABQAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T06:09:18.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "GetUserHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Get\\GetUserHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Get\\GetUserHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Get\\GetUserHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsUser\\UserComands\\Get\\GetUserHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T04:09:16.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "IRepositoryUser.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\UserRepository\\IRepositoryUser.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\UserRepository\\IRepositoryUser.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\UserRepository\\IRepositoryUser.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\UserRepository\\IRepositoryUser.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:28:56.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 79,
-              "Title": "RepositoryUserType.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\UserRepository\\RepositoryUserType.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Repository\\UserRepository\\RepositoryUserType.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\UserRepository\\RepositoryUserType.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Repository\\UserRepository\\RepositoryUserType.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAewCIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:55:53.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
-              "Title": "RepositoryUserStatus.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\UserRepository\\RepositoryUserStatus.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Repository\\UserRepository\\RepositoryUserStatus.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\UserRepository\\RepositoryUserStatus.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Repository\\UserRepository\\RepositoryUserStatus.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAMwBcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:29:46.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 81,
-              "Title": "IRepositoryUserStatus.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\UserRepository\\IRepositoryUserStatus.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\UserRepository\\IRepositoryUserStatus.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\UserRepository\\IRepositoryUserStatus.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\UserRepository\\IRepositoryUserStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:29:17.523Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 82,
-              "Title": "IRepositoryUserType.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\UserRepository\\IRepositoryUserType.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\UserRepository\\IRepositoryUserType.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\UserRepository\\IRepositoryUserType.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\UserRepository\\IRepositoryUserType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:39:50.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "RepositoryInstitutionType.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitutionType.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitutionType.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitutionType.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitutionType.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T04:34:23.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 84,
-              "Title": "RepositoryInstitutionStatus.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitutionStatus.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitutionStatus.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitutionStatus.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Infra.Data\\Repository\\InstitutionRepository\\RepositoryInstitutionStatus.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T03:50:45.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
-              "Title": "UserTypeController.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\UserTypeController.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\UserTypeController.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\UserTypeController.cs",
-              "RelativeToolTip": "src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\UserTypeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAoAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:17:32.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 85,
-              "Title": "UserStatusController.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\UserStatusController.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\UserStatusController.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\UserStatusController.cs",
-              "RelativeToolTip": "src\\SOSUrbano.WebApi\\Controllers\\UserControllers\\UserStatusController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:15:33.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 88,
-              "Title": "DeleteInstitutionRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Delete\\DeleteInstitutionRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Delete\\DeleteInstitutionRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Delete\\DeleteInstitutionRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Delete\\DeleteInstitutionRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T06:09:00.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 87,
-              "Title": "DeleteInstitutionResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Delete\\DeleteInstitutionResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Delete\\DeleteInstitutionResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Delete\\DeleteInstitutionResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Delete\\DeleteInstitutionResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T06:09:09.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 89,
-              "Title": "GetInstitutionResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Get\\GetInstitutionResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Get\\GetInstitutionResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Get\\GetInstitutionResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Get\\GetInstitutionResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T05:58:12.48Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 90,
-              "Title": "GetInstitutionRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Get\\GetInstitutionRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Get\\GetInstitutionRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Get\\GetInstitutionRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Get\\GetInstitutionRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T05:58:00.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 91,
-              "Title": "GetInstitutionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Get\\GetInstitutionHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Get\\GetInstitutionHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Get\\GetInstitutionHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Get\\GetInstitutionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T05:58:21.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 92,
-              "Title": "ListInstitutionRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\List\\ListInstitutionRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\List\\ListInstitutionRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\List\\ListInstitutionRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\List\\ListInstitutionRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T05:39:14.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 93,
-              "Title": "CreateInstitutionTypeHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Create\\CreateInstitutionTypeHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Create\\CreateInstitutionTypeHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Create\\CreateInstitutionTypeHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Create\\CreateInstitutionTypeHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:33:10.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 94,
-              "Title": "CreateInstitutionTypeRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Create\\CreateInstitutionTypeRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Create\\CreateInstitutionTypeRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Create\\CreateInstitutionTypeRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Create\\CreateInstitutionTypeRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:32:42.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 95,
-              "Title": "CreateInstitutionTypeResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Create\\CreateInstitutionTypeResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Create\\CreateInstitutionTypeResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Create\\CreateInstitutionTypeResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\Create\\CreateInstitutionTypeResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:33:00.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 96,
-              "Title": "ListInstitutionTypeResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\List\\ListInstitutionTypeResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\List\\ListInstitutionTypeResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\List\\ListInstitutionTypeResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\List\\ListInstitutionTypeResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:33:54.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 97,
-              "Title": "ListInstitutionTypeRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\List\\ListInstitutionTypeRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\List\\ListInstitutionTypeRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\List\\ListInstitutionTypeRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\List\\ListInstitutionTypeRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:33:39.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 98,
-              "Title": "ListInstitutionTypeHandler.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\List\\ListInstitutionTypeHandler.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\List\\ListInstitutionTypeHandler.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\List\\ListInstitutionTypeHandler.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionTypeComands\\List\\ListInstitutionTypeHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:34:04.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 99,
-              "Title": "IRepositoryInstitutionType.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitutionType.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitutionType.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitutionType.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitutionType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T04:04:37.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 100,
-              "Title": "CreateInstitutionPhoneRequest.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionPhoneComands\\Create\\CreateInstitutionPhoneRequest.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionPhoneComands\\Create\\CreateInstitutionPhoneRequest.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionPhoneComands\\Create\\CreateInstitutionPhoneRequest.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionPhoneComands\\Create\\CreateInstitutionPhoneRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T05:01:56.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 101,
-              "Title": "IRepositoryInstitutionStatus.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitutionStatus.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitutionStatus.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitutionStatus.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Interfaces\\Repositories\\InstitutionRepository\\IRepositoryInstitutionStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T03:52:48.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 102,
-              "Title": "CreateInstitutionResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Create\\CreateInstitutionResponse.cs",
-              "RelativeDocumentMoniker": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Create\\CreateInstitutionResponse.cs",
-              "ToolTip": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Create\\CreateInstitutionResponse.cs",
-              "RelativeToolTip": "src\\SOSUrbano.Domain\\Comands\\ComandsInstitution\\InstitutionComands\\Create\\CreateInstitutionResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T03:18:21.314Z"
+              "WhenOpened": "2025-05-26T03:44:14.873Z",
+              "EditorCaption": ""
             }
           ]
         }
