@@ -36,7 +36,11 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create
             await repositoryIncident.AddAsync(incident);
             await repositoryIncident.CommitAsync();
 
-            return new CreateIncidentResponse(incident);
+            return new CreateIncidentResponse(incident.Id,
+                incident.Description, incident.Institution.Name,
+                incident.IncidentStatus.Name, incident.LatLocalization,
+                incident.LongLocalization, incident.IncidentPhotos,
+                incident.UserId);
         }
     }
 }
