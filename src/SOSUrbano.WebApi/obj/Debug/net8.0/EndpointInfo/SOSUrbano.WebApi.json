@@ -5,6 +5,62 @@
     "version": "v1"
   },
   "paths": {
+    "/Incident/getAll": {
+      "get": {
+        "tags": [
+          "Incident"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Incident/{id}": {
+      "get": {
+        "tags": [
+          "Incident"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Incident"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Incident/create": {
       "post": {
         "tags": [
@@ -25,6 +81,37 @@
             "application/*+json": {
               "schema": {
                 "$ref": "#/components/schemas/CreateIncidentRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Incident/update": {
+      "put": {
+        "tags": [
+          "Incident"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateIncidentRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateIncidentRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateIncidentRequest"
               }
             }
           }
@@ -1096,6 +1183,36 @@
             "format": "uuid"
           },
           "savedPath": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateIncidentRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "latLocalization": {
+            "type": "number",
+            "format": "double"
+          },
+          "longLocalization": {
+            "type": "number",
+            "format": "double"
+          },
+          "institutionName": {
+            "type": "string",
+            "nullable": true
+          },
+          "incidentStatusName": {
             "type": "string",
             "nullable": true
           }

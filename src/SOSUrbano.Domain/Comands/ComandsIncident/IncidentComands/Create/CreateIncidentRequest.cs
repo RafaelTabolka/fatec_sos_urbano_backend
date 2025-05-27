@@ -16,7 +16,7 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create
 
         public string InstitutionName { get; set; } = string.Empty;
 
-        public string IncidentStatusName { get; set; } = "Pendente";
+        public string IncidentStatusName { get; set; } = string.Empty;
        
         public Guid UserId { get; set; }
     }
