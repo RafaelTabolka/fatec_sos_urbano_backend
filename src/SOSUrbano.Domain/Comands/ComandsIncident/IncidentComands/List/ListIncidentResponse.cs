@@ -1,10 +1,11 @@
-﻿using SOSUrbano.Domain.Entities.IncidentEntity;
+﻿using SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Dto;
+using SOSUrbano.Domain.Entities.IncidentEntity;
 
 namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.List
 {
-    public class ListIncidentResponse(IEnumerable<Incident> incidents)
+    public class ListIncidentResponse(IEnumerable<DtoIncidentResponse> incidents)
     {
-        public IReadOnlyCollection<Incident> Incidents { get; } =
+        public IReadOnlyCollection<DtoIncidentResponse> Incidents { get; } =
             incidents.ToList();
     }
 }

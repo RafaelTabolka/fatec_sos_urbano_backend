@@ -1,4 +1,11 @@
 ﻿using MediatR;
+using SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Dto;
+using SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Dto;
+using SOSUrbano.Domain.Comands.ComandsIncident.IncidentStatusComands.Dto;
+using SOSUrbano.Domain.Comands.ComandsUser.UserComands.Dto;
+using SOSUrbano.Domain.Comands.ComandsUser.UserPhoneComands.Dto;
+using SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Dto;
+using SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Dto;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
 
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.List
@@ -9,11 +16,33 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.List
         public async Task<ListUserResponse> Handle(ListUserRequest request, 
             CancellationToken cancellationToken)
         {
-            var users = await repositoryUser.GetAllUsers();
-            //Após terminar as entidades, busque pelo id das entidades
-            // que queira para adicionar na lista users. 
-            //users.Select(user => user.propriedade)
-            return new ListUserResponse(users);
+            var users = await repositoryUser.GetAllUsersAsync();
+
+            var response = users.Select(user =>
+            new DtoUserResponse(
+                user.Id,
+                user.Name,
+                user.Email,
+                user.Cpf,
+                new DtoUserTypeResponse(user.UserType.Name),
+                new DtoUserStatusResponse(user.UserStatus.Name),
+                user.UserPhones != null ? user.UserPhones.Select(phone =>
+                new DtoUserPhoneResponse(phone.Number)).ToList() :
+                new List<DtoUserPhoneResponse>(),
+                user.Incidents is not null ? user.Incidents.Select(incident => 
+                new DtoIncidentResponse(
+                    incident.Id,
+                    incident.Description,
+                    incident.LatLocalization,
+                    incident.LongLocalization,
+                    new DtoIncidentStatusResponse(incident.IncidentStatus.Name),
+                    incident.IncidentPhotos.Select(photo => 
+                    new DtoIncidentPhotoResponse(photo.SavedPath)).ToList(),
+                    incident.UserId,
+                    incident.InstitutionId)).ToList() : 
+                    new List<DtoIncidentResponse>())).ToList();
+
+            return new ListUserResponse(response);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using SOSUrbano.Domain.Entities.UserEntity;
+﻿using SOSUrbano.Domain.Comands.ComandsUser.UserComands.Dto;
+using SOSUrbano.Domain.Entities.UserEntity;
 
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.List
 {
@@ -8,8 +9,8 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.List
     em uma List<User> que por sua vez implementa o IReadOnlyCollection,
     fazemdo com que a chamada de função no handler funcione.
      */
-    public class ListUserResponse(IEnumerable<User> users)
+    public class ListUserResponse(IEnumerable<DtoUserResponse> users)
     {
-        public IReadOnlyCollection<User> Users { get; } = users.ToList();
+        public IReadOnlyCollection<DtoUserResponse> Users { get; } = users.ToList();
     }
 }

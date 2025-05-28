@@ -25,6 +25,22 @@ namespace SOSUrbano.Infra.Data.Repository.InstitutionRepository
             return institutions;    
         }
 
+        public async Task<Institution> GetInstitutionByIdAsync(Guid id)
+        {
+            var institution = await _context.InstitutionSet
+                .Include(i => i.InstitutionEmails)
+                .Include(i => i.InstitutionStatus)
+                .Include(i => i.InstitutionPhones)
+                .Include(i => i.InstitutionType)
+                .Include(i => i.Incidents)
+                .FirstOrDefaultAsync(i => i.Id == id);
+
+            if (institution is null)
+                throw new Exception("Instituição não encontrada.");
+
+            return institution;
+        }
+
         public async Task<Institution> GetInstitutionByNameAsync(string name)
         {
             var institution = await _context.InstitutionSet

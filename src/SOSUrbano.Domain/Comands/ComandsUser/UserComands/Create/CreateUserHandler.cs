@@ -42,7 +42,7 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Create
             await repositoryUser.AddAsync(user);
             await repositoryUser.CommitAsync();
 
-            var cretedUser = await repositoryUser.GetByEmailAndPassword
+            var cretedUser = await repositoryUser.GetByEmailAndPasswordAsync
                 (user.Email, request.Password);
 
             string accessToken = serviceLogin.GenerateToken

@@ -1,4 +1,7 @@
 ﻿using MediatR;
+using SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Dto;
+using SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Dto;
+using SOSUrbano.Domain.Comands.ComandsIncident.IncidentStatusComands.Dto;
 using SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository;
 
 namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.List
@@ -10,9 +13,21 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.List
         public async Task<ListIncidentResponse> Handle
             (ListIncidentRequest request, CancellationToken cancellationToken)
         {
-            var incidents = await repositoryIncident.GetAllAsync();
+            var incidents = await repositoryIncident.GetAllIncidentsAsync();
 
-            return new ListIncidentResponse(incidents);
+            var response = incidents.Select(i =>
+            new DtoIncidentResponse(
+                i.Id,
+                i.Description,
+                i.LatLocalization,
+                i.LongLocalization,
+                new DtoIncidentStatusResponse(i.IncidentStatus.Name),
+                i.IncidentPhotos.Select(photo =>
+                new DtoIncidentPhotoResponse(photo.SavedPath)).ToList(),
+                i.UserId,
+                i.InstitutionId)).ToList();
+
+            return new ListIncidentResponse(response);
         }
     }
 }
