@@ -21,18 +21,19 @@ namespace SOSUrbano.Infra.Data.Repository.UserRepository
         A propriedade UserSet tem conhecimento das colunas da tabela de usuários
          */
         private readonly SOSUrbanoContext _context = context;
-        public async Task<IEnumerable<User>> ListByName(string name)
+        public async Task<IEnumerable<User>> ListByNameAsync(string name)
         {
             return await _context.UserSet
                 .Where(p => p.Name == name).ToListAsync();
         }
 
-        public async Task<User> GetUserById(Guid id)
+        public async Task<User> GetUserByIdAsync(Guid id)
         {
             var user = await _context.UserSet
                 .Include(u => u.UserPhones)
                 .Include(u => u.UserStatus)
                 .Include(u => u.UserType)
+                .Include(u => u.Incidents)
                 .FirstOrDefaultAsync(u => u.Id == id);
 
             if (user is null)
@@ -49,7 +50,7 @@ namespace SOSUrbano.Infra.Data.Repository.UserRepository
         ToListAsync	            quer vários resultados
          */
 
-        public async Task<User> GetByEmailAndPassword
+        public async Task<User> GetByEmailAndPasswordAsync
             (string email, string password)
         {
             /*
@@ -80,13 +81,16 @@ namespace SOSUrbano.Infra.Data.Repository.UserRepository
             throw new Exception("Usuário ou senha incorretos");
         }
 
-        public async Task<IEnumerable<User>> GetAllUsers()
+        public async Task<IEnumerable<User>> GetAllUsersAsync()
         {
             var users = await _context.UserSet
                 .Include(user => user.UserStatus)
                 .Include(user => user.UserType)
                 .Include(user => user.UserPhones)
                 .Include(user => user.Incidents)
+                    .ThenInclude(incident => incident.IncidentStatus)
+                .Include(user => user.Incidents)
+                    .ThenInclude(incident => incident.IncidentPhotos)
                 .ToListAsync();
 
             return users;

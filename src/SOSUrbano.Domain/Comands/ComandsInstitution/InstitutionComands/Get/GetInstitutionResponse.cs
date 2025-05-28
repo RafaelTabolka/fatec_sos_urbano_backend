@@ -1,9 +1,10 @@
-﻿using SOSUrbano.Domain.Entities.InstitutionEntity;
+﻿using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Dto;
+using SOSUrbano.Domain.Entities.InstitutionEntity;
 
 namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Get
 {
-    public class GetInstitutionResponse(Institution institution)
+    public class GetInstitutionResponse(DtoInstitutionResponse institutionResponse)
     {
-        public Institution Institution { get; } = institution;
+        public DtoInstitutionResponse InstitutionResponse { get; } = institutionResponse;
     }
 }

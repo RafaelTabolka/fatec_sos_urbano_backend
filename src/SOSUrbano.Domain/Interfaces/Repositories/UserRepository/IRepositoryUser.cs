@@ -5,12 +5,12 @@ namespace SOSUrbano.Domain.Interfaces.Repositories.UserRepository
 {
     public interface IRepositoryUser : IRepositoryBase<User>
     {
-        Task<IEnumerable<User>> ListByName(string name);
+        Task<IEnumerable<User>> ListByNameAsync(string name);
 
-        Task<User> GetUserById(Guid id);
+        Task<User> GetUserByIdAsync(Guid id);
         
-        Task<User> GetByEmailAndPassword(string email, string password);
+        Task<User> GetByEmailAndPasswordAsync(string email, string password);
 
-        Task<IEnumerable<User>> GetAllUsers();
+        Task<IEnumerable<User>> GetAllUsersAsync();
     }
 }

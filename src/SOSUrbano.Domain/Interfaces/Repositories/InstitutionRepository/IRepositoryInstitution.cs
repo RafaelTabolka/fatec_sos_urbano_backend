@@ -9,5 +9,7 @@ namespace SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository
         Task<IEnumerable<Institution>> GetAllInstitutions();
 
         Task<Institution> GetInstitutionByNameAsync(string name);
+
+        Task<Institution> GetInstitutionByIdAsync(Guid id);
     }
 }

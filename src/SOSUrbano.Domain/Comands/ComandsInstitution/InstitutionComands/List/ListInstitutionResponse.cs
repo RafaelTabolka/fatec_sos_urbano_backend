@@ -1,10 +1,12 @@
-﻿using SOSUrbano.Domain.Entities.InstitutionEntity;
+﻿using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Dto;
+using SOSUrbano.Domain.Entities.InstitutionEntity;
 
 namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.List
 {
-    public class ListInstitutionResponse(IEnumerable<Institution> institutions)
+    public class ListInstitutionResponse
+        (IEnumerable<DtoInstitutionResponse> institutionResponses)
     {
-        public IReadOnlyCollection<Institution> Institutions { get; } =
-            institutions.ToList();
+        public IReadOnlyCollection<DtoInstitutionResponse> InstitutionResponses { get; } =
+            institutionResponses.ToList();
     }
 }
