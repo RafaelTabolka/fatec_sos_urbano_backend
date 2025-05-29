@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SOSUrbano.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24be788fe1ea3f9fde57067b9ecc10c34f03a42b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cac05431789748aea4ec0497e37b17875c9da04f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SOSUrbano.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SOSUrbano.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

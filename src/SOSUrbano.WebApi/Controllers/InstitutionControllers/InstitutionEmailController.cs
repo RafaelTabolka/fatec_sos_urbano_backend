@@ -11,14 +11,12 @@ namespace SOSUrbano.WebApi.Controllers.InstitutionControllers
         ControllerBase
     {
         [AllowAnonymous]
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateInstitutionEmail(Guid id)
+        [HttpPut("update")]
+        public async Task<IActionResult> UpdateInstitutionEmail(UpdateInstitutionEmailRequest request)
         {
-            var request = new UpdateInstitutionEmailRequest(id);
+            var response = await mediator.Send(request);
 
-            var resonse = await mediator.Send(request);
-
-            return Ok(Response);
+            return Ok(response);
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Update
 {
@@ -10,6 +11,13 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Update
         public async Task<UpdateUserTypeResponse> Handle
             (UpdateUserTypeRequest request, CancellationToken cancellationToken)
         {
+            var validator = new UpdateUserTypeValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors); 
+
             var userType = await repositoryUserType.
                 GetByIdAsync(request.Id);
 

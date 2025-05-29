@@ -3,6 +3,7 @@ using SOSUrbano.Domain.Entities.UserEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
 using SOSUrbano.Domain.Interfaces.Services.LoginRepository;
 using Microsoft.AspNetCore.Identity;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Create
 {
@@ -19,6 +20,13 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Create
         public async Task<CreateUserResponse> Handle(
             CreateUserRequest request, CancellationToken cancellationToken)
         {
+            var validator = new CreateUserValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
+
             var hasher = new PasswordHasher<object>();
             var hashedPassword = hasher.HashPassword
                 (null!, request.Password);

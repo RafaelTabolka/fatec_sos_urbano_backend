@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentStatusComands.Delete
 {
@@ -10,6 +11,13 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentStatusComands.Delete
         public async Task<DeleteIncidentStatusResponse> Handle
             (DeleteIncidentStatusRequest request, CancellationToken cancellationToken)
         {
+            var validator = new DeleteIncidentStatusValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
+
             var incidentStatus = await repositoryIncidentStatus.
                 GetByIdAsync(request.Id);
 

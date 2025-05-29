@@ -7,6 +7,7 @@ using SOSUrbano.Domain.Comands.ComandsUser.UserPhoneComands.Dto;
 using SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Dto;
 using SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Dto;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Get
 {
@@ -16,7 +17,13 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Get
         public async Task<GetUserResponse> Handle(GetUserRequest request, 
             CancellationToken cancellationToken)
         {
-            //var user = await repositoryUser.GetUserById(request.Id);
+            var validator = new GetUserValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
+
             var user = await repositoryUser.GetUserByIdAsync(request.Id);
 
             if (user is null)

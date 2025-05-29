@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionEmailComands.Update
 {
@@ -10,6 +11,13 @@ namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionEmailComands.Up
         public async Task<UpdateInstitutionEmailResponse> Handle
             (UpdateInstitutionEmailRequest request, CancellationToken cancellationToken)
         {
+            var validator = new UpdateInstitutionEmailValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
+
             var institutionEmail = await repositoryInstitutionEmail.
                 GetByIdAsync(request.Id);
 
@@ -17,6 +25,10 @@ namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionEmailComands.Up
                 throw new Exception("Email não encontrado");
 
             institutionEmail.EmailAddress = request.EmailAddress;
+
+            repositoryInstitutionEmail.Update(institutionEmail);
+
+            await repositoryInstitutionEmail.CommitAsync();
 
             return new UpdateInstitutionEmailResponse("Atualizado com sucesso");
         }

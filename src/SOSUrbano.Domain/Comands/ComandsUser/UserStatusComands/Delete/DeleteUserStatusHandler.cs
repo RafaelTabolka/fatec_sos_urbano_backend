@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Delete
 {
@@ -10,6 +11,13 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Delete
         public async Task<DeleteUserStatusResponse> Handle
             (DeleteUserStatusRequest request, CancellationToken cancellationToken)
         {
+            var validator = new DeleteUserStatusValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
+
             var userStatus = await repositoryUserStatus.GetByIdAsync(request.Id);
 
             if (userStatus is null)

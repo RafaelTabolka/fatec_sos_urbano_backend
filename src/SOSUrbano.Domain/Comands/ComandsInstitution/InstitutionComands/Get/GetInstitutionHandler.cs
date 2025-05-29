@@ -5,6 +5,7 @@ using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionPhoneComands.Dto;
 using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionStatusComands.Dto;
 using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionTypeComands.Dto;
 using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Get
 {
@@ -15,6 +16,13 @@ namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Get
         public async Task<GetInstitutionResponse> Handle
             (GetInstitutionRequest request, CancellationToken cancellationToken)
         {
+            var validator = new GetInstitutionValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
+
             var institution = await repositoryInstitution.GetInstitutionByIdAsync(request.Id);
 
 
