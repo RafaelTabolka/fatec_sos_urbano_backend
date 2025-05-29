@@ -1,8 +1,10 @@
-﻿using MediatR;
+﻿using System.ComponentModel.DataAnnotations;
+using MediatR;
 using SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Dto;
 using SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Dto;
 using SOSUrbano.Domain.Comands.ComandsIncident.IncidentStatusComands.Dto;
 using SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Get
 {
@@ -13,6 +15,13 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Get
         public async Task<GetIncidentResponse> Handle
             (GetIncidentRequest request, CancellationToken cancellationToken)
         {
+            var validator = new GetIncidentValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
+
             var incident = await repositoryIncident.GetIncidentByIdAsync(request.Id);
 
             if (incident is null)
