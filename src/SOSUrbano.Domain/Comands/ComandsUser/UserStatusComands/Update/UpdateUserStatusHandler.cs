@@ -21,7 +21,7 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Update
 
             await repositoryUserStatus.CommitAsync();
 
-            return new UpdateUserStatusResponse(userStatus);
+            return new UpdateUserStatusResponse("Atualizado com sucesso");
         }
     }
 }

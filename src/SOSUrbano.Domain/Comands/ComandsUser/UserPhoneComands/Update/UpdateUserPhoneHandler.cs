@@ -22,7 +22,7 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserPhoneComands.Update
 
             await repositoryUserPhone.CommitAsync();
 
-            return new UpdateUserPhoneResponse(userPhone);
+            return new UpdateUserPhoneResponse("Atualizado com sucesso");
         }
     }
 }

@@ -90,6 +90,7 @@ namespace SOSUrbano.WebApi
             builder.Services.AddScoped<IRepositoryInstitutionStatus, RepositoryInstitutionStatus>();
             builder.Services.AddScoped<IRepositoryInstitutionType, RepositoryInstitutionType>();
             builder.Services.AddScoped<IRepositoryInstitutionEmail, RepositoryInstitutionEmail>();
+            builder.Services.AddScoped<IRepositoryInstitutionPhone, RepositoryInstitutionPhone>();
             
             builder.Services.AddScoped<IRepositoryIncident, RepositoryIncident>();
             builder.Services.AddScoped<IRepositoryIncidentPhoto, RepositoryIncidentPhoto>();

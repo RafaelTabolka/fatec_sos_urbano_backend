@@ -392,6 +392,37 @@
         }
       }
     },
+    "/InstitutionPhone/update": {
+      "put": {
+        "tags": [
+          "InstitutionPhone"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateInstitutionPhoneRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateInstitutionPhoneRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateInstitutionPhoneRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/InstitutionStatus/getAll": {
       "get": {
         "tags": [
@@ -1227,6 +1258,20 @@
             "format": "uuid"
           },
           "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateInstitutionPhoneRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "number": {
             "type": "string",
             "nullable": true
           }

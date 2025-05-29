@@ -32,7 +32,7 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Update
             repositoryUser.Update(user);
             await repositoryUser.CommitAsync();
 
-            return new UpdateUserResponse(user);
+            return new UpdateUserResponse("Atualizado com sucesso");
         }
     }
 }

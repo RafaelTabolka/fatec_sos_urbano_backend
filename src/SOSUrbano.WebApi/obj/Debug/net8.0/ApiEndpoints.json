@@ -238,6 +238,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.InstitutionControllers.InstitutionPhoneController",
+    "Method": "UpdateInstitutionPhone",
+    "RelativePath": "InstitutionPhone/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionPhoneComands.Update.UpdateInstitutionPhoneRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SOSUrbano.WebApi.Controllers.InstitutionControllers.InstitutionStatusController",
     "Method": "DeleteInstitutionStatus",
     "RelativePath": "InstitutionStatus/{id}",

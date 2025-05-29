@@ -1,0 +1,40 @@
+﻿using FluentValidation;
+
+namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create
+{
+    internal class CreateIncidentValidation : AbstractValidator<CreateIncidentRequest>
+    {
+        public CreateIncidentValidation()
+        {
+            RuleFor(i => i.Description)
+                .NotEmpty().WithMessage("Descrição é obrigatório.")
+                .MaximumLength(500).WithMessage("Descrição deve ter no máximo 500 caracteres.");
+
+            RuleFor(i => i.LatLocalization)
+                .NotEmpty().WithMessage("Localização em laitude não pode ser vazio.");
+
+            RuleFor(i => i.LongLocalization)
+                .NotEmpty().WithMessage("Locaização em longitude não pode ser vazio.");
+
+            RuleFor(i => i.IncidentPhotoRequest)
+                .NotEmpty().WithMessage("Obrigatório ao menos uma foto.");
+
+            RuleForEach(i => i.IncidentPhotoRequest)
+                .ChildRules(photo =>
+                {
+                    photo.RuleFor(p => p.SavedPath)
+                    .NotEmpty().WithMessage("Caminho da foto obrigatório.")
+                    .MaximumLength(500).WithMessage("Caminho tem no máximo 500 caracteres.");
+                });
+
+            RuleFor(i => i.InstitutionName)
+                .NotEmpty().WithMessage("Nome da instituição é obrigatório.");
+
+            RuleFor(i => i.IncidentStatusName)
+                .NotEmpty().WithMessage("Status da denúncia é obrigatório.");
+
+            RuleFor(i => i.UserId)
+                .NotEmpty().WithMessage("Id do usuário é obrigatório.");
+        }
+    }
+}

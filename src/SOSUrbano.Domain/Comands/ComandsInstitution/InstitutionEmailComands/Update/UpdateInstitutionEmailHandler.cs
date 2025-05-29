@@ -18,7 +18,7 @@ namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionEmailComands.Up
 
             institutionEmail.EmailAddress = request.EmailAddress;
 
-            return new UpdateInstitutionEmailResponse(institutionEmail);
+            return new UpdateInstitutionEmailResponse("Atualizado com sucesso");
         }
     }
 }

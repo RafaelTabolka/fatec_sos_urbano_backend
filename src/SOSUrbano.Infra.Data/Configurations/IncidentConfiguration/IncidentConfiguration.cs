@@ -11,6 +11,9 @@ namespace SOSUrbano.Infra.Data.Configurations.IncidentConfiguration
         {
             builder.HasKey(incident => incident.Id);
 
+            builder.Property(incident => incident.Description)
+                .HasMaxLength(500);
+
             builder.Property(incident => incident.LatLocalization);
 
             builder.Property(incident => incident.LongLocalization);

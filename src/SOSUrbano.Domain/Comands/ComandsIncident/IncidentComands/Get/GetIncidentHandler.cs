@@ -23,9 +23,9 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Get
                 incident.Description,
                 incident.LatLocalization,
                 incident.LongLocalization,
-                new DtoIncidentStatusResponse(incident.IncidentStatus.Name),
+                new DtoIncidentStatusResponse(incident.Id, incident.IncidentStatus.Name),
                 incident.IncidentPhotos.Select(photo =>
-                new DtoIncidentPhotoResponse(photo.SavedPath)).ToList(),
+                new DtoIncidentPhotoResponse(photo.Id, photo.SavedPath)).ToList(),
                 incident.UserId,
                 incident.InstitutionId);
 

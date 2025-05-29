@@ -22,7 +22,7 @@ namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionStatusComands.U
 
             await repositoryInstitutionStatus.CommitAsync();
 
-            return new UpdateInstitutionStatusResponse(institutionStatus);
+            return new UpdateInstitutionStatusResponse("Atualizado com sucesso");
         }
     }
 }
