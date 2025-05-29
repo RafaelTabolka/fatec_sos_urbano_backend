@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using SOSUrbano.Domain.Entities.InstitutionEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionTypeComands.Create
 {
@@ -11,8 +12,12 @@ namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionTypeComands.Cre
         public async Task<CreateInstitutionTypeResponse> Handle
             (CreateInstitutionTypeRequest request, CancellationToken cancellationToken)
         {
-            if (string.IsNullOrWhiteSpace(request.Name))
-                throw new Exception("Nome obrigatório");
+            var validator = new CreateInstitutionTypeValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
 
             var entityType = new InstitutionType(request.Name);
 

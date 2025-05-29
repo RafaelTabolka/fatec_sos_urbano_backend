@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionPhoneComands.Update
 {
@@ -10,6 +11,13 @@ namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionPhoneComands.Up
         public async Task<UpdateInstitutionPhoneResponse> Handle
             (UpdateInstitutionPhoneRequest request, CancellationToken cancellationToken)
         {
+            var validator = new UpdateInstitutionPhoneValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
+
             var institutionPhone = await repositoryInstitutionPhone
                 .GetByIdAsync(request.Id);
 

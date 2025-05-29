@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MediatR;
+﻿using MediatR;
 using SOSUrbano.Domain.Entities.UserEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Create
 {
@@ -16,6 +12,13 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Create
         public async Task<CreateUserStatusResponse> Handle
             (CreateUserStatusRequest request, CancellationToken cancellationToken)
         {
+            var validator = new CreateUserStatusValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
+
             var userStatus = new UserStatus(request.Name);
             await repository.AddAsync(userStatus);
             await repository.CommitAsync();

@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using SOSUrbano.Domain.Entities.InstitutionEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Create
 {
@@ -13,6 +14,13 @@ namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Create
         public async Task<CreateInstitutionResponse> Handle
             (CreateInstitutionRequest request, CancellationToken cancellationToken)
         {
+            var validator = new CreateInstitutionValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
+
             var institutionStatus = await repositoryInstitutionStatus
                 .GetStatusByNameAsync(request.InstitutionStatusName);
 
@@ -30,7 +38,7 @@ namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Create
 
             institution.InstitutionEmails = request.InstitutionEmails
                 .Select(email => new InstitutionEmail
-                (email.Email, institution.Id)).ToList();
+                (email.EmailAddress, institution.Id)).ToList();
 
             institution.InstitutionPhones = request.InstitutionPhones
                 .Select(phone => new InstitutionPhone

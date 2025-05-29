@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using SOSUrbano.Domain.Entities.InstitutionEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionStatusComands.Create
 {
@@ -11,8 +12,12 @@ namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionStatusComands.C
         public async Task<CreateInstitutionStatusResponse> 
             Handle(CreateInstitutionStatusRequest request, CancellationToken cancellationToken)
         {
-            if (string.IsNullOrWhiteSpace(request.Name))
-                throw new Exception("Usuário Obrigatório");
+            var validator = new CreateInstitutionStatusValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
 
             var entityStatus = new InstitutionStatus(request.Name);
 

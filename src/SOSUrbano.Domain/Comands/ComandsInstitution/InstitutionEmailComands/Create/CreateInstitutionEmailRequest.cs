@@ -2,6 +2,6 @@
 {
     public class CreateInstitutionEmailRequest
     {
-        public string Email { get; set; } = string.Empty;
+        public string EmailAddress { get; set; } = string.Empty;
     }
 }

@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
 using SOSUrbano.Domain.Interfaces.Services.LoginRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserLoginComands.Login
 {
@@ -11,6 +12,13 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserLoginComands.Login
         public async Task<LoginUserResponse> Handle(
             LoginUserRequest request, CancellationToken cancellationToken)
         {
+            var validator = new LoginUserValidation();
+
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
+
             var user = await repositoryUser.GetByEmailAndPasswordAsync(request.Email, request.Password);
             if (user is null)
                 throw new Exception("Email ou senha inválidos");

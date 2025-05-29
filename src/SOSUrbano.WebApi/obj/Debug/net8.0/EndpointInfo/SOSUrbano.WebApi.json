@@ -369,22 +369,30 @@
         }
       }
     },
-    "/InstitutionEmail/{id}": {
+    "/InstitutionEmail/update": {
       "put": {
         "tags": [
           "InstitutionEmail"
         ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateInstitutionEmailRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateInstitutionEmailRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateInstitutionEmailRequest"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -1051,7 +1059,7 @@
       "CreateInstitutionEmailRequest": {
         "type": "object",
         "properties": {
-          "email": {
+          "emailAddress": {
             "type": "string",
             "nullable": true
           }
@@ -1258,6 +1266,20 @@
             "format": "uuid"
           },
           "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateInstitutionEmailRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "emailAddress": {
             "type": "string",
             "nullable": true
           }

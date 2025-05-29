@@ -17,7 +17,7 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create
                 .NotEmpty().WithMessage("Locaização em longitude não pode ser vazio.");
 
             RuleFor(i => i.IncidentPhotoRequest)
-                .NotEmpty().WithMessage("Obrigatório ao menos uma foto.");
+                .NotEmpty().NotNull().WithMessage("Obrigatório ao menos uma foto.");
 
             RuleForEach(i => i.IncidentPhotoRequest)
                 .ChildRules(photo =>

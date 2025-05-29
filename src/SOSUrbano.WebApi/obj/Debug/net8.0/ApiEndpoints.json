@@ -224,14 +224,14 @@
   {
     "ContainingType": "SOSUrbano.WebApi.Controllers.InstitutionControllers.InstitutionEmailController",
     "Method": "UpdateInstitutionEmail",
-    "RelativePath": "InstitutionEmail/{id}",
+    "RelativePath": "InstitutionEmail/update",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Guid",
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionEmailComands.Update.UpdateInstitutionEmailRequest",
         "IsRequired": true
       }
     ],
