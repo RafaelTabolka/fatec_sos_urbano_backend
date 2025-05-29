@@ -2,8 +2,8 @@
 
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Update
 {
-    public class UpdateUserStatusResponse(UserStatus userStatus)
+    public class UpdateUserStatusResponse(string message)
     {
-        public UserStatus UserStatus { get; set; } = userStatus;
+        public string Message { get; set; } = message;
     }
 }

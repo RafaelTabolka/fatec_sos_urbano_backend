@@ -2,6 +2,7 @@
 using SOSUrbano.Domain.Entities.IncidentEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository;
 using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create
 {
@@ -14,6 +15,12 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create
         public async Task<CreateIncidentResponse> Handle
             (CreateIncidentRequest request, CancellationToken cancellationToken)
         {
+            var validator = new CreateIncidentValidation();
+            var validationResult = validator.Validate(request);
+
+            if (!validationResult.IsValid)
+                throw new ValidationException(validationResult.Errors);
+
             var institution = await repositoryInstitution
                 .GetInstitutionByNameAsync(request.InstitutionName);
 

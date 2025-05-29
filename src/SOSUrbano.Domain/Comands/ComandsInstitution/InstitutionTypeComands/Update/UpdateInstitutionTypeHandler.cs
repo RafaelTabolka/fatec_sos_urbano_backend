@@ -21,7 +21,7 @@ namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionTypeComands.Upd
 
             await repositoryInstitutionType.CommitAsync();
 
-            return new UpdateInstitutionTypeResponse(institutionType);
+            return new UpdateInstitutionTypeResponse("Atualizado com sucesso");
         }
     }
 }

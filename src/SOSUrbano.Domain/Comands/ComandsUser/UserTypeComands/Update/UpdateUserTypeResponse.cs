@@ -2,8 +2,8 @@
 
 namespace SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Update
 {
-    public class UpdateUserTypeResponse(UserType userType)
+    public class UpdateUserTypeResponse(string message)
     {
-        public UserType UserType { get; } = userType;
+        public string Message { get; } = message;
     }
 }

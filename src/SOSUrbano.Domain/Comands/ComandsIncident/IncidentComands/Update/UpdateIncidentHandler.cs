@@ -34,7 +34,7 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Update
 
             await repositoryIncident.CommitAsync();
 
-            return new UpdateIncidentResponse(incident);
+            return new UpdateIncidentResponse("Atualizado com sucesso");
         }
     }
 }

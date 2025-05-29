@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "FluentValidation/12.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MediatR/12.5.0": {
         "type": "package",
         "dependencies": {
@@ -739,6 +752,21 @@
     }
   },
   "libraries": {
+    "FluentValidation/12.0.0": {
+      "sha512": "8NVLxtMUXynRHJIX3Hn1ACovaqZIJASufXIIFkD0EUbcd5PmMsL1xUD5h548gCezJ5BzlITaR9CAMrGe29aWpA==",
+      "type": "package",
+      "path": "fluentvalidation/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.12.0.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml"
+      ]
+    },
     "MediatR/12.5.0": {
       "sha512": "vqm2H8/nqL5NAJHPhsG1JOPwfkmbVrPyh4svdoRzu+uZh6Ex7PRoHBGsLYC0/RWCEJFqD1ohHNpteQvql9OktA==",
       "type": "package",
@@ -1775,28 +1803,29 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "FluentValidation >= 12.0.0",
       "MediatR >= 12.5.0",
       "Microsoft.AspNetCore.Identity >= 2.3.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rafae\\.nuget\\packages\\": {},
+    "C:\\Users\\fatim\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\fatim\\Desktop\\Nova pasta\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj",
       "projectName": "SOSUrbano.Domain",
-      "projectPath": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj",
-      "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\obj\\",
+      "projectPath": "C:\\Users\\fatim\\Desktop\\Nova pasta\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj",
+      "packagesPath": "C:\\Users\\fatim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fatim\\Desktop\\Nova pasta\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fatim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1823,12 +1852,16 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[12.0.0, )"
+          },
           "MediatR": {
             "target": "Package",
             "version": "[12.5.0, )"
@@ -1854,7 +1887,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

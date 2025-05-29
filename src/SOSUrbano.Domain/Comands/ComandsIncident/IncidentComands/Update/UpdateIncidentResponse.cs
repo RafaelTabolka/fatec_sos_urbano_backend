@@ -2,8 +2,8 @@
 
 namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Update
 {
-    public class UpdateIncidentResponse(Incident incident)
+    public class UpdateIncidentResponse(string message)
     {
-        public Incident Incident { get; } = incident;
+        public string Message { get; } = message;
     }
 }

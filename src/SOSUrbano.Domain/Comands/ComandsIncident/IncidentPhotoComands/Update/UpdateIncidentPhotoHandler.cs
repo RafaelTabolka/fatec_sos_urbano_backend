@@ -18,7 +18,11 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Update
 
             incidentPhoto.SavedPath = request.SavedPath;
 
-            return new UpdateIncidentPhotoResponse(incidentPhoto);
+            repositoryIncidentPhoto.Update(incidentPhoto);
+
+            await repositoryIncidentPhoto.CommitAsync();
+
+            return new UpdateIncidentPhotoResponse("Atualizado com sucesso");
         }
     }
 }

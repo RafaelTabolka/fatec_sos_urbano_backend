@@ -2,10 +2,8 @@
 
 namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionStatusComands.Update
 {
-    public class UpdateInstitutionStatusResponse 
-        (InstitutionStatus institutionStatus)
+    public class UpdateInstitutionStatusResponse(string message)
     {
-        public InstitutionStatus InstitutionStatus { get; } =
-            institutionStatus;
+        public string Message { get; } = message;
     }
 }

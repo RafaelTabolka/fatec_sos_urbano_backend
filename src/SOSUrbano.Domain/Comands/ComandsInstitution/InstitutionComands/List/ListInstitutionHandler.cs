@@ -25,12 +25,12 @@ namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.List
                 i.UrlSite,
                 i.Description,
                 i.Address,
-                new DtoInstitutionStatusResponse(i.InstitutionStatus.Name),
-                new DtoInstitutionTypeResponse(i.InstitutionType.Name),
+                new DtoInstitutionStatusResponse(i.InstitutionStatusId, i.InstitutionStatus.Name),
+                new DtoInstitutionTypeResponse(i.InstitutionTypeId, i.InstitutionType.Name),
                 i.InstitutionEmails.Select(email =>
-                new DtoInstitutionEmailResponse(email.EmailAddress)).ToList(),
+                new DtoInstitutionEmailResponse(email.Id, email.EmailAddress)).ToList(),
                 i.InstitutionPhones.Select(phone =>
-                new DtoInstitutionPhoneResponse(phone.Number)).ToList()));
+                new DtoInstitutionPhoneResponse(phone.Id, phone.Number)).ToList()));
 
             return new ListInstitutionResponse(response);
         }

@@ -2,9 +2,8 @@
 
 namespace SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionEmailComands.Update
 {
-    public class UpdateInstitutionEmailResponse
-        (InstitutionEmail institutionEmail)
+    public class UpdateInstitutionEmailResponse(string message)
     {
-        public InstitutionEmail InstitutionEmail { get; } = institutionEmail;
+        public string Message { get; } = message;
     }
 }

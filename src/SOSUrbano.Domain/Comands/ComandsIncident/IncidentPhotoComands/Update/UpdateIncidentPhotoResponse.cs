@@ -2,8 +2,8 @@
 
 namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Update
 {
-    public class UpdateIncidentPhotoResponse(IncidentPhoto incidentPhoto)
+    public class UpdateIncidentPhotoResponse(string message)
     {
-        public IncidentPhoto IncidentPhoto { get; } = incidentPhoto;
+        public string Message { get; } = message;
     }
 }

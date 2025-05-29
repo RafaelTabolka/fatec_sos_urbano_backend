@@ -28,9 +28,9 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Get
                 user.Email,
                 user.Cpf,
                 new DtoUserTypeResponse(user.UserType.Name),
-                new DtoUserStatusResponse(user.UserStatus.Name),
+                new DtoUserStatusResponse(user.UserStatusId, user.UserStatus.Name),
                 user.UserPhones != null ? user.UserPhones.Select(phone =>
-                new DtoUserPhoneResponse(phone.Number)).ToList() :
+                new DtoUserPhoneResponse(phone.Id, phone.Number)).ToList() :
                 new List<DtoUserPhoneResponse>(),
                 user.Incidents is not null ?
                 user.Incidents.Select(incident => 
@@ -39,9 +39,9 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Get
                     incident.Description,
                     incident.LatLocalization,
                     incident.LongLocalization,
-                    new DtoIncidentStatusResponse(incident.IncidentStatus.Name),
+                    new DtoIncidentStatusResponse(incident.Id, incident.IncidentStatus.Name),
                     incident.IncidentPhotos.Select(photo => 
-                    new DtoIncidentPhotoResponse(photo.SavedPath)).ToList(),
+                    new DtoIncidentPhotoResponse(photo.Id, photo.SavedPath)).ToList(),
                     incident.UserId,
                     incident.InstitutionId)).ToList() : 
                     new List<DtoIncidentResponse>());
