@@ -5,9 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using SOSUrbano.Domain.Interfaces.Services.LoginRepository;
 
-
-
-namespace SOSUrbano.Infra.Data.Configurations.LoginConfigurations
+namespace SOSUrbano.Infra.CrossCutting.Extensions.Services.LoginService
 {
     public class LoginService(IConfiguration config) : IServiceLogin
     {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SOSUrbano.Infra.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cac05431789748aea4ec0497e37b17875c9da04f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6adf697ff7115d012b26003a1acdc48f3ec101cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("SOSUrbano.Infra.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SOSUrbano.Infra.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,5 +12,7 @@ namespace SOSUrbano.Domain.Interfaces.Repositories.UserRepository
         Task<User> GetByEmailAndPasswordAsync(string email, string password);
 
         Task<IEnumerable<User>> GetAllUsersAsync();
+
+        Task<bool> ThisEmailExist(string email);
     }
 }

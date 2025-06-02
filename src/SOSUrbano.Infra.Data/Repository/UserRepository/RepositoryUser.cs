@@ -95,5 +95,15 @@ namespace SOSUrbano.Infra.Data.Repository.UserRepository
 
             return users;
         }
+
+        public async Task<bool> ThisEmailExist(string email)
+        {
+            /*
+             AnyAsync vai verificar, nesse caso, se esse email existe no banco de dados.
+            Caso exista esse email, retorna true, caso contrário retorna false.
+             */
+            return await _context.UserSet
+                .AnyAsync(user => user.Email == email);
+        }
     }
 }

@@ -68,19 +68,62 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/CreateIncidentRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateIncidentRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateIncidentRequest"
+                "type": "object",
+                "properties": {
+                  "Description": {
+                    "type": "string"
+                  },
+                  "LatLocalization": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "LongLocalization": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "IncidentPhotoRequest": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  },
+                  "InstitutionName": {
+                    "type": "string"
+                  },
+                  "IncidentStatusName": {
+                    "type": "string"
+                  },
+                  "UserId": {
+                    "type": "string",
+                    "format": "uuid"
+                  }
+                }
+              },
+              "encoding": {
+                "Description": {
+                  "style": "form"
+                },
+                "LatLocalization": {
+                  "style": "form"
+                },
+                "LongLocalization": {
+                  "style": "form"
+                },
+                "IncidentPhotoRequest": {
+                  "style": "form"
+                },
+                "InstitutionName": {
+                  "style": "form"
+                },
+                "IncidentStatusName": {
+                  "style": "form"
+                },
+                "UserId": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -999,53 +1042,6 @@
   },
   "components": {
     "schemas": {
-      "CreateIncidentPhotoRequest": {
-        "type": "object",
-        "properties": {
-          "savedPath": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "CreateIncidentRequest": {
-        "type": "object",
-        "properties": {
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "latLocalization": {
-            "type": "number",
-            "format": "double"
-          },
-          "longLocalization": {
-            "type": "number",
-            "format": "double"
-          },
-          "incidentPhotoRequest": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/CreateIncidentPhotoRequest"
-            },
-            "nullable": true
-          },
-          "institutionName": {
-            "type": "string",
-            "nullable": true
-          },
-          "incidentStatusName": {
-            "type": "string",
-            "nullable": true
-          },
-          "userId": {
-            "type": "string",
-            "format": "uuid"
-          }
-        },
-        "additionalProperties": false
-      },
       "CreateIncidentStatusRequest": {
         "type": "object",
         "properties": {

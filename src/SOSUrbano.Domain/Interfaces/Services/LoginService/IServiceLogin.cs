@@ -1,7 +1,4 @@
-﻿using SOSUrbano.Domain.Entities.UserEntity;
-using SOSUrbano.Domain.Interfaces.Repositories.Base;
-
-namespace SOSUrbano.Domain.Interfaces.Services.LoginRepository
+﻿namespace SOSUrbano.Domain.Interfaces.Services.LoginRepository
 {
     public interface IServiceLogin
     {

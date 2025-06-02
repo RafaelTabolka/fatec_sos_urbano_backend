@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Create;
+using Microsoft.AspNetCore.Http;
 
 namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create
 {
@@ -12,7 +12,7 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create
 
         public double LongLocalization { get; set; }
 
-        public List<CreateIncidentPhotoRequest> IncidentPhotoRequest { get; set; } = null!;
+        public List<IFormFile> IncidentPhotoRequest { get; set; } = null!;
 
         public string InstitutionName { get; set; } = string.Empty;
 

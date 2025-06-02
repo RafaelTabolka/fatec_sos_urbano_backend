@@ -40,9 +40,39 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create.CreateIncidentRequest",
-        "IsRequired": true
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LatLocalization",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "LongLocalization",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "IncidentPhotoRequest",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "InstitutionName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IncidentStatusName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.Guid",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\a5eee32a-8d04-4167-8e6c-f03cb4860369.jpg",
+      "PackagePath": "staticwebassets\\Images\\Incident\\a5eee32a-8d04-4167-8e6c-f03cb4860369.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SOSUrbano.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SOSUrbano.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SOSUrbano.WebApi.props",
+      "PackagePath": "build\\SOSUrbano.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SOSUrbano.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\SOSUrbano.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SOSUrbano.WebApi.props",
+      "PackagePath": "buildTransitive\\SOSUrbano.WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

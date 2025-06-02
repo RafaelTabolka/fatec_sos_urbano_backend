@@ -38,7 +38,7 @@ namespace SOSUrbano.WebApi.Controllers.IncidentControllers
         [AllowAnonymous]
         [HttpPost("create")]
         public async Task<IActionResult> CreateIncident
-            (CreateIncidentRequest request)
+            ([FromForm]CreateIncidentRequest request)
         {
             var response = await mediator.Send(request);
 

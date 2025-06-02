@@ -27,6 +27,9 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Create
             if (!validationResult.IsValid)
                 throw new ValidationException(validationResult.Errors);
 
+            if (await repositoryUser.ThisEmailExist(request.Email))
+                throw new Exception("Este email já está em uso.");
+
             var hasher = new PasswordHasher<object>();
             var hashedPassword = hasher.HashPassword
                 (null!, request.Password);
