@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using MediatR;
+﻿using MediatR;
 using SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Dto;
 using SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Dto;
 using SOSUrbano.Domain.Comands.ComandsIncident.IncidentStatusComands.Dto;

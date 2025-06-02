@@ -17,7 +17,7 @@ namespace SOSUrbano.WebApi.Controllers.LoginControllers
             var request = new LoginUserRequest(email, password);
             var response = await mediator.Send(request);
 
-            return Ok(response.AccessToken);
+            return Ok(response);
         }
     }
 }

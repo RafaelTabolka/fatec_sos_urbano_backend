@@ -10,8 +10,10 @@ using Microsoft.OpenApi.Models;
 using SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository;
 using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
+using SOSUrbano.Domain.Interfaces.Services.FileService;
 using SOSUrbano.Domain.Interfaces.Services.LoginRepository;
-using SOSUrbano.Infra.Data.Configurations.LoginConfigurations;
+using SOSUrbano.Infra.CrossCutting.Extensions.Services.FileService;
+using SOSUrbano.Infra.CrossCutting.Extensions.Services.LoginService;
 using SOSUrbano.Infra.Data.Context;
 using SOSUrbano.Infra.Data.Repository.IncidentRepository;
 using SOSUrbano.Infra.Data.Repository.InstitutionRepository;
@@ -85,6 +87,7 @@ namespace SOSUrbano.WebApi
             builder.Services.AddScoped<IRepositoryUserPhone, RepositoryUserPhone>();
 
             builder.Services.AddScoped<IServiceLogin, LoginService>();
+            builder.Services.AddScoped<IFileService, FileService>();
             
             builder.Services.AddScoped<IRepositoryInstitution, RepositoryInstitution>();
             builder.Services.AddScoped<IRepositoryInstitutionStatus, RepositoryInstitutionStatus>();
@@ -143,6 +146,8 @@ namespace SOSUrbano.WebApi
             }
 
             app.UseHttpsRedirection();
+
+            app.UseStaticFiles();
 
             app.UseAuthentication();
 

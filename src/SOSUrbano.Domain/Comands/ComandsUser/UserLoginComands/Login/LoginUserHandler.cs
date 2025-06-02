@@ -20,6 +20,7 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserLoginComands.Login
                 throw new ValidationException(validationResult.Errors);
 
             var user = await repositoryUser.GetByEmailAndPasswordAsync(request.Email, request.Password);
+            
             if (user is null)
                 throw new Exception("Email ou senha inválidos");
             

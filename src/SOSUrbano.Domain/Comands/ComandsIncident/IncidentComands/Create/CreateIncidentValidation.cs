@@ -22,9 +22,12 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create
             RuleForEach(i => i.IncidentPhotoRequest)
                 .ChildRules(photo =>
                 {
-                    photo.RuleFor(p => p.SavedPath)
-                    .NotEmpty().WithMessage("Caminho da foto obrigatório.")
-                    .MaximumLength(500).WithMessage("Caminho tem no máximo 500 caracteres.");
+                    photo.RuleFor(p => p.FileName)
+                    .NotEmpty().WithMessage("Nome da foto é obrigatória.");
+
+                    photo.RuleFor(p => p.FileName)
+                    .Must(name => name.Length <= 500)
+                    .WithMessage("Limite de 500 caracteres");
                 });
 
             RuleFor(i => i.InstitutionName)

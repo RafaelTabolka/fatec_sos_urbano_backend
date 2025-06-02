@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Create;
 
 namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Update
 {
