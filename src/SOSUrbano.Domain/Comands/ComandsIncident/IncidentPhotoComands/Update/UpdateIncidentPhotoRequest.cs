@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Http;
 
 namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Update
 {
@@ -6,6 +7,6 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Update
         IRequest<UpdateIncidentPhotoResponse>
     {
         public Guid Id { get; set; }
-        public string SavedPath { get; set; } = string.Empty;
+        public IFormFile File { get; set; } = null!;
     }
 }

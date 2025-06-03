@@ -1,10 +1,12 @@
 ﻿using MediatR;
 using SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository;
+using SOSUrbano.Domain.Interfaces.Services.FileService;
 
 namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Update
 {
     internal class UpdateIncidentPhotoHandler
-        (IRepositoryIncidentPhoto repositoryIncidentPhoto) :
+        (IRepositoryIncidentPhoto repositoryIncidentPhoto,
+        IFileService fileService) :
         IRequestHandler<UpdateIncidentPhotoRequest, UpdateIncidentPhotoResponse>
     {
         public async Task<UpdateIncidentPhotoResponse> Handle
@@ -16,7 +18,9 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Update
             if (incidentPhoto is null)
                 throw new Exception("Foto não encontrada.");
 
-            incidentPhoto.SavedPath = request.SavedPath;
+            var path = await fileService.UpdatePathPhotoAsync(request.File);
+
+            incidentPhoto.SavedPath = path;
 
             repositoryIncidentPhoto.Update(incidentPhoto);
 

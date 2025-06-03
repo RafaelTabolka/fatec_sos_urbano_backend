@@ -98,3 +98,23 @@ C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.Infra.D
 C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\SOSUrbano.Infra.Data.pdb
 C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\SOSUrbano.Infra.Data.genruntimeconfig.cache
 C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\ref\SOSUrbano.Infra.Data.dll
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\bin\Debug\net8.0\SOSUrbano.Infra.Data.deps.json
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\bin\Debug\net8.0\SOSUrbano.Infra.Data.runtimeconfig.json
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\bin\Debug\net8.0\SOSUrbano.Infra.Data.dll
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\bin\Debug\net8.0\SOSUrbano.Infra.Data.pdb
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\bin\Debug\net8.0\SOSUrbano.Domain.dll
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\bin\Debug\net8.0\SOSUrbano.Infra.CrossCutting.Extensions.dll
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\bin\Debug\net8.0\SOSUrbano.Domain.pdb
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\bin\Debug\net8.0\SOSUrbano.Infra.CrossCutting.Extensions.pdb
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\SOSUrbano.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\SOSUrbano.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\SOSUrbano.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\SOSUrbano.Infra.Data.AssemblyInfo.cs
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\SOSUrbano.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\SOSUrbano.Infra.Data.sourcelink.json
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\SOSUrban.E38B673B.Up2Date
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\SOSUrbano.Infra.Data.dll
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\refint\SOSUrbano.Infra.Data.dll
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\SOSUrbano.Infra.Data.pdb
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\SOSUrbano.Infra.Data.genruntimeconfig.cache
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Infra.Data\obj\Debug\net8.0\ref\SOSUrbano.Infra.Data.dll

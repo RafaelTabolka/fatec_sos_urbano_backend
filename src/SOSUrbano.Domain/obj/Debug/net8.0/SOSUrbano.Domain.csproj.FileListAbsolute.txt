@@ -63,3 +63,16 @@ C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.Domain\
 C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.Domain\obj\Debug\net8.0\refint\SOSUrbano.Domain.dll
 C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.Domain\obj\Debug\net8.0\SOSUrbano.Domain.pdb
 C:\Users\fatim\Desktop\Nova pasta\fatec_sos_urbano_backend\src\SOSUrbano.Domain\obj\Debug\net8.0\ref\SOSUrbano.Domain.dll
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Domain\bin\Debug\net8.0\SOSUrbano.Domain.deps.json
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Domain\bin\Debug\net8.0\SOSUrbano.Domain.dll
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Domain\bin\Debug\net8.0\SOSUrbano.Domain.pdb
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Domain\obj\Debug\net8.0\SOSUrbano.Domain.csproj.AssemblyReference.cache
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Domain\obj\Debug\net8.0\SOSUrbano.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Domain\obj\Debug\net8.0\SOSUrbano.Domain.AssemblyInfoInputs.cache
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Domain\obj\Debug\net8.0\SOSUrbano.Domain.AssemblyInfo.cs
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Domain\obj\Debug\net8.0\SOSUrbano.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Domain\obj\Debug\net8.0\SOSUrbano.Domain.sourcelink.json
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Domain\obj\Debug\net8.0\SOSUrbano.Domain.dll
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Domain\obj\Debug\net8.0\refint\SOSUrbano.Domain.dll
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Domain\obj\Debug\net8.0\SOSUrbano.Domain.pdb
+C:\Users\fatim\Desktop\backend\fatec_sos_urbano_backend\src\SOSUrbano.Domain\obj\Debug\net8.0\ref\SOSUrbano.Domain.dll
