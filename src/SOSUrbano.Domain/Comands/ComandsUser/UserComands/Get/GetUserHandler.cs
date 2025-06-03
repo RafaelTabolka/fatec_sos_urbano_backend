@@ -34,11 +34,19 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Get
                 user.Name,
                 user.Email,
                 user.Cpf,
+
                 new DtoUserTypeResponse(user.UserType.Name),
-                new DtoUserStatusResponse(user.UserStatusId, user.UserStatus.Name),
+
+                new DtoUserStatusResponse(
+                    user.UserStatusId, 
+                    user.UserStatus.Name),
+
                 user.UserPhones != null ? user.UserPhones.Select(phone =>
-                new DtoUserPhoneResponse(phone.Id, phone.Number)).ToList() :
+                new DtoUserPhoneResponse(
+                    phone.Id, 
+                    phone.Number)).ToList() :
                 new List<DtoUserPhoneResponse>(),
+
                 user.Incidents is not null ?
                 user.Incidents.Select(incident => 
                 new DtoIncidentResponse(

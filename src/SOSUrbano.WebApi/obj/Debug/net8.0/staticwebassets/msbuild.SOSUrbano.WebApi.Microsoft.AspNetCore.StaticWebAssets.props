@@ -1,11 +1,11 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\a5eee32a-8d04-4167-8e6c-f03cb4860369.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\e09e8019-86f4-4ae2-a5aa-609025b28dcc.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>SOSUrbano.WebApi</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/SOSUrbano.WebApi</BasePath>
-      <RelativePath>Images/Incident/a5eee32a-8d04-4167-8e6c-f03cb4860369.jpg</RelativePath>
+      <RelativePath>Images/Incident/e09e8019-86f4-4ae2-a5aa-609025b28dcc.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -16,7 +16,7 @@
       <Integrity>EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\a5eee32a-8d04-4167-8e6c-f03cb4860369.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\e09e8019-86f4-4ae2-a5aa-609025b28dcc.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

@@ -13,6 +13,7 @@ namespace SOSUrbano.WebApi.Controllers.IncidentControllers
     [Route("[controller]")]
     public class IncidentController(ISender mediator) : ControllerBase
     {
+        //[Authorize(Roles = "admin, comum")]
         [AllowAnonymous]
         [HttpGet("getAll")]
         public async Task<IActionResult> GetAllIncidents()
@@ -35,7 +36,7 @@ namespace SOSUrbano.WebApi.Controllers.IncidentControllers
             return Ok(response);
         }
 
-        [AllowAnonymous]
+        [Authorize(Roles = "admin,comum")]
         [HttpPost("create")]
         public async Task<IActionResult> CreateIncident
             ([FromForm]CreateIncidentRequest request)

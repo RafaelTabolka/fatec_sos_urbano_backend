@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fatim\\Desktop\\backend\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj": {}
+    "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fatim\\Desktop\\backend\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj": {
+    "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fatim\\Desktop\\backend\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj",
         "projectName": "SOSUrbano.Domain",
-        "projectPath": "C:\\Users\\fatim\\Desktop\\backend\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj",
-        "packagesPath": "C:\\Users\\fatim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fatim\\Desktop\\backend\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\obj\\",
+        "projectPath": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\SOSUrbano.Domain.csproj",
+        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafae\\Desktop\\SOSUrbano\\fatec_sos_urbano_backend\\src\\SOSUrbano.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fatim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

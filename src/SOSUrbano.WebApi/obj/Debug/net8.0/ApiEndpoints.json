@@ -112,9 +112,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Update.UpdateIncidentPhotoRequest",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
