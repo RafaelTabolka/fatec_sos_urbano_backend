@@ -44,7 +44,7 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create
             var filesPhoto = request.IncidentPhotoRequest
                 .Select(file => file).ToList();
 
-            var paths = await fileService.SavePhotosAsync(filesPhoto);
+            var paths = await fileService.CreatePathPhotosAsync(filesPhoto);
 
             /*
              Zip junta os arquivos na mesma ordem em que são criados. Nesse caso

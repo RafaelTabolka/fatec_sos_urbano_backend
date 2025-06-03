@@ -20,6 +20,9 @@ namespace SOSUrbano.Domain.Comands.ComandsUser.UserComands.Update
             if (!validationResult.IsValid)
                 throw new ValidationException(validationResult.Errors);
 
+            if (await repositoryUser.ThisEmailExist(request.Email))
+                throw new Exception("Email ja está em uso.");
+
             var user = await repositoryUser.GetByIdAsync(request.Id);
 
             if (user is null)

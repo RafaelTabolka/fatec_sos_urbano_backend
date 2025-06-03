@@ -34,6 +34,9 @@ namespace SOSUrbano.Infra.Data.Repository.UserRepository
                 .Include(u => u.UserStatus)
                 .Include(u => u.UserType)
                 .Include(u => u.Incidents)
+                    .ThenInclude(i => i.IncidentStatus)
+                .Include(u => u.Incidents)
+                    .ThenInclude(i => i.IncidentPhotos)
                 .FirstOrDefaultAsync(u => u.Id == id);
 
             if (user is null)

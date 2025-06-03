@@ -1,32 +1,41 @@
-﻿using MediatR;
-using SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository;
-using SOSUrbano.Domain.Interfaces.Services.FileService;
+﻿    using MediatR;
+    using SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository;
+    using SOSUrbano.Domain.Interfaces.Services.FileService;
 
-namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Update
-{
-    internal class UpdateIncidentPhotoHandler
-        (IRepositoryIncidentPhoto repositoryIncidentPhoto,
-        IFileService fileService) :
-        IRequestHandler<UpdateIncidentPhotoRequest, UpdateIncidentPhotoResponse>
+    namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Update
     {
-        public async Task<UpdateIncidentPhotoResponse> Handle
-            (UpdateIncidentPhotoRequest request, CancellationToken cancellationToken)
+        internal class UpdateIncidentPhotoHandler
+            (IRepositoryIncidentPhoto repositoryIncidentPhoto,
+            IFileService fileService) :
+            IRequestHandler<UpdateIncidentPhotoRequest, UpdateIncidentPhotoResponse>
         {
-            var incidentPhoto = await repositoryIncidentPhoto.
-                GetByIdAsync(request.Id);
+            public async Task<UpdateIncidentPhotoResponse> Handle
+                (UpdateIncidentPhotoRequest request, CancellationToken cancellationToken)
+            {
+                var incidentPhoto = await repositoryIncidentPhoto.
+                    GetByIdAsync(request.Id);
 
-            if (incidentPhoto is null)
-                throw new Exception("Foto não encontrada.");
+                if (incidentPhoto is null)
+                    throw new Exception("Foto não encontrada.");
 
-            var path = await fileService.UpdatePathPhotoAsync(request.File);
+                var oldPath = Path.Combine("wwwroot", incidentPhoto.SavedPath ?? "");
 
-            incidentPhoto.SavedPath = path;
+                /*
+                 Por precaução verifica se o arquivo existe e o deleta para que não
+                tenha consumo desnecessário de disco no servidor.
+                 */
+                if (File.Exists(oldPath))
+                    File.Delete(oldPath);
 
-            repositoryIncidentPhoto.Update(incidentPhoto);
+                var path = await fileService.UpdatePathPhotoAsync(request.File);
 
-            await repositoryIncidentPhoto.CommitAsync();
+                incidentPhoto.SavedPath = path;
 
-            return new UpdateIncidentPhotoResponse("Atualizado com sucesso");
+                repositoryIncidentPhoto.Update(incidentPhoto);
+
+                await repositoryIncidentPhoto.CommitAsync();
+
+                return new UpdateIncidentPhotoResponse("Atualizado com sucesso");
+            }
         }
     }
-}
