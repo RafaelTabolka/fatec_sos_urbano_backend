@@ -8,7 +8,7 @@ namespace SOSUrbano.Infra.CrossCutting.Extensions.Services.FileService
         /*
          IFormFile é uma interface que trata o arquivo enviado pelo usuário
          */
-        public async Task<List<string>> SavePhotosAsync(List<IFormFile> files)
+        public async Task<List<string>> CreatePathPhotosAsync(List<IFormFile> files)
         {
             var paths = new List<string>();
 
@@ -85,6 +85,30 @@ namespace SOSUrbano.Infra.CrossCutting.Extensions.Services.FileService
             }
 
             return paths;
+        }
+
+        public async Task<string> UpdatePathPhotoAsync(IFormFile file)
+        {
+            string savedPath;
+
+            string[] extensions = [".jpg", ".png", ".jpeg"];
+
+            var extension = Path.GetExtension(file.FileName);
+
+            if (!extensions.Contains(extension))
+                throw new Exception("Só são aceitos arquivos .jpg, .png e .jpeg");
+
+            var uniqueName = Guid.NewGuid() + extension;
+
+            var path = Path.Combine("wwwroot", "Images", "Incident", uniqueName);
+
+            using var stream = new FileStream(path, FileMode.Create);
+
+            await file.CopyToAsync(stream);
+
+            savedPath = $"Images/Incident/{uniqueName}";
+
+            return savedPath;  
         }
     }
 }
