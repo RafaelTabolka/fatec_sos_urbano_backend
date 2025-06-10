@@ -2,8 +2,6 @@
 using System.Text;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -34,8 +32,18 @@ namespace SOSUrbano.WebApi
                 options.JsonSerializerOptions.WriteIndented = true;
             });
 
-            //JWT(Json Web Token)
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("RestrictLocalhost4200", policy =>
+                {
+                    policy.WithOrigins("http://localhost:4200")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                        //.AllowCredentials();
+                });
+            });
 
+            //JWT(Json Web Token)
             var config = builder.Configuration;
             builder.Services
                 .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -148,6 +156,8 @@ namespace SOSUrbano.WebApi
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
+
+            app.UseCors("RestrictLocalhost4200");
 
             app.UseAuthentication();
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SOSUrbano.Infra.CrossCutting.Extensions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edc0047b30de88524763821ba30e14d5c68e2f26")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbae0ec9afa844557d033835c085d76a8e19a1eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("SOSUrbano.Infra.CrossCutting.Extensions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SOSUrbano.Infra.CrossCutting.Extensions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

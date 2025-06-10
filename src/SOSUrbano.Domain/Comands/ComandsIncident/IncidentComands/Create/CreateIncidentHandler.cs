@@ -72,7 +72,7 @@ namespace SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create
                 incident.LatLocalization,
                 incident.LongLocalization,
                 new DtoIncidentStatusResponse(
-                    incident.Id, 
+                    incident.IncidentStatusId, 
                     incident.IncidentStatus.Name),
                 incident.IncidentPhotos.Select(photo => 
                     new DtoIncidentPhotoResponse(
