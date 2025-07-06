@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionPhoneComands.Update;
+using SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionPhoneCommands.Update;
 
 namespace SOSUrbano.WebApi.Controllers.InstitutionControllers
 {

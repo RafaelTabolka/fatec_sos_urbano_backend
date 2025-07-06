@@ -11,6 +11,11 @@ namespace SOSUrbano.Infra.Data.Repository.IncidentRepository
     {
         private readonly SOSUrbanoContext _context = context;
 
+        public Task<string> ConvertLatLogInAddress(double lat, double longi)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Incident>> GetAllIncidentsAsync()
         {
             var incidents = await _context.IncidentSet

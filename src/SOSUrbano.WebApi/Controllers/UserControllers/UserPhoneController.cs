@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SOSUrbano.Domain.Comands.ComandsUser.UserPhoneComands.Update;
+using SOSUrbano.Domain.Commands.CommandsUser.UserPhoneCommands.Update;
 
 namespace SOSUrbano.WebApi.Controllers.UserControllers
 {

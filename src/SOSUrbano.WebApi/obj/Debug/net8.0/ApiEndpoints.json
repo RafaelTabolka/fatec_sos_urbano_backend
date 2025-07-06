@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.DashboardController.AdminReportsController",
+    "Method": "GetAdminInfosReport",
+    "RelativePath": "AdminReports/getAdminInfosReport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.Get.GetAdminReportsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SOSUrbano.WebApi.Controllers.IncidentControllers.IncidentController",
     "Method": "GetIncidentById",
     "RelativePath": "Incident/{id}",
@@ -97,7 +113,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Update.UpdateIncidentRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Update.UpdateIncidentRequest",
         "IsRequired": true
       }
     ],
@@ -150,7 +166,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsIncident.IncidentStatusComands.Create.CreateIncidentStatusRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsIncident.IncidentStatusCommands.Create.CreateIncidentStatusRequest",
         "IsRequired": true
       }
     ],
@@ -176,7 +192,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsIncident.IncidentStatusComands.Update.UpdateIncidentStatusRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsIncident.IncidentStatusCommands.Update.UpdateIncidentStatusRequest",
         "IsRequired": true
       }
     ],
@@ -224,7 +240,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Create.CreateInstitutionRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionCommands.Create.CreateInstitutionRequest",
         "IsRequired": true
       }
     ],
@@ -250,7 +266,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionComands.Update.UpdateInstitutionRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionCommands.Update.UpdateInstitutionRequest",
         "IsRequired": true
       }
     ],
@@ -266,7 +282,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionEmailComands.Update.UpdateInstitutionEmailRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionEmailCommands.Update.UpdateInstitutionEmailRequest",
         "IsRequired": true
       }
     ],
@@ -282,7 +298,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionPhoneComands.Update.UpdateInstitutionPhoneRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionPhoneCommands.Update.UpdateInstitutionPhoneRequest",
         "IsRequired": true
       }
     ],
@@ -314,7 +330,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionStatusComands.Create.CreateInstitutionStatusRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionStatusCommands.Create.CreateInstitutionStatusRequest",
         "IsRequired": true
       }
     ],
@@ -340,7 +356,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionStatusComands.Update.UpdateInstitutionStatusRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionStatusCommands.Update.UpdateInstitutionStatusRequest",
         "IsRequired": true
       }
     ],
@@ -372,7 +388,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionTypeComands.Create.CreateInstitutionTypeRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionTypeCommands.Create.CreateInstitutionTypeRequest",
         "IsRequired": true
       }
     ],
@@ -398,7 +414,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionTypeComands.Update.UpdateInstitutionTypeRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionTypeCommands.Update.UpdateInstitutionTypeRequest",
         "IsRequired": true
       }
     ],
@@ -467,7 +483,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserComands.Create.CreateUserRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsUser.UserCommands.Create.CreateUserRequest",
         "IsRequired": true
       }
     ],
@@ -493,7 +509,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserComands.Update.UpdateUserRequst",
+        "Type": "SOSUrbano.Domain.Commands.CommandsUser.UserCommands.Update.UpdateUserRequst",
         "IsRequired": true
       }
     ],
@@ -509,7 +525,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserPhoneComands.Update.UpdateUserPhoneRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsUser.UserPhoneCommands.Update.UpdateUserPhoneRequest",
         "IsRequired": true
       }
     ],
@@ -541,7 +557,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Create.CreateUserStatusRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsUser.UserStatusCommands.Create.CreateUserStatusRequest",
         "IsRequired": true
       }
     ],
@@ -567,7 +583,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Update.UpdateUserStatusRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsUser.UserStatusCommands.Update.UpdateUserStatusRequest",
         "IsRequired": true
       }
     ],
@@ -599,7 +615,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Create.CreateUserTypeRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsUser.UserTypeCommands.Create.CreateUserTypeRequest",
         "IsRequired": true
       }
     ],
@@ -625,7 +641,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SOSUrbano.Domain.Comands.ComandsUser.UserTypeComands.Update.UpdateUserTypeRequest",
+        "Type": "SOSUrbano.Domain.Commands.CommandsUser.UserTypeCommands.Update.UpdateUserTypeRequest",
         "IsRequired": true
       }
     ],

@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SOSUrbano.Domain.Comands.ComandsIncident.IncidentPhotoComands.Update;
+using SOSUrbano.Domain.Commands.CommandsIncident.IncidentPhotoCommands.Update;
 
 namespace SOSUrbano.WebApi.Controllers.IncidentControllers
 {

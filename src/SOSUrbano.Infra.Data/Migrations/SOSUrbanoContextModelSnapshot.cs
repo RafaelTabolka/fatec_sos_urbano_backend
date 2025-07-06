@@ -28,12 +28,18 @@ namespace SOSUrbano.Infra.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<Guid>("IncidentStatusId")
                         .HasColumnType("uniqueidentifier");
@@ -110,7 +116,7 @@ namespace SOSUrbano.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("incident_statuses", (string)null);
+                    b.ToTable("tb_incident_statuses", (string)null);
                 });
 
             modelBuilder.Entity("SOSUrbano.Domain.Entities.InstitutionEntity.Institution", b =>

@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SOSUrbano.Domain.Comands.ComandsUser.UserLoginComands.Login;
+using SOSUrbano.Domain.Commands.CommandsUser.UserLoginCommands.Login;
 
 namespace SOSUrbano.WebApi.Controllers.LoginControllers
 {

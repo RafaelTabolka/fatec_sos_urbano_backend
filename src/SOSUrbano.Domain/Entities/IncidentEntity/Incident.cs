@@ -11,6 +11,8 @@ namespace SOSUrbano.Domain.Entities.IncidentEntity
         public double LatLocalization { get; set; }
 
         public double LongLocalization { get; set; }
+
+        public string Address { get; set; } = string.Empty;
         
         public Guid UserId { get; set; }
 
@@ -27,13 +29,14 @@ namespace SOSUrbano.Domain.Entities.IncidentEntity
         public List<IncidentPhoto> IncidentPhotos { get; set; } = null!;
 
         public Incident (string description, double latLocalization,
-            double longLocalization, Guid institutionId,
+            double longLocalization, string address, Guid institutionId,
             Guid incidentStatusId, Guid userId)
         {
             Id = Guid.NewGuid();
             Description = description;
             LatLocalization = latLocalization;
             LongLocalization = longLocalization;
+            Address = address;
             InstitutionId = institutionId;
             IncidentStatusId = incidentStatusId;
             UserId = userId;

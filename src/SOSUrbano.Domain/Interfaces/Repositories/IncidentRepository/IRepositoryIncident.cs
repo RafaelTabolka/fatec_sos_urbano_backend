@@ -8,5 +8,7 @@ namespace SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository
         Task<IEnumerable<Incident>> GetAllIncidentsAsync();
 
         Task<Incident> GetIncidentByIdAsync(Guid id);
+
+        Task<string> ConvertLatLogInAddress(double lat, double longi);
     }
 }

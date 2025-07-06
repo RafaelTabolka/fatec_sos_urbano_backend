@@ -14,7 +14,7 @@ namespace SOSUrbano.Infra.Data.Configurations.IncidentConfiguration
             builder.Property(status => status.Name)
                 .HasMaxLength(50);
 
-            builder.ToTable("incident_statuses");
+            builder.ToTable("tb_incident_statuses");
         }
     }
 }
