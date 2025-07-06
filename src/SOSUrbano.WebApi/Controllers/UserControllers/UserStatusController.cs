@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
-using SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Create;
-using SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Delete;
-using SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.List;
-using SOSUrbano.Domain.Comands.ComandsUser.UserStatusComands.Update;
+using SOSUrbano.Domain.Commands.CommandsUser.UserStatusCommands.Create;
+using SOSUrbano.Domain.Commands.CommandsUser.UserStatusCommands.Delete;
+using SOSUrbano.Domain.Commands.CommandsUser.UserStatusCommands.List;
+using SOSUrbano.Domain.Commands.CommandsUser.UserStatusCommands.Update;
 
 namespace SOSUrbano.WebApi.Controllers.UserControllers
 {

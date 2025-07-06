@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using SOSUrbano.Domain.Interfaces.Repositories.DashboardAdminRepository;
 using SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository;
 using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
@@ -13,6 +14,7 @@ using SOSUrbano.Domain.Interfaces.Services.LoginRepository;
 using SOSUrbano.Infra.CrossCutting.Extensions.Services.FileService;
 using SOSUrbano.Infra.CrossCutting.Extensions.Services.LoginService;
 using SOSUrbano.Infra.Data.Context;
+using SOSUrbano.Infra.Data.Repository.DashboardRepository;
 using SOSUrbano.Infra.Data.Repository.IncidentRepository;
 using SOSUrbano.Infra.Data.Repository.InstitutionRepository;
 using SOSUrbano.Infra.Data.Repository.UserRepository;
@@ -106,6 +108,8 @@ namespace SOSUrbano.WebApi
             builder.Services.AddScoped<IRepositoryIncident, RepositoryIncident>();
             builder.Services.AddScoped<IRepositoryIncidentPhoto, RepositoryIncidentPhoto>();
             builder.Services.AddScoped<IRepositoryIncidentStatus, RepositoryIncidentStatus>();
+
+            builder.Services.AddScoped<IRepositoryDashboardAdmin, RepositoryDashboardAdmin>();
 
             var assemblies = AppDomain.CurrentDomain.GetAssemblies();
             builder.Services.AddMediatR(cfg => 

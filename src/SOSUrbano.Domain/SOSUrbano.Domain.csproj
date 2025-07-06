@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Comands\ComandsIncident\IncidentPhotoComands\Update\NovaPasta\**" />
-    <EmbeddedResource Remove="Comands\ComandsIncident\IncidentPhotoComands\Update\NovaPasta\**" />
-    <None Remove="Comands\ComandsIncident\IncidentPhotoComands\Update\NovaPasta\**" />
+    <Compile Remove="Commands\CommandsIncident\IncidentPhotoCommands\Update\NovaPasta\**" />
+    <EmbeddedResource Remove="Commands\CommandsIncident\IncidentPhotoCommands\Update\NovaPasta\**" />
+    <None Remove="Commands\CommandsIncident\IncidentPhotoCommands\Update\NovaPasta\**" />
   </ItemGroup>
 
   <ItemGroup>

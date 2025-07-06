@@ -1,16 +1,100 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/01178287-5f3a-422d-a873-552032e0cf2d.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\01178287-5f3a-422d-a873-552032e0cf2d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-93Ah6NRzI1PJoUdCY9raIWF5wxq8I0AE4CvcnA9NGFY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"116966"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002293Ah6NRzI1PJoUdCY9raIWF5wxq8I0AE4CvcnA9NGFY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Jul 2025 18:50:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/01178287-5f3a-422d-a873-552032e0cf2d.xagy02so5w.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\01178287-5f3a-422d-a873-552032e0cf2d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xagy02so5w"},{"Name":"integrity","Value":"sha256-93Ah6NRzI1PJoUdCY9raIWF5wxq8I0AE4CvcnA9NGFY="},{"Name":"label","Value":"_content/SOSUrbano.WebApi/Images/Incident/01178287-5f3a-422d-a873-552032e0cf2d.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"116966"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002293Ah6NRzI1PJoUdCY9raIWF5wxq8I0AE4CvcnA9NGFY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Jul 2025 18:50:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/092c705b-49dc-4898-84da-dbf63b0e8a3f.8i4h8u4rpm.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\092c705b-49dc-4898-84da-dbf63b0e8a3f.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8i4h8u4rpm"},{"Name":"integrity","Value":"sha256-EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac="},{"Name":"label","Value":"_content/SOSUrbano.WebApi/Images/Incident/092c705b-49dc-4898-84da-dbf63b0e8a3f.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"68001"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 04:36:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/092c705b-49dc-4898-84da-dbf63b0e8a3f.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\092c705b-49dc-4898-84da-dbf63b0e8a3f.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"68001"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 04:36:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/0abad02d-9e5f-47e6-b902-f5f51575bfbb.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\0abad02d-9e5f-47e6-b902-f5f51575bfbb.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IsR3K8n9MLaE4S\u002BO3i/dFVxy18vssH/cAHbHFwCAkfM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"24860"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022IsR3K8n9MLaE4S\u002BO3i/dFVxy18vssH/cAHbHFwCAkfM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Jul 2025 18:52:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/0abad02d-9e5f-47e6-b902-f5f51575bfbb.ql9xhv4nbl.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\0abad02d-9e5f-47e6-b902-f5f51575bfbb.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ql9xhv4nbl"},{"Name":"integrity","Value":"sha256-IsR3K8n9MLaE4S\u002BO3i/dFVxy18vssH/cAHbHFwCAkfM="},{"Name":"label","Value":"_content/SOSUrbano.WebApi/Images/Incident/0abad02d-9e5f-47e6-b902-f5f51575bfbb.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24860"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022IsR3K8n9MLaE4S\u002BO3i/dFVxy18vssH/cAHbHFwCAkfM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Jul 2025 18:52:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/0b099561-14f4-4fc2-849a-c1152a9a8e05.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\0b099561-14f4-4fc2-849a-c1152a9a8e05.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-93Ah6NRzI1PJoUdCY9raIWF5wxq8I0AE4CvcnA9NGFY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"116966"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002293Ah6NRzI1PJoUdCY9raIWF5wxq8I0AE4CvcnA9NGFY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 04:36:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/0b099561-14f4-4fc2-849a-c1152a9a8e05.xagy02so5w.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\0b099561-14f4-4fc2-849a-c1152a9a8e05.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xagy02so5w"},{"Name":"integrity","Value":"sha256-93Ah6NRzI1PJoUdCY9raIWF5wxq8I0AE4CvcnA9NGFY="},{"Name":"label","Value":"_content/SOSUrbano.WebApi/Images/Incident/0b099561-14f4-4fc2-849a-c1152a9a8e05.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"116966"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002293Ah6NRzI1PJoUdCY9raIWF5wxq8I0AE4CvcnA9NGFY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 04:36:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/0f39fc59-2f2d-439b-baee-57f404b42cf2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\0f39fc59-2f2d-439b-baee-57f404b42cf2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IsR3K8n9MLaE4S\u002BO3i/dFVxy18vssH/cAHbHFwCAkfM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"24860"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022IsR3K8n9MLaE4S\u002BO3i/dFVxy18vssH/cAHbHFwCAkfM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Jul 2025 20:13:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/0f39fc59-2f2d-439b-baee-57f404b42cf2.ql9xhv4nbl.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\0f39fc59-2f2d-439b-baee-57f404b42cf2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ql9xhv4nbl"},{"Name":"integrity","Value":"sha256-IsR3K8n9MLaE4S\u002BO3i/dFVxy18vssH/cAHbHFwCAkfM="},{"Name":"label","Value":"_content/SOSUrbano.WebApi/Images/Incident/0f39fc59-2f2d-439b-baee-57f404b42cf2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24860"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022IsR3K8n9MLaE4S\u002BO3i/dFVxy18vssH/cAHbHFwCAkfM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Jul 2025 20:13:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/2d7c8e28-1bc8-4111-bdf9-a52690f972ac.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\2d7c8e28-1bc8-4111-bdf9-a52690f972ac.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IsR3K8n9MLaE4S\u002BO3i/dFVxy18vssH/cAHbHFwCAkfM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"24860"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022IsR3K8n9MLaE4S\u002BO3i/dFVxy18vssH/cAHbHFwCAkfM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 04:35:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/2d7c8e28-1bc8-4111-bdf9-a52690f972ac.ql9xhv4nbl.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\2d7c8e28-1bc8-4111-bdf9-a52690f972ac.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ql9xhv4nbl"},{"Name":"integrity","Value":"sha256-IsR3K8n9MLaE4S\u002BO3i/dFVxy18vssH/cAHbHFwCAkfM="},{"Name":"label","Value":"_content/SOSUrbano.WebApi/Images/Incident/2d7c8e28-1bc8-4111-bdf9-a52690f972ac.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24860"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022IsR3K8n9MLaE4S\u002BO3i/dFVxy18vssH/cAHbHFwCAkfM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 04:35:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/7dc2b3c7-4268-4e88-aa60-13042da5fe91.8i4h8u4rpm.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\7dc2b3c7-4268-4e88-aa60-13042da5fe91.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8i4h8u4rpm"},{"Name":"integrity","Value":"sha256-EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac="},{"Name":"label","Value":"_content/SOSUrbano.WebApi/Images/Incident/7dc2b3c7-4268-4e88-aa60-13042da5fe91.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"68001"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Jul 2025 18:47:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/7dc2b3c7-4268-4e88-aa60-13042da5fe91.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\7dc2b3c7-4268-4e88-aa60-13042da5fe91.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"68001"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Jul 2025 18:47:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/e09e8019-86f4-4ae2-a5aa-609025b28dcc.8i4h8u4rpm.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\e09e8019-86f4-4ae2-a5aa-609025b28dcc.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8i4h8u4rpm"},{"Name":"integrity","Value":"sha256-EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac="},{"Name":"label","Value":"_content/SOSUrbano.WebApi/Images/Incident/e09e8019-86f4-4ae2-a5aa-609025b28dcc.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"68001"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac=\u0022"},{"Name":"Last-Modified","Value":"Tue, 03 Jun 2025 04:17:51 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"68001"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 02:41:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SOSUrbano.WebApi/Images/Incident/e09e8019-86f4-4ae2-a5aa-609025b28dcc.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\e09e8019-86f4-4ae2-a5aa-609025b28dcc.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"68001"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac=\u0022"},{"Name":"Last-Modified","Value":"Tue, 03 Jun 2025 04:17:51 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"68001"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 02:41:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

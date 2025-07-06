@@ -1,10 +1,10 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionTypeComands.Create;
-using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionTypeComands.Delete;
-using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionTypeComands.List;
-using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionTypeComands.Update;
+using SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionTypeCommands.Create;
+using SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionTypeCommands.Delete;
+using SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionTypeCommands.List;
+using SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionTypeCommands.Update;
 
 namespace SOSUrbano.WebApi.Controllers.InstitutionControllers
 {

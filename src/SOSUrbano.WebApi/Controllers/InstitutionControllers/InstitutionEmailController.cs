@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SOSUrbano.Domain.Comands.ComandsInstitution.InstitutionEmailComands.Update;
+using SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionEmailCommands.Update;
 
 namespace SOSUrbano.WebApi.Controllers.InstitutionControllers
 {

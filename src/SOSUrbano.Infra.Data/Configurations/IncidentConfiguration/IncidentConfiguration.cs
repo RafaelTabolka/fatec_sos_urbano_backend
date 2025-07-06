@@ -18,6 +18,9 @@ namespace SOSUrbano.Infra.Data.Configurations.IncidentConfiguration
 
             builder.Property(incident => incident.LongLocalization);
 
+            builder.Property(incident => incident.Address)
+                .HasMaxLength(150);
+
             builder.HasOne(incident => incident.User)
                 .WithMany()
                 .HasForeignKey(incident => incident.UserId);

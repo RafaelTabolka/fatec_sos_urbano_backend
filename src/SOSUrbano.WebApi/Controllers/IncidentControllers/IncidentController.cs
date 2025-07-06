@@ -1,11 +1,11 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Create;
-using SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Delete;
-using SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Get;
-using SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.List;
-using SOSUrbano.Domain.Comands.ComandsIncident.IncidentComands.Update;
+using SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Create;
+using SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Delete;
+using SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Get;
+using SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.List;
+using SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Update;
 
 namespace SOSUrbano.WebApi.Controllers.IncidentControllers
 {
