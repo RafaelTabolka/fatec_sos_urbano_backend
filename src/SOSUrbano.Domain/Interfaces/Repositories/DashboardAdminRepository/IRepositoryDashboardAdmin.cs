@@ -1,9 +1,9 @@
-﻿using SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.Get;
+﻿using SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.ListInfosReport;
 
 namespace SOSUrbano.Domain.Interfaces.Repositories.DashboardAdminRepository
 {
     public interface IRepositoryDashboardAdmin
     {
-        Task<GetAdminReportsResponse> GetInfosReport(GetAdminReportsRequest request);
+        Task<ListInfosReportResponse> GetInfosReportAsync(ListInfosReportRequest request);
     }
 }

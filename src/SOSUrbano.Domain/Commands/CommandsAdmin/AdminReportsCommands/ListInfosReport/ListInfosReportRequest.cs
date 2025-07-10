@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-namespace SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.Get
+namespace SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.ListInfosReport
 {
-    public class GetAdminReportsRequest : IRequest<GetAdminReportsResponse>
+    public class ListInfosReportRequest : IRequest<ListInfosReportResponse>
     {
         public DateTime? StartDate { get; set; }
 

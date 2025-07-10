@@ -5,30 +5,43 @@
     "version": "v1"
   },
   "paths": {
-    "/AdminReports/getAdminInfosReport": {
-      "post": {
+    "/AdminInfosReport/getAdminInfosReport": {
+      "get": {
         "tags": [
-          "AdminReports"
+          "AdminInfosReport"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/GetAdminReportsRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/GetAdminReportsRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/GetAdminReportsRequest"
-              }
+        "parameters": [
+          {
+            "name": "StartDate",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "EndtDate",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "Status",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Address",
+            "in": "query",
+            "schema": {
+              "type": "string"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -1252,30 +1265,6 @@
         },
         "additionalProperties": false
       },
-      "GetAdminReportsRequest": {
-        "type": "object",
-        "properties": {
-          "startDate": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "endtDate": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "status": {
-            "type": "string",
-            "nullable": true
-          },
-          "address": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "UpdateIncidentRequest": {
         "type": "object",
         "properties": {
@@ -1294,6 +1283,10 @@
           "longLocalization": {
             "type": "number",
             "format": "double"
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
           },
           "institutionName": {
             "type": "string",

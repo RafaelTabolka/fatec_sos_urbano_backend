@@ -36,7 +36,8 @@ namespace SOSUrbano.WebApi.Controllers.IncidentControllers
             return Ok(response);
         }
 
-        [Authorize(Roles = "admin,comum")]
+        //[Authorize(Roles = "admin,comum")]
+        [AllowAnonymous]
         [HttpPost("create")]
         public async Task<IActionResult> CreateIncident
             ([FromForm]CreateIncidentRequest request)

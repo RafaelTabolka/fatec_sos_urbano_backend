@@ -35,6 +35,7 @@ namespace SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Update
             incident.Description = request.Description;
             incident.LatLocalization = request.LatLocalization;
             incident.LongLocalization = request.LongLocalization;
+            incident.Address = request.Address;
             incident.InstitutionId = institution.Id;
             incident.IncidentStatusId = incidentStatus.Id;
 
