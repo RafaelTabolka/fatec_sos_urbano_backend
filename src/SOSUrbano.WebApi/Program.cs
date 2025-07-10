@@ -10,8 +10,10 @@ using SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository;
 using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
 using SOSUrbano.Domain.Interfaces.Repositories.UserRepository;
 using SOSUrbano.Domain.Interfaces.Services.FileService;
+using SOSUrbano.Domain.Interfaces.Services.GeoLocalizationService;
 using SOSUrbano.Domain.Interfaces.Services.LoginRepository;
 using SOSUrbano.Infra.CrossCutting.Extensions.Services.FileService;
+using SOSUrbano.Infra.CrossCutting.Extensions.Services.GeoLocalizationService;
 using SOSUrbano.Infra.CrossCutting.Extensions.Services.LoginService;
 using SOSUrbano.Infra.Data.Context;
 using SOSUrbano.Infra.Data.Repository.DashboardRepository;
@@ -27,10 +29,10 @@ namespace SOSUrbano.WebApi
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Adiciona suporte para lidar com referências circulares
+            //Adiciona suporte para lidar com referências circulares
             builder.Services.AddControllers().AddJsonOptions(options =>
             {
-                options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+                options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
                 options.JsonSerializerOptions.WriteIndented = true;
             });
 
@@ -98,6 +100,7 @@ namespace SOSUrbano.WebApi
 
             builder.Services.AddScoped<IServiceLogin, LoginService>();
             builder.Services.AddScoped<IFileService, FileService>();
+            builder.Services.AddHttpClient<IGeoLozalizationService, GeoLocalizationService>();
             
             builder.Services.AddScoped<IRepositoryInstitution, RepositoryInstitution>();
             builder.Services.AddScoped<IRepositoryInstitutionStatus, RepositoryInstitutionStatus>();

@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
 
-namespace SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.Get
+namespace SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.ListInfosReport
 {
-    public class GetAdminReportsValidation : AbstractValidator<GetAdminReportsRequest>
+    public class ListInfosReportValidation : AbstractValidator<ListInfosReportRequest>
     {
         //public GetDashboardValidation()
         //{

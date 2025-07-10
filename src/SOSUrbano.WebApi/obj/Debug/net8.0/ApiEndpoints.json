@@ -1,16 +1,31 @@
 [
   {
-    "ContainingType": "SOSUrbano.WebApi.Controllers.DashboardController.AdminReportsController",
+    "ContainingType": "SOSUrbano.WebApi.Controllers.DashboardController.AdminInfosReportController",
     "Method": "GetAdminInfosReport",
-    "RelativePath": "AdminReports/getAdminInfosReport",
-    "HttpMethod": "POST",
+    "RelativePath": "AdminInfosReport/getAdminInfosReport",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.Get.GetAdminReportsRequest",
-        "IsRequired": true
+        "Name": "StartDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndtDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

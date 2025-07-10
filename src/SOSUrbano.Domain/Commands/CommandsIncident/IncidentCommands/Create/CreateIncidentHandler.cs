@@ -6,6 +6,7 @@ using SOSUrbano.Domain.Entities.IncidentEntity;
 using SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository;
 using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
 using SOSUrbano.Domain.Interfaces.Services.FileService;
+using SOSUrbano.Domain.Interfaces.Services.GeoLocalizationService;
 using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Create
@@ -14,7 +15,8 @@ namespace SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Create
         (IRepositoryIncident repositoryIncident,
         IRepositoryIncidentStatus repositoryIncidentStatus,
         IRepositoryInstitution repositoryInstitution,
-        IFileService fileService) :
+        IFileService fileService,
+        IGeoLozalizationService geoLozalizationService) :
         IRequestHandler<CreateIncidentRequest, CreateIncidentResponse>
     {
         public async Task<CreateIncidentResponse> Handle
@@ -32,11 +34,27 @@ namespace SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Create
             var incidentStatus = await repositoryIncidentStatus
                 .GetIncidentStatusByNameAsync(request.IncidentStatusName);
 
+            var json = await geoLozalizationService
+                .GetAddressFromCoordinatesAsync(request.LatLocalization, request.LongLocalization);
+
+            if (!json.TryGetProperty("address", out var address))
+                throw new Exception("Endereço não encontrado");
+
+            var road = address.TryGetProperty("road", out var roadValue)
+                ? roadValue.ToString()
+                : "null";
+
+            var suburb = address.TryGetProperty("suburb", out var suburbValue)
+                ? suburbValue.ToString()
+                : "null";
+
+            var fullAddress = $"{road}, {suburb}";
+
             var incident = new Incident(
                 request.Description,
                 request.LatLocalization,
                 request.LongLocalization,
-                "Testando endereço estático",
+                fullAddress,
                 institution.Id,
                 incidentStatus.Id,
                 request.UserId
@@ -60,6 +78,7 @@ namespace SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Create
                 incident.Description,
                 incident.LatLocalization,
                 incident.LongLocalization,
+                incident.Address,
                 new DtoIncidentStatusResponse(
                     incident.IncidentStatusId, 
                     incident.IncidentStatus.Name),

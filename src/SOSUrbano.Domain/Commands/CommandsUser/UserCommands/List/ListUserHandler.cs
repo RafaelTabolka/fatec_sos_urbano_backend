@@ -35,6 +35,7 @@ namespace SOSUrbano.Domain.Commands.CommandsUser.UserCommands.List
                     incident.Description,
                     incident.LatLocalization,
                     incident.LongLocalization,
+                    incident.Address,
                     new DtoIncidentStatusResponse(incident.Id, incident.IncidentStatus.Name),
                     incident.IncidentPhotos.Select(photo => 
                     new DtoIncidentPhotoResponse(photo.Id, photo.SavedPath)).ToList(),

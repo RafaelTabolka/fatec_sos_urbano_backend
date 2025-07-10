@@ -8,6 +8,7 @@ namespace SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Dto
         string description,
         double latLocalization,
         double longLocalization,
+        string address,
         DtoIncidentStatusResponse incidentStatus,
         List<DtoIncidentPhotoResponse> incidentPhotos,
         Guid userId,
@@ -20,6 +21,8 @@ namespace SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Dto
         public double LatLocalization { get; } = latLocalization;
 
         public double LongLocalization { get; } = longLocalization;
+
+        public string Address { get; } = address;
 
         public DtoIncidentStatusResponse IncidentStauts { get; } = incidentStatus;
 
