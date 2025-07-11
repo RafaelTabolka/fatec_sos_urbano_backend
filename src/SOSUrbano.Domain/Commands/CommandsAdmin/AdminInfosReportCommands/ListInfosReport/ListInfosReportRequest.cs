@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.ListInfosReport
+namespace SOSUrbano.Domain.Commands.CommandsAdmin.AdminInfosReportCommands.ListInfosReport
 {
     public class ListInfosReportRequest : IRequest<ListInfosReportResponse>
     {

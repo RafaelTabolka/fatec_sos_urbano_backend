@@ -1,8 +1,10 @@
 ﻿using System.Text;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.Dto;
-using SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.ListInfosReport;
+using SOSUrbano.Domain.Commands.CommandsAdmin.AdminInfosReportCommands.Dto;
+using SOSUrbano.Domain.Commands.CommandsAdmin.AdminInfosReportCommands.ListInfosReport;
+using SOSUrbano.Domain.Commands.CommandsAdmin.AdminManageIncidentsCommands.Dto;
+using SOSUrbano.Domain.Commands.CommandsAdmin.AdminManageIncidentsCommands.ListManageIncidents;
 using SOSUrbano.Domain.Interfaces.Repositories.DashboardAdminRepository;
 using SOSUrbano.Infra.Data.Context;
 
@@ -69,7 +71,7 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
 
             var parametersIncidentByAddress = new List<SqlParameter>();
 
-            sqlIncidentsByAddress.Append(MakeFiltersChart(request, parametersIncidentByAddress));
+            sqlIncidentsByAddress.Append(MakeFiltersChartsInfosReport(request, parametersIncidentByAddress));
 
             //if (request.StartDate is not null)
             //    sqlIncidentsByAddress.Append($" AND i.CreatedAt >= '{request.StartDate:yyyy-MM-dd}'");
@@ -102,7 +104,7 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
 
             var parametersIncidentByStatuses = new List<SqlParameter>();
 
-            sqlIncidentsByStatuses.Append(MakeFiltersChart(request, parametersIncidentByStatuses));
+            sqlIncidentsByStatuses.Append(MakeFiltersChartsInfosReport(request, parametersIncidentByStatuses));
 
             //if (request.StartDate is not null)
             //    sqlIncidentsByStatuses.Append($" AND i.CreatedAt >= {request.StartDate}");
@@ -135,7 +137,7 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
         }
 
         #region Function of Filters for Charts
-        internal StringBuilder MakeFiltersChart(ListInfosReportRequest request, List<SqlParameter> parameters)
+        internal StringBuilder MakeFiltersChartsInfosReport(ListInfosReportRequest request, List<SqlParameter> parameters)
         {
             var filters = new StringBuilder();
             
@@ -165,5 +167,80 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
             return filters;
         }
         #endregion
+        
+        public async Task<ListManageIncidentsResponse> GetManageIncidentsAsync(ListManageIncidentsRequest request)
+        {
+            #region Table Incidents
+            var sqlManageIncidents = new StringBuilder();
+
+            sqlManageIncidents.Append(@"SELECT 
+	                                        u.Name AS UserName, 
+	                                        i.Description AS Description, 
+	                                        ist.Name AS Status, 
+	                                        i.CreatedAt AS DateIncident,
+	                                        IIF(ist.Name = 'Concluído', i.UpdatedAt, null) AS DateResolution,
+	                                        i.Address,
+	                                        ins.Name AS Institution
+                                        FROM tb_users AS u
+                                        INNER JOIN tb_incidents AS i
+                                        ON (i.UserId = u.Id)
+                                        INNER JOIN tb_incident_statuses AS ist
+                                        ON (ist.Id = i.IncidentStatusId)
+                                        INNER JOIN tb_institutions AS ins
+                                        ON (ins.Id = i.InstitutionId)
+                                        WHERE 1=1");
+
+            var parameters = new List<SqlParameter>();
+
+            if (!string.IsNullOrWhiteSpace(request.UserName))
+            {
+                sqlManageIncidents.Append(" AND u.Name = @userName");
+                parameters.Add(new SqlParameter("@userName", request.UserName));
+            }
+
+            if (!string.IsNullOrWhiteSpace(request.Description))
+            {
+                sqlManageIncidents.Append(" AND i.Description = @description");
+                parameters.Add(new SqlParameter("@description", request.Description));
+            }
+
+            if (request.StartDate is not null)
+            {
+                sqlManageIncidents.Append(" AND i.CreatedAt >= @startDate");
+                parameters.Add(new SqlParameter("@startDate", request.StartDate));
+            }
+
+            if (request.EndDate is not null)
+            {
+                sqlManageIncidents.Append(" AND i.CreatedAt <= @endDate");
+                parameters.Add(new SqlParameter("@endDate", request.EndDate));
+            }
+
+            if (!string.IsNullOrWhiteSpace(request.Status))
+            {
+                sqlManageIncidents.Append(" AND ist.Name = @status");
+                parameters.Add(new SqlParameter("@status", request.Status));
+            }
+
+            if (!string.IsNullOrWhiteSpace(request.Institution))
+            {
+                sqlManageIncidents.Append(" AND ins.Name = @institution");
+                parameters.Add(new SqlParameter("@institution", request.Institution));
+            }
+
+            if (!string.IsNullOrWhiteSpace(request.Address))
+            {
+                sqlManageIncidents.Append(" AND i.Address = @address");
+                parameters.Add(new SqlParameter("@address", request.Address));
+            }
+
+            var manageIncidents = await context.Database.SqlQueryRaw<AdminManageIncidentsDto>(
+                sqlManageIncidents.ToString(),
+                parameters.ToArray())
+                .ToListAsync();
+            #endregion
+
+            return new ListManageIncidentsResponse(manageIncidents);
+        }
     }
 }

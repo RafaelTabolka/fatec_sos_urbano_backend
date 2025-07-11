@@ -12,8 +12,6 @@ namespace SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Update
 
         public double LongLocalization { get; set; }
 
-        public string Address { get; set; } = string.Empty;
-
         public string InstitutionName { get; set; } = string.Empty;
 
         public string IncidentStatusName { get; set; } = string.Empty;

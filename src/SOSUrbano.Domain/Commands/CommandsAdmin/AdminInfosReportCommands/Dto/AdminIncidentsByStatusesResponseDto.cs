@@ -1,4 +1,4 @@
-﻿namespace SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.Dto
+﻿namespace SOSUrbano.Domain.Commands.CommandsAdmin.AdminInfosReportCommands.Dto
 {
     public class AdminIncidentsByStatusesResponseDto
     {
