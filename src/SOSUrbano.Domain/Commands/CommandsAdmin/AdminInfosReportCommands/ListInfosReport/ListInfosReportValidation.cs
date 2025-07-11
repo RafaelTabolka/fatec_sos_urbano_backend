@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.ListInfosReport
+namespace SOSUrbano.Domain.Commands.CommandsAdmin.AdminInfosReportCommands.ListInfosReport
 {
     public class ListInfosReportValidation : AbstractValidator<ListInfosReportRequest>
     {

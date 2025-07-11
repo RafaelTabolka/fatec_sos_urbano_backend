@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using SOSUrbano.Domain.Commands.CommandsAdmin.AdminReportsCommands.ListInfosReport;
+using SOSUrbano.Domain.Commands.CommandsAdmin.AdminInfosReportCommands.ListInfosReport;
 
 namespace SOSUrbano.WebApi.Controllers.DashboardController
 {

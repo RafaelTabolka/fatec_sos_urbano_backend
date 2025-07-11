@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using SOSUrbano.Domain.Interfaces.Repositories.IncidentRepository;
 using SOSUrbano.Domain.Interfaces.Repositories.InstitutionRepository;
+using SOSUrbano.Domain.Interfaces.Services.GeoLocalizationService;
 using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Update
@@ -8,7 +9,8 @@ namespace SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Update
     internal class UpdateIncidentHandler
         (IRepositoryIncident repositoryIncident,
         IRepositoryInstitution repositoryInstitution,
-        IRepositoryIncidentStatus repositoryIncidentStatus) :
+        IRepositoryIncidentStatus repositoryIncidentStatus,
+        IGeoLozalizationService geoLozalizationService) :
         IRequestHandler<UpdateIncidentRequest, UpdateIncidentResponse>
     {
         public async Task<UpdateIncidentResponse> Handle
@@ -32,10 +34,26 @@ namespace SOSUrbano.Domain.Commands.CommandsIncident.IncidentCommands.Update
             var incidentStatus = await repositoryIncidentStatus
                 .GetIncidentStatusByNameAsync(request.IncidentStatusName);
 
+            var json = await geoLozalizationService
+                .GetAddressFromCoordinatesAsync(request.LatLocalization, request.LongLocalization);
+
+            if (!json.TryGetProperty("address", out var address))
+                throw new Exception("Endereço não encontrado");
+
+            var road = address.TryGetProperty("road", out var roadValue)
+                ? roadValue.ToString()
+                : "null";
+
+            var suburb = address.TryGetProperty("suburb", out var suburbValue)
+                ? suburbValue.ToString()
+                : "null";
+
+            var fullAddress = $"{road}, {suburb}";
+
             incident.Description = request.Description;
             incident.LatLocalization = request.LatLocalization;
             incident.LongLocalization = request.LongLocalization;
-            incident.Address = request.Address;
+            incident.Address = fullAddress;
             incident.InstitutionId = institution.Id;
             incident.IncidentStatusId = incidentStatus.Id;
 
