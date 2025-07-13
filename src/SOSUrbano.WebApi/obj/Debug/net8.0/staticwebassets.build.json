@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R7Vwd2D1ioh99SdntvSYeJZHfPKtcccuE+2KnXwSsIA=",
+  "Hash": "qISVW+hvIFkEa+N7b6P+gq3LfM4/IUtsqL8qEQ5Jh7o=",
   "Source": "SOSUrbano.WebApi",
   "BasePath": "_content/SOSUrbano.WebApi",
   "Mode": "Default",
@@ -164,6 +164,48 @@
       "OriginalItemSpec": "wwwroot\\Images\\Incident\\2d7c8e28-1bc8-4111-bdf9-a52690f972ac.jpg"
     },
     {
+      "Identity": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\63875e05-3dc8-4277-95e8-ffd8df4dd7d1.jpg",
+      "SourceId": "SOSUrbano.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\",
+      "BasePath": "_content/SOSUrbano.WebApi",
+      "RelativePath": "Images/Incident/63875e05-3dc8-4277-95e8-ffd8df4dd7d1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7axuskpyva",
+      "Integrity": "/3+cZjKyh0xNersMiwZ7AF8UDA+9Em+2b1k2m578bYQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Incident\\63875e05-3dc8-4277-95e8-ffd8df4dd7d1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\710f7b47-7888-4cb8-a8c6-fb5f88338a51.jpg",
+      "SourceId": "SOSUrbano.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\",
+      "BasePath": "_content/SOSUrbano.WebApi",
+      "RelativePath": "Images/Incident/710f7b47-7888-4cb8-a8c6-fb5f88338a51#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "14z6ww1azl",
+      "Integrity": "QSfS4c52BZh/a21qkHxlxOfU9w+gyeiSfB9+XmArF0c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Incident\\710f7b47-7888-4cb8-a8c6-fb5f88338a51.jpg"
+    },
+    {
       "Identity": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\7cd64404-30f6-43c6-979f-5a9f214f8fe8.jpg",
       "SourceId": "SOSUrbano.WebApi",
       "SourceType": "Discovered",
@@ -204,6 +246,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Incident\\7dc2b3c7-4268-4e88-aa60-13042da5fe91.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\7e617fc4-2e19-48e9-8efc-7d83bb63f414.jpeg",
+      "SourceId": "SOSUrbano.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\",
+      "BasePath": "_content/SOSUrbano.WebApi",
+      "RelativePath": "Images/Incident/7e617fc4-2e19-48e9-8efc-7d83bb63f414#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j6z8228vu2",
+      "Integrity": "5dGYHfmEWhmI/e1LhHxI4j14oNx5z6aFeiHFd5jcINg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Incident\\7e617fc4-2e19-48e9-8efc-7d83bb63f414.jpeg"
     },
     {
       "Identity": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\ae180322-bff8-4db5-91be-e008dc46a116.jpg",
@@ -269,6 +332,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\Incident\\e09e8019-86f4-4ae2-a5aa-609025b28dcc.jpg"
     },
     {
+      "Identity": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\e9b2afc0-7588-4d9c-a742-f54c997b13a6.jpg",
+      "SourceId": "SOSUrbano.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\",
+      "BasePath": "_content/SOSUrbano.WebApi",
+      "RelativePath": "Images/Incident/e9b2afc0-7588-4d9c-a742-f54c997b13a6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8i4h8u4rpm",
+      "Integrity": "EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Incident\\e9b2afc0-7588-4d9c-a742-f54c997b13a6.jpg"
+    },
+    {
       "Identity": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\f272330a-cd94-44af-8248-b72462823621.jpg",
       "SourceId": "SOSUrbano.WebApi",
       "SourceType": "Discovered",
@@ -288,6 +372,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Incident\\f272330a-cd94-44af-8248-b72462823621.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\fdb0707f-4750-46e4-826b-180c5693a984.jpg",
+      "SourceId": "SOSUrbano.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\",
+      "BasePath": "_content/SOSUrbano.WebApi",
+      "RelativePath": "Images/Incident/fdb0707f-4750-46e4-826b-180c5693a984#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gih6jj7iph",
+      "Integrity": "KK1sa7bS0xp4FNBkpWaHxwsv4HtY2pRNvP88x8gB8Rk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Incident\\fdb0707f-4750-46e4-826b-180c5693a984.jpg"
     }
   ],
   "Endpoints": [
@@ -866,6 +971,170 @@
       ]
     },
     {
+      "Route": "Images/Incident/63875e05-3dc8-4277-95e8-ffd8df4dd7d1.7axuskpyva.jpg",
+      "AssetFile": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\63875e05-3dc8-4277-95e8-ffd8df4dd7d1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/3+cZjKyh0xNersMiwZ7AF8UDA+9Em+2b1k2m578bYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Jul 2025 05:37:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7axuskpyva"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Incident/63875e05-3dc8-4277-95e8-ffd8df4dd7d1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/3+cZjKyh0xNersMiwZ7AF8UDA+9Em+2b1k2m578bYQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Incident/63875e05-3dc8-4277-95e8-ffd8df4dd7d1.jpg",
+      "AssetFile": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\63875e05-3dc8-4277-95e8-ffd8df4dd7d1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/3+cZjKyh0xNersMiwZ7AF8UDA+9Em+2b1k2m578bYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Jul 2025 05:37:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/3+cZjKyh0xNersMiwZ7AF8UDA+9Em+2b1k2m578bYQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Incident/710f7b47-7888-4cb8-a8c6-fb5f88338a51.14z6ww1azl.jpg",
+      "AssetFile": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\710f7b47-7888-4cb8-a8c6-fb5f88338a51.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "357712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QSfS4c52BZh/a21qkHxlxOfU9w+gyeiSfB9+XmArF0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Jul 2025 05:39:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "14z6ww1azl"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Incident/710f7b47-7888-4cb8-a8c6-fb5f88338a51.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QSfS4c52BZh/a21qkHxlxOfU9w+gyeiSfB9+XmArF0c="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Incident/710f7b47-7888-4cb8-a8c6-fb5f88338a51.jpg",
+      "AssetFile": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\710f7b47-7888-4cb8-a8c6-fb5f88338a51.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "357712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QSfS4c52BZh/a21qkHxlxOfU9w+gyeiSfB9+XmArF0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Jul 2025 05:39:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QSfS4c52BZh/a21qkHxlxOfU9w+gyeiSfB9+XmArF0c="
+        }
+      ]
+    },
+    {
       "Route": "Images/Incident/7cd64404-30f6-43c6-979f-5a9f214f8fe8.jpg",
       "AssetFile": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\7cd64404-30f6-43c6-979f-5a9f214f8fe8.jpg",
       "Selectors": [],
@@ -1026,6 +1295,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Incident/7e617fc4-2e19-48e9-8efc-7d83bb63f414.j6z8228vu2.jpeg",
+      "AssetFile": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\7e617fc4-2e19-48e9-8efc-7d83bb63f414.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "450867"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5dGYHfmEWhmI/e1LhHxI4j14oNx5z6aFeiHFd5jcINg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Jul 2025 05:35:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j6z8228vu2"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Incident/7e617fc4-2e19-48e9-8efc-7d83bb63f414.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5dGYHfmEWhmI/e1LhHxI4j14oNx5z6aFeiHFd5jcINg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Incident/7e617fc4-2e19-48e9-8efc-7d83bb63f414.jpeg",
+      "AssetFile": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\7e617fc4-2e19-48e9-8efc-7d83bb63f414.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "450867"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5dGYHfmEWhmI/e1LhHxI4j14oNx5z6aFeiHFd5jcINg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Jul 2025 05:35:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5dGYHfmEWhmI/e1LhHxI4j14oNx5z6aFeiHFd5jcINg="
         }
       ]
     },
@@ -1276,6 +1627,88 @@
       ]
     },
     {
+      "Route": "Images/Incident/e9b2afc0-7588-4d9c-a742-f54c997b13a6.8i4h8u4rpm.jpg",
+      "AssetFile": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\e9b2afc0-7588-4d9c-a742-f54c997b13a6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68001"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Jul 2025 05:40:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8i4h8u4rpm"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Incident/e9b2afc0-7588-4d9c-a742-f54c997b13a6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Incident/e9b2afc0-7588-4d9c-a742-f54c997b13a6.jpg",
+      "AssetFile": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\e9b2afc0-7588-4d9c-a742-f54c997b13a6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68001"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Jul 2025 05:40:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac="
+        }
+      ]
+    },
+    {
       "Route": "Images/Incident/f272330a-cd94-44af-8248-b72462823621.jpg",
       "AssetFile": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\f272330a-cd94-44af-8248-b72462823621.jpg",
       "Selectors": [],
@@ -1354,6 +1787,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-93Ah6NRzI1PJoUdCY9raIWF5wxq8I0AE4CvcnA9NGFY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Incident/fdb0707f-4750-46e4-826b-180c5693a984.gih6jj7iph.jpg",
+      "AssetFile": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\fdb0707f-4750-46e4-826b-180c5693a984.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KK1sa7bS0xp4FNBkpWaHxwsv4HtY2pRNvP88x8gB8Rk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Jul 2025 05:38:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gih6jj7iph"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Incident/fdb0707f-4750-46e4-826b-180c5693a984.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KK1sa7bS0xp4FNBkpWaHxwsv4HtY2pRNvP88x8gB8Rk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Incident/fdb0707f-4750-46e4-826b-180c5693a984.jpg",
+      "AssetFile": "C:\\Users\\rafae\\Desktop\\back_end\\fatec_sos_urbano_backend\\src\\SOSUrbano.WebApi\\wwwroot\\Images\\Incident\\fdb0707f-4750-46e4-826b-180c5693a984.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KK1sa7bS0xp4FNBkpWaHxwsv4HtY2pRNvP88x8gB8Rk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Jul 2025 05:38:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KK1sa7bS0xp4FNBkpWaHxwsv4HtY2pRNvP88x8gB8Rk="
         }
       ]
     }

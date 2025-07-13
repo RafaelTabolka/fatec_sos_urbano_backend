@@ -126,6 +126,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\2d7c8e28-1bc8-4111-bdf9-a52690f972ac.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\63875e05-3dc8-4277-95e8-ffd8df4dd7d1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SOSUrbano.WebApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SOSUrbano.WebApi</BasePath>
+      <RelativePath>Images/Incident/63875e05-3dc8-4277-95e8-ffd8df4dd7d1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7axuskpyva</Fingerprint>
+      <Integrity>/3+cZjKyh0xNersMiwZ7AF8UDA+9Em+2b1k2m578bYQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\63875e05-3dc8-4277-95e8-ffd8df4dd7d1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\710f7b47-7888-4cb8-a8c6-fb5f88338a51.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SOSUrbano.WebApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SOSUrbano.WebApi</BasePath>
+      <RelativePath>Images/Incident/710f7b47-7888-4cb8-a8c6-fb5f88338a51.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>14z6ww1azl</Fingerprint>
+      <Integrity>QSfS4c52BZh/a21qkHxlxOfU9w+gyeiSfB9+XmArF0c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\710f7b47-7888-4cb8-a8c6-fb5f88338a51.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\7cd64404-30f6-43c6-979f-5a9f214f8fe8.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>SOSUrbano.WebApi</SourceId>
@@ -161,6 +197,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\7dc2b3c7-4268-4e88-aa60-13042da5fe91.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\7e617fc4-2e19-48e9-8efc-7d83bb63f414.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SOSUrbano.WebApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SOSUrbano.WebApi</BasePath>
+      <RelativePath>Images/Incident/7e617fc4-2e19-48e9-8efc-7d83bb63f414.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j6z8228vu2</Fingerprint>
+      <Integrity>5dGYHfmEWhmI/e1LhHxI4j14oNx5z6aFeiHFd5jcINg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\7e617fc4-2e19-48e9-8efc-7d83bb63f414.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\ae180322-bff8-4db5-91be-e008dc46a116.jpg'))">
       <SourceType>Package</SourceType>
@@ -216,6 +270,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\e09e8019-86f4-4ae2-a5aa-609025b28dcc.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\e9b2afc0-7588-4d9c-a742-f54c997b13a6.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SOSUrbano.WebApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SOSUrbano.WebApi</BasePath>
+      <RelativePath>Images/Incident/e9b2afc0-7588-4d9c-a742-f54c997b13a6.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8i4h8u4rpm</Fingerprint>
+      <Integrity>EHGmvgKSHMM0dEbUZsoePb7o0FnCENB9Jdl35zJH1Ac=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\e9b2afc0-7588-4d9c-a742-f54c997b13a6.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\f272330a-cd94-44af-8248-b72462823621.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>SOSUrbano.WebApi</SourceId>
@@ -233,6 +305,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\f272330a-cd94-44af-8248-b72462823621.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\fdb0707f-4750-46e4-826b-180c5693a984.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SOSUrbano.WebApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SOSUrbano.WebApi</BasePath>
+      <RelativePath>Images/Incident/fdb0707f-4750-46e4-826b-180c5693a984.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gih6jj7iph</Fingerprint>
+      <Integrity>KK1sa7bS0xp4FNBkpWaHxwsv4HtY2pRNvP88x8gB8Rk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Incident\fdb0707f-4750-46e4-826b-180c5693a984.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

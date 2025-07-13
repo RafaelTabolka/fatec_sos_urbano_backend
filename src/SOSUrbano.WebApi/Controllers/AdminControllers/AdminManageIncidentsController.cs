@@ -9,7 +9,7 @@ namespace SOSUrbano.WebApi.Controllers.AdminControllers
     public class AdminManageIncidentsController(ISender mediator) : ControllerBase
     {
         [HttpGet("getManageIncidents")]
-        public async Task<IActionResult> GetManageIncidents([FromQuery] ListManageIncidentsRequest request)
+        public async Task<IActionResult> ListManageIncidents([FromQuery] ListManageIncidentsRequest request)
         {
             var response = await mediator.Send(request);
 

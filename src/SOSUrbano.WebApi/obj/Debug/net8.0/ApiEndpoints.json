@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "SOSUrbano.WebApi.Controllers.DashboardController.AdminInfosReportController",
-    "Method": "GetAdminInfosReport",
+    "Method": "ListAdminInfosReport",
     "RelativePath": "AdminInfosReport/getAdminInfosReport",
     "HttpMethod": "GET",
     "IsController": true,
@@ -32,7 +32,7 @@
   },
   {
     "ContainingType": "SOSUrbano.WebApi.Controllers.AdminControllers.AdminManageIncidentsController",
-    "Method": "GetManageIncidents",
+    "Method": "ListManageIncidents",
     "RelativePath": "AdminManageIncidents/getManageIncidents",
     "HttpMethod": "GET",
     "IsController": true,
@@ -66,6 +66,42 @@
       {
         "Name": "Institution",
         "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SOSUrbano.WebApi.Controllers.AdminControllers.AdminStatisticsController",
+    "Method": "ListStatistics",
+    "RelativePath": "AdminStatistics/listStatistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StartDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartHour",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndHour",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {

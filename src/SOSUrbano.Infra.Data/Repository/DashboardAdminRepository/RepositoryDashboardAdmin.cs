@@ -5,6 +5,8 @@ using SOSUrbano.Domain.Commands.CommandsAdmin.AdminInfosReportCommands.Dto;
 using SOSUrbano.Domain.Commands.CommandsAdmin.AdminInfosReportCommands.ListInfosReport;
 using SOSUrbano.Domain.Commands.CommandsAdmin.AdminManageIncidentsCommands.Dto;
 using SOSUrbano.Domain.Commands.CommandsAdmin.AdminManageIncidentsCommands.ListManageIncidents;
+using SOSUrbano.Domain.Commands.CommandsAdmin.AdminStatisticsCommands.Dto;
+using SOSUrbano.Domain.Commands.CommandsAdmin.AdminStatisticsCommands.ListStatistics;
 using SOSUrbano.Domain.Interfaces.Repositories.DashboardAdminRepository;
 using SOSUrbano.Infra.Data.Context;
 
@@ -12,7 +14,7 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
 {
     public class RepositoryDashboardAdmin(SOSUrbanoContext context) : IRepositoryDashboardAdmin
     {
-        public async Task<ListInfosReportResponse> GetInfosReportAsync(ListInfosReportRequest request)
+        public async Task<ListInfosReportResponse> ListInfosReportAsync(ListInfosReportRequest request)
         {
             #region Card Quantity of Users
             var sqlQtyUsers = new StringBuilder();
@@ -61,7 +63,7 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
                 .FirstOrDefaultAsync() ?? 0;
             #endregion
 
-            #region Chart Incidents By Address
+            #region Chart Incidents by Address
             var sqlIncidentsByAddress = new StringBuilder();
             sqlIncidentsByAddress.Append(@"SELECT i.Address, COUNT(i.Id) AS QtyIncidents 
                                            FROM tb_incidents AS i
@@ -69,7 +71,7 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
                                            ON (i.IncidentStatusId = ist.Id)
                                            WHERE 1=1");
 
-            var parametersIncidentByAddress = new List<SqlParameter>();
+            List<SqlParameter>parametersIncidentByAddress = [];
 
             sqlIncidentsByAddress.Append(MakeFiltersChartsInfosReport(request, parametersIncidentByAddress));
 
@@ -102,7 +104,7 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
                                             ON (i.IncidentStatusId = ist.Id)
                                             WHERE 1=1");
 
-            var parametersIncidentByStatuses = new List<SqlParameter>();
+             List<SqlParameter> parametersIncidentByStatuses = [];
 
             sqlIncidentsByStatuses.Append(MakeFiltersChartsInfosReport(request, parametersIncidentByStatuses));
 
@@ -136,39 +138,39 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
                 incidentsByStatuses);    
         }
 
-        #region Function of Filters for Charts
+        #region Function for Page Admin/Report
         internal StringBuilder MakeFiltersChartsInfosReport(ListInfosReportRequest request, List<SqlParameter> parameters)
         {
-            var filters = new StringBuilder();
+            var filter = new StringBuilder();
             
             if (request.StartDate is not null)
             {
-                filters.Append($" AND i.CreatedAt >= @startDate");
+                filter.Append($" AND i.CreatedAt >= @startDate");
                 parameters.Add(new SqlParameter("@startDate", request.StartDate));
             }
             if (request.EndtDate is not null)
             {
-                filters.Append($" AND i.CreatedAt <= @endDate");
+                filter.Append($" AND i.CreatedAt <= @endDate");
                 parameters.Add(new SqlParameter("@endDate", request.EndtDate));
             }
 
             if (!string.IsNullOrWhiteSpace(request.Status))
             {
-                filters.Append($" AND ist.Name = @status");
+                filter.Append($" AND ist.Name = @status");
                 parameters.Add(new SqlParameter("@status", request.Status));
             }
 
             if (!string.IsNullOrWhiteSpace(request.Address))
             {
-                filters.Append($" AND i.Address = @address");
+                filter.Append($" AND i.Address = @address");
                 parameters.Add(new SqlParameter("@address", request.Address));
             }
 
-            return filters;
+            return filter;
         }
         #endregion
         
-        public async Task<ListManageIncidentsResponse> GetManageIncidentsAsync(ListManageIncidentsRequest request)
+        public async Task<ListManageIncidentsResponse> ListManageIncidentsAsync(ListManageIncidentsRequest request)
         {
             #region Table Incidents
             var sqlManageIncidents = new StringBuilder();
@@ -242,5 +244,177 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
 
             return new ListManageIncidentsResponse(manageIncidents);
         }
+
+        public async Task<ListStatisticsResponse> ListStatisticsAsync(ListStatisticsRequest request)
+        {
+            #region Chart Incidents by Our of Day
+            var sqlIncidentsByHourOfDay = new StringBuilder();
+
+            sqlIncidentsByHourOfDay.Append(@"SELECT h.HourOfDay, COUNT(i.Id) AS QtyIncidents
+		                                     FROM 
+		                                     (
+			                                    SELECT 0 AS HourOfDay 
+			                                    UNION ALL SELECT 1
+			                                    UNION ALL SELECT 2 
+			                                    UNION ALL SELECT 3
+			                                    UNION ALL SELECT 4
+			                                    UNION ALL SELECT 5
+			                                    UNION ALL SELECT 6
+			                                    UNION ALL SELECT 7
+			                                    UNION ALL SELECT 8 
+			                                    UNION ALL SELECT 9
+			                                    UNION ALL SELECT 10
+			                                    UNION ALL SELECT 11
+			                                    UNION ALL SELECT 12
+			                                    UNION ALL SELECT 13
+			                                    UNION ALL SELECT 14
+			                                    UNION ALL SELECT 15
+			                                    UNION ALL SELECT 16
+			                                    UNION ALL SELECT 17
+			                                    UNION ALL SELECT 18
+			                                    UNION ALL SELECT 19
+			                                    UNION ALL SELECT 20
+			                                    UNION ALL SELECT 21
+			                                    UNION ALL SELECT 22
+			                                    UNION ALL SELECT 23
+		                                     ) AS h
+	                                     LEFT JOIN tb_incidents AS i
+	                                     ON (DATEPART(HOUR, i.CreatedAt) = h.HourOfDay)
+                                         WHERE 1=1");
+
+            List<SqlParameter> parametersIncidentsByHour = [];
+            
+            sqlIncidentsByHourOfDay.Append(MakeWhereFilters(request, parametersIncidentsByHour));
+
+            sqlIncidentsByHourOfDay.Append(" GROUP BY h.HourOfDay");
+
+            if (request.StartHour is not null || request.EndHour is not null)
+            {
+                sqlIncidentsByHourOfDay.Append(" HAVING 1=1");
+                sqlIncidentsByHourOfDay.Append(MakeHavingHourFilters(request, parametersIncidentsByHour));
+            }
+
+            var incidentsByHourOfDay = await context.Database.SqlQueryRaw<AdminsIncidentsByHourOfDayDto>(
+                sqlIncidentsByHourOfDay.ToString(),
+                parametersIncidentsByHour.ToArray())
+                .ToListAsync();
+            #endregion
+
+            var sqlHeatMap = new StringBuilder();
+
+            sqlHeatMap.Append(@"SELECT 
+		                            i.LatLocalization, 
+		                            i.LongLocalization, 
+		                            ROUND(CAST(COUNT(i.Id) AS FLOAT) / 
+		                            (
+			                            SELECT COUNT(i.Id)
+			                            FROM tb_incidents AS i
+		                            ), 3) AS PercentageTotalIncidents
+	                            FROM tb_incidents AS i
+	                            INNER JOIN 
+	                            (
+			                            SELECT 0 AS HourOfDay 
+			                            UNION ALL SELECT 1
+			                            UNION ALL SELECT 2 
+			                            UNION ALL SELECT 3
+			                            UNION ALL SELECT 4
+			                            UNION ALL SELECT 5
+			                            UNION ALL SELECT 6
+			                            UNION ALL SELECT 7
+			                            UNION ALL SELECT 8 
+			                            UNION ALL SELECT 9
+			                            UNION ALL SELECT 10
+			                            UNION ALL SELECT 11
+			                            UNION ALL SELECT 12
+			                            UNION ALL SELECT 13
+			                            UNION ALL SELECT 14
+			                            UNION ALL SELECT 15
+			                            UNION ALL SELECT 16
+			                            UNION ALL SELECT 17
+			                            UNION ALL SELECT 18
+			                            UNION ALL SELECT 19
+			                            UNION ALL SELECT 20
+			                            UNION ALL SELECT 21
+			                            UNION ALL SELECT 22
+			                            UNION ALL SELECT 23
+		                            ) AS h
+		                            ON (h.HourOfDay = DATEPART(HOUR, i.CreatedAt))
+	                            WHERE 1=1");
+
+            List<SqlParameter> parametersHeatMap = [];
+
+            sqlHeatMap.Append(MakeWhereFilters(request, parametersHeatMap));
+
+            sqlHeatMap.Append(" GROUP BY i.LatLocalization, i.LongLocalization");
+
+            if (request.StartHour is not null || request.EndHour is not null)
+            {
+                // Aqui está acrescentando a cláusula GROUP BY ja que vai ser utilizando o horário
+                sqlHeatMap.Append(", h.HourOfDay");
+
+                sqlHeatMap.Append(" HAVING 1=1");
+
+                sqlHeatMap.Append(MakeHavingHourFilters(request, parametersHeatMap));
+            }
+
+            var heatMap = await context.Database.SqlQueryRaw<AdminHeatMapDto>(
+                sqlHeatMap.ToString(),
+                parametersHeatMap.ToArray())
+                .ToListAsync();
+
+            return new ListStatisticsResponse(
+                incidentsByHourOfDay,
+                heatMap);
+        }
+
+        #region Functions for Page Admin/Statistics
+        internal StringBuilder MakeWhereFilters
+            (ListStatisticsRequest request, List<SqlParameter> parameters)
+        {
+            var filter = new StringBuilder();
+
+            if (request.StartDate is not null)
+            {
+                filter.Append(" AND i.CreatedAt >= @startDate");
+                parameters.Add(new SqlParameter("@startDate", request.StartDate));
+            }
+
+            if (request.EndDate is not null)
+            {
+                filter.Append(" AND i.CreatedAt <= @endDate");
+                parameters.Add(new SqlParameter("@endDate", request.EndDate));
+            }
+
+            if (!string.IsNullOrWhiteSpace(request.Address))
+            {
+                filter.Append(" AND i.Address = @address");
+                parameters.Add(new SqlParameter("@address", request.Address));
+            }
+
+            return filter;
+        }
+
+        internal StringBuilder MakeHavingHourFilters(
+            ListStatisticsRequest request, List<SqlParameter> parameters)
+        {
+            var filterHour = new StringBuilder();
+
+            if (request.StartHour is not null)
+            {
+                filterHour.Append(" AND h.HourOfDay >= @startHour");
+                parameters.Add(new SqlParameter("@startHour", request.StartHour));
+            }
+
+            if (request.EndHour is not null)
+            {
+                filterHour.Append(" AND h.HourOfDay <= @endHour");
+                parameters.Add(new SqlParameter("@endHour", request.EndHour));
+            }
+             
+            filterHour.Append(" AND COUNT(i.Id) > 0");
+            
+            return filterHour;
+        }
+        #endregion
     }
 }
