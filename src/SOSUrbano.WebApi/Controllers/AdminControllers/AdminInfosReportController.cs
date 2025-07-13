@@ -9,7 +9,7 @@ namespace SOSUrbano.WebApi.Controllers.DashboardController
     public class AdminInfosReportController (ISender mediator) : ControllerBase
     {
         [HttpGet("getAdminInfosReport")]
-        public async Task<IActionResult> GetAdminInfosReport([FromQuery] ListInfosReportRequest request)
+        public async Task<IActionResult> ListAdminInfosReport([FromQuery] ListInfosReportRequest request)
         {
             var response = await mediator.Send(request);
             return Ok(response);

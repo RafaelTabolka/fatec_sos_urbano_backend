@@ -10,7 +10,7 @@ namespace SOSUrbano.Domain.Commands.CommandsAdmin.AdminInfosReportCommands.ListI
         public async Task<ListInfosReportResponse> Handle
             (ListInfosReportRequest request, CancellationToken cancellationToken)
         {
-            return await repositoryDashboard.GetInfosReportAsync(request);
+            return await repositoryDashboard.ListInfosReportAsync(request);
         }
     }
 }

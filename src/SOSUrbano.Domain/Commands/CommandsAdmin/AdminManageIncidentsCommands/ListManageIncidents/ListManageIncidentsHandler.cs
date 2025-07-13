@@ -9,7 +9,7 @@ namespace SOSUrbano.Domain.Commands.CommandsAdmin.AdminManageIncidentsCommands.L
         public async Task<ListManageIncidentsResponse> Handle
             (ListManageIncidentsRequest request, CancellationToken cancellationToken)
         {
-            return await repositoryDashboardAdmin.GetManageIncidentsAsync(request);
+            return await repositoryDashboardAdmin.ListManageIncidentsAsync(request);
         }
     }
 }

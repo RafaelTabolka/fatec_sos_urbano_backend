@@ -5,8 +5,8 @@ using ValidationException = FluentValidation.ValidationException;
 
 namespace SOSUrbano.Domain.Commands.CommandsInstitution.InstitutionCommands.Create
 {
-    internal class CreateInstitutionHandler
-        (IRepositoryInstitution repositoryInstitution,
+    internal class CreateInstitutionHandler(
+        IRepositoryInstitution repositoryInstitution,
         IRepositoryInstitutionStatus repositoryInstitutionStatus,
         IRepositoryInstitutionType repositoryInstitutionType) :
         IRequestHandler<CreateInstitutionRequest, CreateInstitutionResponse>
