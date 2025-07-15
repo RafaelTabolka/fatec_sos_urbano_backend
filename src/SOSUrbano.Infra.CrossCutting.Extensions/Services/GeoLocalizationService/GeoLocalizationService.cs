@@ -41,9 +41,9 @@ namespace SOSUrbano.Infra.CrossCutting.Extensions.Services.GeoLocalizationServic
 
             // Aqui nós pegamos o Json em formato de string e transformamos em um Json navegável com 
             // a estrutura que conhecemos para podermos acessar os campos do Json retornado
-            var root = JsonDocument.Parse(json).RootElement;
+            var formatedJson = JsonDocument.Parse(json).RootElement;
 
-            return root;
+            return formatedJson;
         }
     }
 }

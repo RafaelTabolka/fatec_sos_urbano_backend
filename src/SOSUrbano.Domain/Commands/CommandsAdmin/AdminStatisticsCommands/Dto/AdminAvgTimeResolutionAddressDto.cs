@@ -4,6 +4,6 @@
     {
         public string Address { get; set; } = string.Empty;
 
-        public int AvgTimeInDays { get; set; }
+        public int AvgTimeOfResolution { get; set; }
     }
 }
