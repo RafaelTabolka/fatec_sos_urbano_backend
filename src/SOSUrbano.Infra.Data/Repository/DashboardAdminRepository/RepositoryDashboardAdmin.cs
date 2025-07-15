@@ -284,14 +284,15 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
 
             List<SqlParameter> parametersIncidentsByHour = [];
             
-            sqlIncidentsByHourOfDay.Append(MakeWhereFilters(request, parametersIncidentsByHour));
+            sqlIncidentsByHourOfDay.Append(MakeDateAddressFilters(request, parametersIncidentsByHour));
 
             sqlIncidentsByHourOfDay.Append(" GROUP BY h.HourOfDay");
 
             if (request.StartHour is not null || request.EndHour is not null)
             {
                 sqlIncidentsByHourOfDay.Append(" HAVING 1=1");
-                sqlIncidentsByHourOfDay.Append(MakeHavingHourFilters(request, parametersIncidentsByHour));
+                sqlIncidentsByHourOfDay.Append(MakeHourFilters(request, parametersIncidentsByHour, "h.HourOfDay"));
+                sqlIncidentsByHourOfDay.Append(" AND COUNT(i.Id) > 0");
             }
 
             var incidentsByHourOfDay = await context.Database.SqlQueryRaw<AdminsIncidentsByHourOfDayDto>(
@@ -300,75 +301,106 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
                 .ToListAsync();
             #endregion
 
+            #region Heat Map
             var sqlHeatMap = new StringBuilder();
+            List<SqlParameter> parametersHeatMap = [];
 
             sqlHeatMap.Append(@"SELECT 
 		                            i.LatLocalization, 
-		                            i.LongLocalization, 
-		                            ROUND(CAST(COUNT(i.Id) AS FLOAT) / 
-		                            (
-			                            SELECT COUNT(i.Id)
-			                            FROM tb_incidents AS i
-		                            ), 3) AS PercentageTotalIncidents
-	                            FROM tb_incidents AS i
-	                            INNER JOIN 
-	                            (
-			                            SELECT 0 AS HourOfDay 
-			                            UNION ALL SELECT 1
-			                            UNION ALL SELECT 2 
-			                            UNION ALL SELECT 3
-			                            UNION ALL SELECT 4
-			                            UNION ALL SELECT 5
-			                            UNION ALL SELECT 6
-			                            UNION ALL SELECT 7
-			                            UNION ALL SELECT 8 
-			                            UNION ALL SELECT 9
-			                            UNION ALL SELECT 10
-			                            UNION ALL SELECT 11
-			                            UNION ALL SELECT 12
-			                            UNION ALL SELECT 13
-			                            UNION ALL SELECT 14
-			                            UNION ALL SELECT 15
-			                            UNION ALL SELECT 16
-			                            UNION ALL SELECT 17
-			                            UNION ALL SELECT 18
-			                            UNION ALL SELECT 19
-			                            UNION ALL SELECT 20
-			                            UNION ALL SELECT 21
-			                            UNION ALL SELECT 22
-			                            UNION ALL SELECT 23
-		                            ) AS h
-		                            ON (h.HourOfDay = DATEPART(HOUR, i.CreatedAt))
-	                            WHERE 1=1");
+		                            i.LongLocalization,
+		                            ROUND(
+			                            CAST(COUNT(i.Id) AS FLOAT) /
+			                            (
+				                               SELECT COUNT(i.Id)
+				                            FROM tb_incidents AS i
+                                            WHERE 1=1");
 
-            List<SqlParameter> parametersHeatMap = [];
+            sqlHeatMap.Append(MakeDateAddressFilters(request, parametersHeatMap));
 
-            sqlHeatMap.Append(MakeWhereFilters(request, parametersHeatMap));
+            sqlHeatMap.Append(MakeHourFilters(request, parametersHeatMap, "DATEPART(HOUR, i.CreatedAt)"));
+
+            sqlHeatMap.Append("), 3) AS PercentageTotalIncidents FROM tb_incidents AS i WHERE 1=1");
+
+            sqlHeatMap.Append(MakeDateAddressFilters(request, parametersHeatMap));
+
+            sqlHeatMap.Append(MakeHourFilters(request, parametersHeatMap, "DATEPART(HOUR, i.CreatedAt)"));
 
             sqlHeatMap.Append(" GROUP BY i.LatLocalization, i.LongLocalization");
-
-            if (request.StartHour is not null || request.EndHour is not null)
-            {
-                // Aqui está acrescentando a cláusula GROUP BY ja que vai ser utilizando o horário
-                sqlHeatMap.Append(", h.HourOfDay");
-
-                sqlHeatMap.Append(" HAVING 1=1");
-
-                sqlHeatMap.Append(MakeHavingHourFilters(request, parametersHeatMap));
-            }
 
             var heatMap = await context.Database.SqlQueryRaw<AdminHeatMapDto>(
                 sqlHeatMap.ToString(),
                 parametersHeatMap.ToArray())
                 .ToListAsync();
+            #endregion
+
+            #region Chart Avg Time of Resolution by Address
+            var sqlAvgTimeOfResolutionByAddress = new StringBuilder();
+
+            sqlAvgTimeOfResolutionByAddress.Append(@"SELECT i.Address, AVG(DATEDIFF(DAY, i.CreatedAt, i.UpdatedAt)) AS AvgTimeOfResolution
+	                                        FROM tb_incidents AS i
+	                                        INNER JOIN tb_incident_statuses AS ist
+	                                        ON (i.IncidentStatusId = ist.Id)
+	                                        WHERE ist.Name = 'Concluído'");
+
+            List<SqlParameter> parametersAvgTimeByAddress = [];
+
+            sqlAvgTimeOfResolutionByAddress.Append(MakeDateAddressFilters(request, parametersAvgTimeByAddress));
+
+            sqlAvgTimeOfResolutionByAddress.Append(
+                MakeHourFilters(request, parametersAvgTimeByAddress, "DATEPART(HOUR, i.CreatedAt)"));
+
+            sqlAvgTimeOfResolutionByAddress.Append(" GROUP BY i.Address");
+
+            var avgTimeOfResolutionByAddress = await context.Database.SqlQueryRaw<AdminAvgTimeResolutionAddressDto>(
+                sqlAvgTimeOfResolutionByAddress.ToString(),
+                parametersAvgTimeByAddress.ToArray())
+                .ToListAsync();
+            #endregion
+
+            var sqlPercentageResolvedPending = new StringBuilder();
+
+            sqlPercentageResolvedPending.Append(@"SELECT 
+		                                            i.Address,
+		                                            ROUND(
+			                                            CAST(
+				                                            SUM(
+					                                            CASE WHEN ist.Name = 'Concluído' THEN 1 ELSE 0 END) AS FLOAT), 3) /
+		                                            COUNT(i.Id) * 100 AS PercentageResolved,
+		                                            ROUND(
+			                                            CAST(
+				                                            SUM(
+					                                            CASE WHEN ist.Name <> 'Concluído' THEN 1 ELSE 0 END) AS FLOAT), 3) /
+		                                            COUNT(i.Id) * 100 AS PercentagePending,
+		                                            COUNT(i.Id) AS TotalIncidents
+	                                            FROM tb_incidents AS i
+	                                            INNER JOIN tb_incident_statuses AS ist
+	                                            ON (i.IncidentStatusId = ist.Id)
+	                                            WHERE 1=1");
+
+            List<SqlParameter> parametersPercentageResolvedPending = [];
+
+            sqlPercentageResolvedPending.Append(
+                MakeDateAddressFilters(request, parametersPercentageResolvedPending));
+
+            sqlPercentageResolvedPending.Append(
+                MakeHourFilters(request, parametersPercentageResolvedPending, "DATEPART(HOUR, i.CreatedAt)"));
+
+            sqlPercentageResolvedPending.Append(" GROUP BY i.Address");
+
+            var percentageResolvedPending = await context.Database.SqlQueryRaw<AdminPercentageResolvedPendingDto>(
+                sqlPercentageResolvedPending.ToString(),
+                parametersPercentageResolvedPending.ToArray())
+                .ToListAsync();
 
             return new ListStatisticsResponse(
                 incidentsByHourOfDay,
-                heatMap);
+                heatMap,
+                avgTimeOfResolutionByAddress,
+                percentageResolvedPending);
         }
 
         #region Functions for Page Admin/Statistics
-        internal StringBuilder MakeWhereFilters
+        internal StringBuilder MakeDateAddressFilters
             (ListStatisticsRequest request, List<SqlParameter> parameters)
         {
             var filter = new StringBuilder();
@@ -394,24 +426,22 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
             return filter;
         }
 
-        internal StringBuilder MakeHavingHourFilters(
-            ListStatisticsRequest request, List<SqlParameter> parameters)
+        internal StringBuilder MakeHourFilters(
+            ListStatisticsRequest request, List<SqlParameter> parameters, string column)
         {
             var filterHour = new StringBuilder();
 
             if (request.StartHour is not null)
             {
-                filterHour.Append(" AND h.HourOfDay >= @startHour");
+                filterHour.Append($" AND {column} >= @startHour");
                 parameters.Add(new SqlParameter("@startHour", request.StartHour));
             }
 
             if (request.EndHour is not null)
             {
-                filterHour.Append(" AND h.HourOfDay <= @endHour");
+                filterHour.Append($" AND {column} <= @endHour");
                 parameters.Add(new SqlParameter("@endHour", request.EndHour));
             }
-             
-            filterHour.Append(" AND COUNT(i.Id) > 0");
             
             return filterHour;
         }

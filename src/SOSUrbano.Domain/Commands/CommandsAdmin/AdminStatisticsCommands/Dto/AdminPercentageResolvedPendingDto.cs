@@ -4,7 +4,7 @@
     {
         public string Address { get; set; } = string.Empty;
 
-        public double PencentageResolved { get; set; }
+        public double PercentageResolved { get; set; }
 
         public double PercentagePending { get; set; }
 

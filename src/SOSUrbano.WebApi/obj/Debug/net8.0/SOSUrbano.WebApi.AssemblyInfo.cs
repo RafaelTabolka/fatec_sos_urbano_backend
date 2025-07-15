@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SOSUrbano.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a45977c7c33fc8f5982e926da46629cdde0735bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf1eb02d9611763bd37666d4ecb37114f93e97a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("SOSUrbano.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SOSUrbano.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
