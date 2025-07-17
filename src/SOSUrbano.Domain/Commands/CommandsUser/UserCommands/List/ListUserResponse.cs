@@ -1,5 +1,4 @@
 ﻿using SOSUrbano.Domain.Commands.CommandsUser.UserCommands.Dto;
-using SOSUrbano.Domain.Entities.UserEntity;
 
 namespace SOSUrbano.Domain.Commands.CommandsUser.UserCommands.List
 {

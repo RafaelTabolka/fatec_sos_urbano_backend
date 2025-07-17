@@ -7,6 +7,8 @@ using SOSUrbano.Domain.Commands.CommandsAdmin.AdminManageIncidentsCommands.Dto;
 using SOSUrbano.Domain.Commands.CommandsAdmin.AdminManageIncidentsCommands.ListManageIncidents;
 using SOSUrbano.Domain.Commands.CommandsAdmin.AdminStatisticsCommands.Dto;
 using SOSUrbano.Domain.Commands.CommandsAdmin.AdminStatisticsCommands.ListStatistics;
+using SOSUrbano.Domain.Commands.CommandsAdmin.AdminUsersCommands.Dto;
+using SOSUrbano.Domain.Commands.CommandsAdmin.AdminUsersCommands.ListUsers;
 using SOSUrbano.Domain.Interfaces.Repositories.DashboardAdminRepository;
 using SOSUrbano.Infra.Data.Context;
 
@@ -357,6 +359,7 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
                 .ToListAsync();
             #endregion
 
+            #region Chart Percentage Resolved Pending
             var sqlPercentageResolvedPending = new StringBuilder();
 
             sqlPercentageResolvedPending.Append(@"SELECT 
@@ -391,6 +394,7 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
                 sqlPercentageResolvedPending.ToString(),
                 parametersPercentageResolvedPending.ToArray())
                 .ToListAsync();
+            #endregion
 
             return new ListStatisticsResponse(
                 incidentsByHourOfDay,
@@ -445,6 +449,109 @@ namespace SOSUrbano.Infra.Data.Repository.DashboardRepository
             
             return filterHour;
         }
+
         #endregion
+        
+        public async Task<ListUsersForAdminResponse> ListUsersAsync(ListUsersForAdminRequest request)
+        {
+            #region Table Users
+            var sqlUsers = new StringBuilder();
+
+            bool hasComumComparative = !string.IsNullOrWhiteSpace(request.Comparative) &&
+                request.Value is not null;
+
+            bool hasComparativeBetween = !string.IsNullOrWhiteSpace(request.Comparative) &&
+            request.StartValueIsBetween is not null &&
+            request.EndValueIsBetween is not null;
+            
+            sqlUsers.Append(@"SELECT 
+	                          u.Name, 
+	                          u.Email, 
+	                          COUNT(i.Id) AS QtyIncidents,  
+	                          us.Name AS Status,
+	                          (
+		                          SELECT TOP(1) up.Number
+		                          FROM tb_user_phones AS up
+		                          WHERE up.UserId = u.Id
+	                          ) AS PhoneNumber
+	                          FROM tb_users AS u
+	                          INNER JOIN tb_user_statuses AS us
+	                          ON (u.UserStatusId = us.Id)
+	                          INNER JOIN tb_incidents AS i
+	                          ON (i.UserId = u.Id)
+	                          WHERE 1=1");
+
+            List<SqlParameter> parameters = [];
+
+            if (!string.IsNullOrWhiteSpace(request.Name))
+            {
+                sqlUsers.Append(" AND u.Name = @name");
+                parameters.Add(new SqlParameter("@name", request.Name));
+            }
+
+            if (!string.IsNullOrWhiteSpace(request.Status))
+            {
+                sqlUsers.Append(" AND us.Name = @status");
+                parameters.Add(new SqlParameter("@status", request.Status));
+            }
+
+            sqlUsers.Append(" GROUP BY u.Name, u.Email, us.Name, u.Id");
+
+            /*
+                Como precisamos da cláusula HAVING para fazer os filtros, então primeiramente
+            é feito uma validação para ver se algum dos campos de valores foi escolhido. Essas duas 
+            variáveis se encontram no início da função
+             */
+            if (hasComumComparative || hasComparativeBetween)
+            {
+                // Adiciona-se a cláusula HAVING
+                sqlUsers.Append(" HAVING 1=1");
+
+                // Valida se o filtro escolhido foi o hasComumComparative
+                if (request.Value is not null)
+                {
+                    switch(request.Comparative)
+                    {
+                        case "IsEqualTo":
+                            sqlUsers.Append(" AND COUNT(i.Id) = @value");
+                            break;
+
+                        case "IsBiggerThan":
+                            sqlUsers.Append(" AND COUNT(i.Id) > @value");
+                            break;
+                        
+                        case "IsBiggerOrEqualTo":
+                            sqlUsers.Append(" AND COUNT(i.Id) >= @value");
+                            break;
+                        
+                        case "IsSmallerThan":
+                            sqlUsers.Append(" AND COUNT(i.Id) < @value");
+                            break;
+                        
+                        default:
+                            sqlUsers.Append(" AND COUNT(i.Id) <= @value");
+                            break;
+                    }
+                    parameters.Add(new SqlParameter("@value", request.Value));
+                }
+
+                // Verifica se o filtro escolhido é o hasComparativeBetween
+                if (request.Comparative == "Between" && request.StartValueIsBetween is not null &&
+                    request.EndValueIsBetween is not null)
+                {
+                    sqlUsers.Append(" AND COUNT(i.Id) >= @startValue AND COUNT(i.Id) <= @endValue");
+                    parameters.Add(new SqlParameter("@startValue", request.StartValueIsBetween));
+                    parameters.Add(new SqlParameter("@endValue", request.EndValueIsBetween));
+                }
+            }
+
+            var users = await context.Database.SqlQueryRaw<AdminUsersDto>(
+                sqlUsers.ToString(),
+                parameters.ToArray())
+                .ToListAsync();
+            #endregion
+
+            return new ListUsersForAdminResponse(users);
+        }
     }
 }
